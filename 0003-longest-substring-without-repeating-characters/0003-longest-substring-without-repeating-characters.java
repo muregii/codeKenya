@@ -1,9 +1,12 @@
 
 //Concept: Sliding Window
 
+//Time Spent on this question : 50 minutes
+
 /*Algorithm or Steps
 
 Initialization:
+
 int right = 0; right < n; right++: This for-loop iterates through each character in the string s, with right serving as the end pointer of the current substring being examined. n is the length of the string s.
 
 Processing Each Character:
