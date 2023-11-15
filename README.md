@@ -4,14 +4,17 @@ Heko!!! Congratulations !!!
 
 Welcome developers. This is the repo to share your achievements, solutions and cool stuff you've built.
 We as codeKenya welcome Kenyans and other programmers around the world to contribute code to this repository.
-This is an Open Source Resource for Leetcoders, Hackerrankers and code devs e.t.c to teach and learn from each open. Feel free to open a Pull request
-and push code.
+This is an Open Source Resource for Leetcoders, Hackerrankers and code devs e.t.c to teach and learn from each other. Feel free to open a Pull request
+and push code to codeKenya.
 
 We do encourage all the code contributed here to be well documented, with the steps and reasoning behind it. 
-We encourage you to reflect on your code, and even make recordings on your YouTube to walk through solutions.
-Feel free to explain in Swahili, and also English, since this is our heritage as Kenyans. This is so that eve beginners can ask questions about code in the language they Understand.
+We encourage you to reflect on your code, and even make recordings on your YouTube to walk through your solutions and though process for the sake of those just starting and also for your own mastery.
+Feel free to code, explain and document in Swahili, or in English, since this is our heritage as Kenyans. This is so that even beginners in Kenya can ask questions about code in their first language, Swahili.
+
 Contribute to documentation and chat on our community page.
-Enoug said. Let's Code!!! 
+Enough said.
+
+Let's Code!!! 
 
 Jumuika nasi kwa hii safari ya kuelewa sayansi ya kompyuta.
 
