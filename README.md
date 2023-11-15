@@ -1,6 +1,6 @@
 # codeKenya Swahili / English
 
-Heko!!!
+Heko!!! Congratulations !!!
 
 Welcome developers. This is the repo to share your achievements, solutions and cool stuff you've built.
 We as codeKenya welcome Kenyans and other programmers around the world to contribute code to this repository.
