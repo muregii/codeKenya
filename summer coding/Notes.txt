@@ -1,0 +1,60 @@
+Adjacency matrix - O(m^2) Space  complexity                                     //FOR DENSE GRAPHS (SAME SPACE COMPLEXITY O(V^2) BUT PERFORMS BETTER)
+adding a node --> O(n^2)  Quadratic
+removing a node -- O(V^2) Quadratic
+finding index / adding and removing an edge --> O(1)
+finding out if nodes connected --> O(1)
+Finding the neighbours of a node --> O(V) linear
+
+
+
+
+Adjacency List O(V + E) Space complexity                                        
+Worst case(Every node is connected to all other nodes) --> V * (V-1) O(V^2)
+adding a node -- > O(1)
+removing a node --> O(V + E) worst case of removing a node O(V^2)
+Adding an edge O(K) / O(V) --> k is the number of edges
+Checking if two nodes are connected --> O(V)
+Finding all the nodes adjacent to a given node --> O(V)
+
+
+
+
+Building a graph from scratch
+1. Create a Graph class.
+2. Create a private Node class. private because its implementation detail.
+3. Create a label which will be a String.
+4. Create the following methods/operations 
+    a. addNode(label) --> Takes a String and will wrap that String into a Node object.
+    b. removeNode(label)
+    c. addEdge(from, to)
+    d. removeEdge(from, to)
+    print() --> We should see 
+        A is connected with [B,C]
+        B is connected with [A]
+                            
+
+Depth First Search
+
+A -> [B, E]
+B -> [C, D]
+
+A B C D E
+
+Breadth First Search
+A -> [E, B] 
+B -> [C, D]
+
+Priority Queue
+
+A B E C D
+
+
+We use graphs to represent connected objects such as people, jobs, 
+Implementation --> Adjacency Matrix - DENSE
+               --> Adjacency List --> Sparse graphs
+Traversal --> BFS
+          --> DFS
+
+Undirected & Weighted Graphs
+
+
