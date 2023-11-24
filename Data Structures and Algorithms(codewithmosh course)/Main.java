@@ -6,16 +6,21 @@ public class Main{
    graph.addNode("A");
    graph.addNode("B");
    graph.addNode("C");
-   graph.addEdge("A","B",1);
-   graph.addEdge("B","C",4);
-   graph.addEdge("A","C", 10);
+   graph.addNode("D");
+   graph.addEdge("A","B",3);
+   graph.addEdge("B","D",4);
+   graph.addEdge("C","D",5);
+   graph.addEdge("A", "C", 1);
+   graph.addEdge("B","C", 2);
+   var tree = graph.getMinimumSpanningTree();
+   tree.print();
 
    var path = graph.getShortestPath("A", "C");
 
    //graph.print();
    
   //  var list = graph.topologicalSort();
-  System.out.println(graph.hasCycle());
+  //System.out.println(graph.hasCycle());
    //graph.print();
     
   }
