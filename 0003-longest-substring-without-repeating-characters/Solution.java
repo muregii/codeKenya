@@ -1,7 +1,9 @@
 
 import java.util.*;
 
-class Solution {
+public class Solution {
+
+
     public int lengthOfLongestSubstring(String s){
         int left = 0;
         int maxLength = 0;
@@ -21,6 +23,6 @@ class Solution {
                 
         }
         return maxLength;
-        
     }
+
 }

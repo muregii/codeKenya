@@ -17,7 +17,7 @@ Updating the Left Pointer:
 
 if (charIndexMap.containsKey(currentChar)): Inaangalia kama the current character penye tuko tushaiona before. (and hence iko kwa HashMap).
 
-left = Math.max(charIndexMap.get(currentChar) + 1, left): Kama hio character ishaonekana before, the left pointer inafaa ku-updatiwa. Unaiset to the position right after the last occurrence of the current character.
+left = Math.max(charIndexMap.get(currentChar) + 1, left): Kama hio character ishaonekana before, the left pointer inafaa ku-updatiwa. Unaiset to the position right after the last occurrence of the current character. ( .get() hufetch the value part of the HashMap's Key, value pair setup, for this case, the Integer with the index associated na the character we're looking at).
 
  However, to avoid moving left backward (which could include a repeated character in the current window), Math.max is used. Kuensure that left only moves to the right.
 
