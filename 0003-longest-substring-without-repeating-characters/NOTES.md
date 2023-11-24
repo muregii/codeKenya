@@ -4,24 +4,27 @@
 
 /*Algorithm or Steps
 
-Initialization:
+Unaanza ivi:
 
-int right = 0; right < n; right++: This for-loop iterates through each character in the string s, with right serving as the end pointer of the current substring being examined. n is the length of the string s.
+int right = 0; right < n; right++: Hii for-loop ina iterate through each character in the string s, with right serving as the pointer to mwisho ya the current substring yenye tunaexamine. n ni the length of the string s.
 
 Processing Each Character:
 
-char currentChar = s.charAt(right): For each iteration, this line fetches the character at the current right index.
+char currentChar = s.charAt(right): For each iteration, chukua hio character kwa index yenye right iko.
 
 
 Updating the Left Pointer:
 
-if (charIndexMap.containsKey(currentChar)): This checks if the current character has already been seen (and hence is in the HashMap).
-left = Math.max(charIndexMap.get(currentChar) + 1, left): If the current character was seen before, the left pointer needs to be updated. It's set to the position right after the last occurrence of the current character. However, to avoid moving left backward (which could include a repeated character in the current window), Math.max is used. It ensures that left only moves to the right.
+if (charIndexMap.containsKey(currentChar)): Inaangalia kama the current character penye tuko tushaiona before. (and hence iko kwa HashMap).
+
+left = Math.max(charIndexMap.get(currentChar) + 1, left): Kama hio character ishaonekana before, the left pointer inafaa ku-updatiwa. Unaiset to the position right after the last occurrence of the current character.
+
+ However, to avoid moving left backward (which could include a repeated character in the current window), Math.max is used. Kuensure that left only moves to the right.
 
 
 Updating HashMap and Calculating Max Length:
 
-charIndexMap.put(currentChar, right): This updates the HashMap with the current character and its latest index. This is crucial because if the character is encountered again, we want to use its most recent index.
+charIndexMap.put(currentChar, right): Hii line ina update the HashMap with the current character and its latest index. This is crucial because if the character is encountered again, we want to use its most recent index.
 maxLength = Math.max(maxLength, right - left + 1): After potentially updating left and always updating the HashMap, the length of the current substring without repeating characters is right - left + 1. We compare this with maxLength to keep track of the longest such substring found so far.
 
 
