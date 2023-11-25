@@ -12,7 +12,7 @@ public class HashTable{
     }
 
     
-    private LinkedList<Entry>[] entries = new LinkedList[5];
+    private LinkedList<Entry>[] entries = new LinkedList[10];
     
     public void put(int key, String value) {
        var index = hash(key);

@@ -15,7 +15,7 @@ public class Main{
    var tree = graph.getMinimumSpanningTree();
    tree.print();
 
-   var path = graph.getShortestPath("A", "C");
+   //var path = graph.getShortestPath("A", "C");
 
    //graph.print();
    
