@@ -1,27 +1,11 @@
-//import java.util.Arrays;
+import java.util.Arrays;
 
 public class Main{
   public static void main(String[] args) {
-   var graph = new WeightedGraph();
-   graph.addNode("A");
-   graph.addNode("B");
-   graph.addNode("C");
-   graph.addNode("D");
-   graph.addEdge("A","B",3);
-   graph.addEdge("B","D",4);
-   graph.addEdge("C","D",5);
-   graph.addEdge("A", "C", 1);
-   graph.addEdge("B","C", 2);
-   var tree = graph.getMinimumSpanningTree();
-   tree.print();
-
-   //var path = graph.getShortestPath("A", "C");
-
-   //graph.print();
-   
-  //  var list = graph.topologicalSort();
-  //System.out.println(graph.hasCycle());
-   //graph.print();
+   int[] numbers = {8, 7 , 6, 5, 4, 3, 2, 1};
+   var sorter = new SelectionSort();
+   sorter.sort(numbers);
+   System.out.println(Arrays.toString(numbers));
     
   }
 
@@ -38,8 +22,5 @@ public class Main{
     if(n == 0) return 1;
     return n * factorialRecursively(n-1);
   }
-
-  
- 
 
 }
