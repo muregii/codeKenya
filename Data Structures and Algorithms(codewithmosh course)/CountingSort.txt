@@ -1,0 +1,39 @@
+Counting sort iko na procedure/algorithm program inaezafuata  kusort array, e.g ya numbers bila kumake comparisons.
+
+Kama tuko na array for e.g [4, 5, 6, 8, 9, 4] yenye tunataka kusort, 
+tunacreate array ingine separate yenye itahold all possible values, say from 0 to 9 .(Count(0, k)) Hii ndo assumption yetu.
+
+Kwa hii array, kama 0 haijaappear, tunasema [O, 0, 0, 0, 2, 1, 1, 0, 1, 1]  based on the number of times zimeappear
+                                             0  1  2  3  4  5  6  7  8  9
+Lastly, we overwrite this to array, tukiaccount for mara ngapi zimeapper, this will be our sorted array, but IGNORING the 0s [4, 4, 5, 6, 8, 9] 
+
+
+
+
+
+
+
+
+
+HERE IS THE EXPLANATION TO THE IMPLEMENTATION DETAIL.
+
+The CountingSort class implements the Counting Sort algorithm, which is a non-comparison-based sorting technique. This algorithm is efficient for sorting a small range of integers. It counts the number of occurrences of each unique element in the input array and then uses this count to place elements in their correct position in the sorted array. Here's a breakdown of how the code works:
+
+Initialize Count Array:
+
+int[] count = new int[max + 1];
+This creates an array (count) with a size of max + 1, where max is the maximum value in the input array. Each index in count represents a value from the input array, and each element is initialized to 0.
+
+Count Occurrences:
+
+for(var item : array) count[item]++;
+This loop goes through each element in the input array (array). For each element item, it increments count[item]. This step counts how many times each value appears in the input array.
+
+Reconstruct the Sorted Array:
+var k = 0;
+for (var i = 0; i < count.length; i++)
+for(var j = 0; j < count[i]; j++)
+array[k++] = i;
+
+These nested loops rebuild the sorted array. The outer loop iterates over each index i in the count array. For each i, the inner loop runs count[i] times, which is the number of occurrences of the value i in the original array.
+Each time the inner loop runs, it assigns the value i to the next position in the input array (array[k++] = i). This effectively reconstructs the array in a sorted order, as the counts ensure each value is placed in the correct position based on its frequency.
