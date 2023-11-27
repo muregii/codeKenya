@@ -1,11 +1,11 @@
-import java.util.Arrays;
+
 
 public class Main{
   public static void main(String[] args) {
-   int[] numbers = {4, 5, 6, 8, 9, 4};
-   var sorter = new CountingSort();
-   sorter.sort(numbers, 9);
-   System.out.println(Arrays.toString(numbers));
+   int[] numbers = { };
+   var search = new Search();
+   var index = search.ternarySearch(numbers, 4);
+   System.out.println(index);
     
   }
 
