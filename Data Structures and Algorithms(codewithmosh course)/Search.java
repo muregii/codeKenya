@@ -11,6 +11,23 @@ public class Search {
     return -1;
     
 } 
+public int binarySearchRec(int[] array, int target){
+    return binarySearchRec(array, target, 0, array.length - 1);
+}
+
+    private int binarySearchRec(int[] array, int target, int left, int right){
+        if(right < left) return -1;
+        
+        int middle = left + (right - left) / 2; //Integer overflow for large values
+        //int middle = (left + right) / 2;
+        if(array[middle] == target) return middle;
+
+        if(target < array[middle])
+        return binarySearchRec(array, target, left, middle - 1);
+
+        return binarySearchRec(array, target, middle + 1, right);
+    }
+
 //BINARY SEARCH
 public int binarySearch(int[] array, int target){ //O(log n)
 
@@ -66,10 +83,36 @@ public int binarySearch(int[] array, int target){ //O(log n)
 
     }
 
-    //O(Sq(n))
-    public int jumpearch(int[] array, int target){
+    //O(Sq(n)) JUMP SEARCH
+    public int jumpSearch(int[] array, int target){
         var start = 0;
-        var next = 0;
+        int blockSize = (int) Math.sqrt(array.length);
+        int next = blockSize;
+
+        while(start < array.length && array[next - 1] < target) {
+            start = next;
+        
+            next += blockSize;
+            if(next > array.length) next = array.length;
+        }
+
+        for(var i = start; i < next; i++)
+        if(array[i] == target) return i;
+        return -1;
+
+    }
+
+    //EXPONENTIAL SEARCH O(log i)
+    public int exponentialSearch(int[] array, int target){
+        int bound = 1;
+        int left = bound / 2;
+        int right = Math.min(bound, array.length - 1);
+
+        while(bound < array.length && array[bound] < target){
+            bound *=2;
+
+        }
+        return binarySearchRec(array, target, left, right);
         
     }
 }
