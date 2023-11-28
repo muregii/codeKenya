@@ -9,10 +9,12 @@ public class LinkedList {
         this.info = info;
        }
         
-    }
+}
+
 private ListNode first;
 private ListNode last;
 private int size;
+
 //addFirst
 public void addFirst(int item) {
     var node = new ListNode(item);
