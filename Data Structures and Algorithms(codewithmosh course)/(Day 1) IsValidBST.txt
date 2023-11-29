@@ -1,9 +1,0 @@
-Raydon stepped in after meeting time challenges.
-
-We're going to write some code to determine whether a given tree is a valid binary search tree
-
-A valid binary search tree ni tree yenye all children to the left are smaller than all the children to the right
-
-Tunaezatumia recursion kusolve hii swali
-
-Kutokea hapa saa mi nilitumia chatGPT kuexplain, but feel free kuexpound. This was due to time constraints.
