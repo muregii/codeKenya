@@ -59,11 +59,12 @@ As you recursively check each node, these bounds change. For the left subtree, t
     
         private boolean isValidBST(TreeNode root, int lefts, int rights){
             //juu tunasolve recursively, unahitaji base condition ndo recursion iterminate / avoid infinite loop
+            //for us, base condition ni IF root node ni null, azin haina anything, then probing it further doesn't matter, it has to be a valid BST since there's no root value anyway
             if(root == null) return true;
-            //Condition 1: ni kama root node yetu inabeba a value less than node iko to its left(Juu it should be bigger than the left child) au value kubwa kuliko node iko to it's right(Juu haifai kukua value kubwa kuliko ya right) method inafaa kureturn false.
+            //Condition 1: ni kama root node yetu inabeba a value less than node iko to its left(Juu it should be bigger than the left child) au root node iko na value kubwa kuliko node iko to it's right(Juu haifai kukua value kubwa kuliko ya right) method inafaa kureturn false.
             if(root.info < lefts || root.info > rights) return false;
-            //Condition 2: Inacheck by calling the function itself, side ya left ya root(passed as the root kwa recursive call) alafu lefts ni lefts tu for the left side; na root.info -1 ni the rights parameter kwa recursive call, Minus one juu kwa condition yetu, we used < , NOT <= . Hatutaki iseme true if ni value ndani ya left ni equal to the root.
-            //Condition 3: Inacheck the right side of the tree. Tunapass root,info as the first parameter na rights node for rights.
+            //Condition 2: Inacheck by calling the function itself, side ya left ya root(passed as the root kwa recursive call) alafu lefts ni lefts tu for the left side; na root.info -1 ni the rights parameter kwa recursive call, Minus one juu kwa condition yetu, we used < , NOT <= . Hatutaki iseme true if value iko ndani ya left ni equal to the root.
+            //Condition 3: Inacheck the right side of the tree. Tunapass root.info(as our lower bound) as the second parameter na rights node for rights.
             return isValidBST(root.leftChild, lefts, root.info) && isValidBST(root.rightChild, root.info, rights);
     
         }
