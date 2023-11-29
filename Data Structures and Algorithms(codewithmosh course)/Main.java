@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         IsValidBST bstChecker = new IsValidBST();
 
-        // Kubuild our tree
+        // Kubuild our tree. Hapa unaeza tumia
         bstChecker.root = bstChecker.new TreeNode(10);
         bstChecker.root.leftChild = bstChecker.new TreeNode(5);
         bstChecker.root.rightChild = bstChecker.new TreeNode(15);
@@ -31,7 +31,7 @@ public class Main {
           @Override
           public String toString(){
               return "Node=" + info;
-          }
+        }
           
       }
   
