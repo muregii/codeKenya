@@ -19,10 +19,7 @@ Kutokea hapa saa mi nilitumia chatGPT kuexplain, but feel free kuexpound. This w
 //first of all: you need a public and private method. 
 
 //Kutokea hapa, you can copy this code kwa IDE kuona a commented version of the solution
-    //I just so happened to have solved this while doing codewithmosh.
-//You can find the solution to this challenge by copying this "Permalink" --:  https://github.com/muregii/codeKenya/blob/f40dfe514c29e30482bf2fec7c80ef23260660a9/Data%20Structures%20and%20Algorithms(codewithmosh%20course)/Tree.java#L194
-//Anyway ... Acha ni re-do hapa for Day 1's sake ya hii challenge yetu
-
+   
 //first of all: you need a public and private method. 
 
 
