@@ -4,6 +4,13 @@ TIME SPENT: 60 minutes (Explanations included)
 
 We're going to write some code to determine whether a given tree is a valid binary search tree
 
+TREE DATA STRUCTURE
+        10
+       /  \
+      5    15
+     / \     \
+    5   7     18
+
 A valid binary search tree ni tree yenye all children to the left are smaller than all the children to the right
 
 Tunaezatumia recursion kusolve hii swali
