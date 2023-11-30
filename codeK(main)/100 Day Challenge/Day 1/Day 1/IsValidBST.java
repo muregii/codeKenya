@@ -1,22 +1,7 @@
-public class Main {
+//I just so happened to have solved this while doing codewithmosh.
+//You can find the solution to this challenge by copying this "Permalink" --:  https://github.com/muregii/codeKenya/blob/f40dfe514c29e30482bf2fec7c80ef23260660a9/Data%20Structures%20and%20Algorithms(codewithmosh%20course)/Tree.java#L194
 
-    public static void main(String[] args) {
-        //IsValidBST bstChecker = new IsValidBST();
-        IsValidBST test = new IsValidBST();
-
-        test.root = test.new TreeNode(10);
-        test.root.leftChild = test.new TreeNode(5);
-        test.root.rightChild = test.new TreeNode(15);
-        test.root.leftChild.leftChild = test.new TreeNode(5);
-        test.root.leftChild.rightChild = test.new TreeNode(7);
-        test.root.rightChild.rightChild = test.new TreeNode(15);
-
-        var answer = test.isValidBST();
-        System.out.println("Is the tree a valid BST? " + answer);
-
-    }
-
-    public static class IsValidBST{
+    public class IsValidBST{
 
         private class TreeNode{
             private TreeNode leftChild;
@@ -49,6 +34,7 @@ public class Main {
             return isValidBST(root.leftChild, lefts, root.info-1) && isValidBST(root.rightChild, root.info, rights);
         }
     }
-  
+    
+    
 
-}
+    

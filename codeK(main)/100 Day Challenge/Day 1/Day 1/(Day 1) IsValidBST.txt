@@ -1,0 +1,85 @@
+Raydon stepped in after meeting time challenges.
+
+TIME SPENT: 60 minutes (Explanations included)
+
+We're going to write some code to determine whether a given tree is a valid binary search tree
+
+TREE DATA STRUCTURE
+        10
+       /  \
+      5    15
+     / \     \
+    5   7     18
+
+A valid binary search tree ni tree yenye all children to the left are smaller than all the children to the right
+
+Tunaezatumia recursion kusolve hii swali
+
+Kutokea hapa saa mi nilitumia chatGPT kuexplain, but feel free kuexpound. This was due to time constraints.
+
+
+//I just so happened to have solved this while doing codewithmosh.
+
+//You can find the solution to this challenge by copying this "Permalink" --:  https://github.com/muregii/codeKenya/blob/f40dfe514c29e30482bf2fec7c80ef23260660a9/Data%20Structures%20and%20Algorithms(codewithmosh%20course)/Tree.java#L194
+//Anyway ... Acha ni re-do hapa for Day 1's sake ya hii challenge yetu
+
+//first of all: you need a public and private method. 
+
+//Kutokea hapa, you can copy this code kwa IDE kuona a commented version of the solution
+   
+//first of all: you need a public and private method. 
+
+
+
+
+    public class IsValidBST{
+
+        private class TreeNode{
+            
+            private TreeNode leftChild;
+            private TreeNode rightChild;
+            private int info;
+            
+            public TreeNode(int info) {
+                this.info = info;
+            }
+    
+            @Override
+            public String toString(){
+                return "Node=" + info;
+            }
+            
+        }
+    
+        private TreeNode root;
+    
+        public boolean isValidBST(){
+//Hii MIN_VALUE na MAX_VALUE ni just a clear way of setting initial bounds to the least na greatest values that nodes za BST yetu inaezahold at any point in time
+/*In a BST, the key property is that for any node, all values in its left subtree must be less than its own value, and all values in its right subtree must be greater than its own value. However, when you start checking the root of the tree, you don't have any existing bounds. That's where Integer.MIN_VALUE and Integer.MAX_VALUE come in.
+
+Integer.MIN_VALUE acts as an initial lower bound. It's the smallest value an int can have in Java. When checking the left subtree, any value is valid as long as it's less than the root node's value. By setting the initial bound to Integer.MIN_VALUE, you're essentially saying that there is no lower limit to begin with, allowing any integer value.
+Integer.MAX_VALUE serves as the initial upper bound. It's the largest value an int can have. When checking the right subtree, any value is valid as long as it's greater than the root node's value. Setting the initial bound to Integer.MAX_VALUE means there is no upper limit to start with, again allowing any integer value.
+As you recursively check each node, these bounds change. For the left subtree, the upper bound becomes the value of the current node (since all values in the left subtree must be smaller), and for the right subtree, the lower bound becomes the value of the current node (since all values in the right subtree must be larger). This way, you ensure that every node in the tree adheres to the BST property relative to all its ancestor nodes. */
+            return isValidBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    
+        }
+    
+        private boolean isValidBST(TreeNode root, int lefts, int rights){
+            //juu tunasolve recursively, unahitaji base condition ndo recursion iterminate / avoid infinite loop
+            //for us, base condition ni IF root node ni null, azin haina anything, then probing it further doesn't matter, it has to be a valid BST since there's no root value anyway
+            if(root == null) return true;
+            //Condition 1: ni kama root node yetu inabeba a value less than node iko to its left(Juu it should be bigger than the left child) au root node iko na value kubwa kuliko node iko to it's right(Juu haifai kukua value kubwa kuliko ya right) method inafaa kureturn false.
+            if(root.info < lefts || root.info > rights) return false;
+            //Condition 2: Inacheck by calling the function itself, side ya left ya root(passed as the root kwa recursive call) alafu lefts ni lefts tu for the left side; na root.info -1 ni the rights parameter kwa recursive call, Minus one juu kwa condition yetu, we used < , NOT <= . Hatutaki iseme true if value iko ndani ya left ni equal to the root.
+            //Condition 3: Inacheck the right side of the tree. Tunapass root.info(as our lower bound) as the second parameter na rights node for rights.
+            return isValidBST(root.leftChild, lefts, root.info) && isValidBST(root.rightChild, root.info, rights);
+    
+        }
+    }
+    
+
+    
+
+    
+
+    

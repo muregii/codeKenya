@@ -190,6 +190,7 @@ public class Tree{
             return first.info == second.info && equals(first.leftChild, second.leftChild) && equals(first.rightChild, second.rightChild);   
         return false;    
     }
+
     //Validating a Binary Search Tree
     public boolean isValidBST(){
 
@@ -205,7 +206,6 @@ public class Tree{
     }
     //root swap
     public void swapRoot(){
-
 
         var temp = root.leftChild;
         root.leftChild = root.rightChild;
