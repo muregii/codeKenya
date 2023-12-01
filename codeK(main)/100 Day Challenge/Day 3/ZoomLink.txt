@@ -1,0 +1,14 @@
+
+
+There's a mistake while I was explaining the twosum question.
+I said that .get() retrieves the Key. I should be .get() takes a Key as its input and
+ returns the value of that key.
+
+ So in the comments. When we passed 2 as our Key from nums[i] in the .put() and 0 as the Value bacause of i, which was at 0
+ indexToNumber.get(target - nums[i], i) should return [0, 1] --> O from the value associated with the Key 2 that was on our map, and 1 from i, which is because i = 1 in our second iteration.
+  Our first iteration did not return an int[] because our HashMap was yet to be populated !
+
+      Thank you.
+  <  Raydon Muregi  >
+  <raydonmuregi@gmail.com>
+  < 1 December 2023 >
