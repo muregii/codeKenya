@@ -1,0 +1,70 @@
+pg 88. of Cracking the coding interview: ARRAYS & STRINGS
+
+Notes tu hapa na pale
+[1, 2, 3, 4] "Adungo"
+Techniques & Data Structures
+
+Arrays and Strings,ok, ni basically one and the same thing matters interview questions.
+
+HASH TABLES
+    
+Maps Keys to Values - Azin it allocates some keys to allow access to the associated value. 
+Say jina yako ni Kamau, inaeza allocate a key say 1. So ukiwa na 1, you can access the name Kamau.
+
+Kuimplement hizi hash tables, unaezatumia an array made up of Linked lists, na formula/function ya kudirect izi arrays to specific keys, hii function huitwa a hash code function.
+00  -> (0, Kamau) -> (0, Raydon) -> (0, Nesta)
+ 
+01
+
+02 --> (2, Kamau) -> (2, Raydon) -> (2, Nesta)
+Step 1: Calculating hash code ya keys.
+
+Step 2: Direct/ Map hio hash code to a given index kwa array  . e.g ya hii ni hash(key) % array_length So like hash(2) % 3 --> 2 being our key, na 3 being urefu ya array yetu.
+
+STEP 3: Kwa hizi index, kuna sasa  Linked Lists zenye zinabeba keys and values. Store the key and value on this index.
+Utauliza mbona tutumie Linked List, hii ni kwasababu tunataka kuavoid collisions zenye zingemap to the same index kama tungetumia arrays.
+
+Worst case runtime ya HashTables ni O(N), if kuna a lot of collisions. (N ni the number of keys) Averagely we assume favourable collision, so Lookup time ni more or less O(1) kwa hash tables.
+
+Cheki how it's implemented here an array of Linked Lists in Java: https://chat.openai.com/share/7864960d-ed20-462e-8727-983f98669ca2
+
+Another way you can implement HashTables ni kutumia Binary Search Trees.
+
+Hii hutupea runtime complexity ya O(log N), 
+faster than implementation ya LinkedLists, Uses less space juu hatuallocate a large array, an we can make a pass through the keys in order, could be useful at times.
+
+Cheki how it's implemented here using BST in Java: https://chat.openai.com/share/f5b62aeb-c3f5-44e5-887e-80066f28ed0a
+
+
+THE ARRAYLIST - the resizeable array.
+
+1. Languages zingine kama python, array hujiresize. But kama unatumia Java kama sisi, you'll have to use an arraylist.
+ArrayList ikijaa huwa inadouble itself in size(Hii doubling ndio wasee huita "resizing factor" in this case, doubling ni resizing factor of 2), this is an O(n), azin linear lakini juu huwa haihappen often , we say it's amortized. This is how it grows. 
+Important to note ni each time an arraylist is forced to grow because imejaa, we copy all the elements to the new larger arraylist afresh, each time. 
+
+ArrayLists hukuwa na insertion time constant O(1) 
+
+Kuinitialize arraylist si ngumu: ArrayList<String> words = new ArrayList<>();
+
+Pia a method inaezakua na arraylist: public ArrayList<String> merge (String[] words, String[] more){...}
+
+STRINGBUILDER
+
+Hii ni useful in joing words together for the purposes of avoiding directly concatenating a string na + sign to avoid creation of new strings each time na repeated copying of characters
+StringBuilder hucreate a resizeable array ya strings, na hucopy tu kwa string kama ni necessary.
+
+Initialize ivi: StringBuilder string = new StringBuilder();
+
+Implementation ya StringBuilder: https://chat.openai.com/share/e4e682cf-071b-49eb-9436-8ad03d5130af
+
+Interview Questions on arrays ni mingi, but unaeza anza na: refer to pg. 90 of cracking the coding interview.
+
+    <Date: 1 Dec 2023>
+    <Raydon Muregi>
+<raydonmuregi@gmail.com>
+
+
+
+
+
+
