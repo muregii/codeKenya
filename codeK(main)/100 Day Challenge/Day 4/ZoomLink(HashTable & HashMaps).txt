@@ -1,6 +1,11 @@
 Zoom Link: https://duke.zoom.us/rec/share/JZAM_0zjegemJYxZx1BKaf75Dl0nM2NRrtnAMTrCgEhnhpKUt-Pb56x0804aSuXR.2pZA_36UIAQxoVh4
 
+Around TimeStamp[10:00] nilidanganya ati the linked lists zinahold both Key na Value. Zii, Izo 00 01 ndio Keys, alafu nodes ziko kwa LinkedLists zinahold tu the value portion.
+
 There's a mistake while I was explaining the twosum question.
+
+My explanation was a bit wrong, evem though it passed the testcases. I'll create a make up video.
+
 I said that .get() retrieves the Key. I should be .get() takes a Key as its input and
  returns the value of that key.
 
