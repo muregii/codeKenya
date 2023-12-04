@@ -3,9 +3,25 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method
-        isUnique.run();
-        twoSum.run();
+        //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method    
+        IsUnique.run();
+    }
+
+    public static class Unique {
+        // Implement an algorithm to determine if a string has all unique characters. (What if you cannot use additional data structures)
+        //"raydon" -> true 
+        public boolean isUnique(String string){
+            //{ r, a, y, d , o, n, n}
+            Set<Character> set = new HashSet<>();
+    
+            for(int i = 0; i < string.length(); i++){
+                if(set.contains(string.charAt(i))) return false;
+                set.add(string.charAt(i));
+            }
+            //{ r, a, y, d, o, n, }
+            return true;
+            
+        }
     }
 
     public static class TwoSum{
@@ -44,6 +60,7 @@ public class Main {
        
         Set<Character> map = new HashSet<>();
         var str = string.toCharArray();
+        // r , a, y, d, o, n, o
         for(var ch : str){
             if(map.contains(ch))  return false; 
         map.add(ch); 
@@ -51,10 +68,21 @@ public class Main {
         
         return true;
         }
+
+        public boolean isUnique4(String string){
+            //"raydon y" --> True
+            //{r a y d o n } false
+            Set<Character> set = new HashSet<>();
+            for(int i = 0; i < string.length(); i++){
+                if(set.contains(string.charAt(i))) return false;
+            set.add(string.charAt(i));
+            }
+            return true;
+        }
     
 
     public  boolean isUnique1(String string){
-       
+       // raydon
         var left = 0;
         var right = string.length()-1;
 
@@ -88,12 +116,54 @@ public class Main {
     
         return true;
     }
+
+    public boolean isUnique5(String string){
+        //pigeon hole 
+        //{ }
+        if(string.length() > 26) return false;
+        int flag = 0; 
+        //ASCII calculations , Bitwise AND na Bitwise shifting
+        for(int i = 0; i < string.length(); i++){ 
+            
+            // 00 |00
+            // abc
+            int val = string.charAt(i) - 'a'; // b --> 99 - 97 = 2
+            
+            if((flag & (1 << val))  > 0  ) {
+                 return false;
+            } //1  // 100 = 4 | 000 -- >   0 & 1  = 0 
+               
+            flag |= (1<<val);
+        }
+        return true;
+    }
+
+    public boolean isUnique3(String string){
+        //pigeon hole principle
+        if(string.length() > 26) return false;
+        // abc
+        int flag = 0;
+        for(int i = 0; i < string.length(); i++){
+            // ASCII a -> 97 - 97 = 0 b -> 98 -97 = 1 c = 2
+            int val = string.charAt(i) - 'a';
+            // 1 & 1 = 1
+            // 1 & 0 = 0
+            // a & b = 0
+            //|b    99-97 = 10-->  | 0
+            if((flag & (1<< val)) > 0 ){
+                return false;
+            }  
+            flag |= (1<<val); // 0 | 100 = 1
+        }
+        return true;
+
+    }
 }
 
-        static Runnable isUnique = () -> {
+        static Runnable IsUnique = () -> {
         IsUnique ans = new IsUnique();
         String s = "raydon";
-        boolean answer = ans.isUnique1(s); // Use 'sol' to call the method
+        boolean answer = ans.isUnique5(s); // Use 'sol' to call the method
         System.out.println("Is the string given made up of only unique characters ? " + answer);
 
         };
@@ -105,6 +175,8 @@ public class Main {
         int[] result = sol.twoSum(val, tgt);
         System.out.println(Arrays.toString(result));
         };
+
+        
 
 }
   
