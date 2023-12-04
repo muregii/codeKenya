@@ -2,8 +2,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Arrays;
 
-class Solution {
+public class TwoSum {
     public static void main (String[] args) {
+        
         int[] val = {22,0,11,9};
         int tgt = 9;
         int[] result = twoSum(val, tgt);
@@ -22,5 +23,7 @@ class Solution {
     return nums;
     
     }
+
+    
 
 }
