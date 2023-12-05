@@ -21,7 +21,7 @@ public class Unique {
 
         //ASCII calculations , Bitwise AND na Bitwise shifting
         for(int i = 0; i < string.length(); i++){
-            int flag = 4;
+            int flag = 0;
             // 00 |00
             // abc
             int val = string.charAt(i) - 'a'; // b --> 99 - 97 = 2
