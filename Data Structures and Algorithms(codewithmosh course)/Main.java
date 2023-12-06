@@ -1,10 +1,11 @@
 import java.util.*;
 
+
 public class Main {
 
     public static void main(String[] args) {
         //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method    
-        IsUnique.run();
+        removeDuplicates.run();
     }
 
     public static class Unique {
@@ -56,6 +57,7 @@ public class Main {
     
 
    public static class IsUnique{
+
     public boolean isUnique(String string){
        
         Set<Character> map = new HashSet<>();
@@ -160,10 +162,64 @@ public class Main {
     }
 }
 
-        static Runnable IsUnique = () -> {
+    public static class RemoveDuplicate {
+    private class ListNode {
+        private Integer info;
+
+        public ListNode(Integer info) {
+            this.info = info;
+        }
+
+        private ListNode next;
+    
+        @Override
+        public String toString() {
+            return "Node=" + info;
+        }
+    }
+
+    private static String listToString(RemoveDuplicate.ListNode head) {
+            StringBuilder sb = new StringBuilder();
+            while (head != null) {
+                sb.append(head.info).append(" -> ");
+                head = head.next;
+            }
+            sb.append("null");
+            return sb.toString();
+        }
+
+    
+
+    public ListNode removeDuplicate(ListNode s){
+       // var first = s;
+       if(s == null || s.next == null) return s;
+       
+       Set<Integer> set = new HashSet<>();
+       ListNode first = s;
+       set.add(first.info);
+        while(first.next != null){
+
+            if(set.contains(first.next.info)) {
+
+                first.next = first.next.next;
+            }else{
+                set.add(first.next.info);
+                first = first.next;
+            }
+            
+            
+        }
+        return s;
+
+    }
+
+  
+}
+
+    static Runnable IsUnique = () -> {
         IsUnique ans = new IsUnique();
         String s = "raydon";
-        boolean answer = ans.isUnique5(s); // Use 'sol' to call the method
+        boolean answer = ans.isUnique3(s); // Use 'sol' to call the method
         System.out.println("Is the string given made up of only unique characters ? " + answer);
 
         };
@@ -175,6 +231,27 @@ public class Main {
         int[] result = sol.twoSum(val, tgt);
         System.out.println(Arrays.toString(result));
         };
+
+        static Runnable removeDuplicates = () -> {
+        RemoveDuplicate test = new RemoveDuplicate();
+
+        RemoveDuplicate.ListNode first = test.new ListNode(1);
+        first.next = test.new ListNode(2);
+        first.next.next = test.new ListNode(2);
+        first.next.next.next = test.new ListNode(3);
+        first.next.next.next.next = test.new ListNode(3);
+        first.next.next.next.next.next = test.new ListNode(4);
+
+    
+        System.out.println("Original list: " + RemoveDuplicate.listToString(first));
+
+        RemoveDuplicate.ListNode result = test.removeDuplicate(first);
+
+      
+        System.out.println("List after removing duplicates: " + RemoveDuplicate.listToString(result));
+        };
+
+        
 
         
 
