@@ -1,5 +1,8 @@
 public class reverseInt {
-    public int reverse (int x) {
+    public static void main(String[] args) {
+        System.out.println(reverse(987654321)); //test
+    }
+    public static int reverse (int x) {
         int rev = 0;
 
         while(x != 0) {
