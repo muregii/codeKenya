@@ -1,3 +1,4 @@
+//Question: From LinkedLists in Cracking the coding interview: Write code to remove duplicates from an unsorted Linked List. (What is a temporary buffer is not allowed? )
 
 import java.util.*;
 
