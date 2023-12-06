@@ -7,6 +7,16 @@ public class RemoveDuplicate {
 
         private ListNode next;
     
+        public static String listToString(RemoveDuplicate.ListNode head){
+            StringBuilder sb = new StringBuilder();
+            while(head.next != null){
+                sb.append(head.info).append("->");
+                head = head.next;
+            }
+            sb.append("null");
+            return sb.toString();
+        }
+
         @Override
         public String toString() {
             return "Node=" + info;
@@ -30,8 +40,7 @@ public class RemoveDuplicate {
                 set.add(first.next.info);
                 first = first.next;
             }
-            
-            
+    
         }
         return s;
 
