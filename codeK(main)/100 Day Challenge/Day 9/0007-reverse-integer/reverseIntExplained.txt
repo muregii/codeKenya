@@ -1,0 +1,26 @@
+// Copy this code into an IDE to see the comments more clearly from the code. All the Best.
+class Solution {
+  public static int reverse(int x) {
+      int PLACE_VALUE_10 = 10; // kusema tu 10 ingekua using a Magic number, so to avoid this I declared it hapa juu as a Constant variable because we don't expect to change it.
+      
+      long rev = 0; // Used long instead of int to allow for rev to hold values greater than 2^32. 
+      
+      while( x != 0) {
+          //1234
+          int digit = x % PLACE_VALUE_10; //1234 % 10 gives 4(Because the remainder after the division ni 4).      123 % 10 gives 3 and so on.
+          rev = (rev * 10) + digit; // new rev values after each loop are as follows: 4 -> 43 -> 432 -> 4321
+          x /= PLACE_VALUE_10; // for e.g 1234 /10 =  123, juu we are returning as Integer, decimals will be truncated.
+
+          if(rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE){ // Hii ina explicitly tell the program, istick within the range [-2^32 , 2^32 - 1]
+              return 0;
+          }
+      } 
+      return (int) rev; // juu rev ilikua initialized as a long, na program yetu inaexpect an int ndio itakua returned, we explicitly cast our result as an (int)
+ }
+}
+
+// # DONE !!!
+
+<By: Raydon Muregi>
+<raydonmuregi@gmail.com> 
+< December 7, 2023>
