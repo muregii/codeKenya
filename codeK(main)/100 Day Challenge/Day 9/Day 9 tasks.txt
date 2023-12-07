@@ -1,0 +1,3 @@
+On this day, the team did not meet on Zoom. we worked on Leetcode questions.
+Two issues were raised on Github reverseInt and isPalindrome committed by Lelei.
+: reverseInt was closed. isPalindromeremained open.

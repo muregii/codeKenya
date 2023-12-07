@@ -244,10 +244,7 @@ public class Main {
 
     
         System.out.println("Original list: " + RemoveDuplicate.listToString(first));
-
         RemoveDuplicate.ListNode result = test.removeDuplicate(first);
-
-      
         System.out.println("List after removing duplicates: " + RemoveDuplicate.listToString(result));
         };
 
