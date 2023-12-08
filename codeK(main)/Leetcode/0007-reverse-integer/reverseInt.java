@@ -3,7 +3,7 @@ public class reverseInt {
     public static void main(String[] args) {
         System.out.println(reverse(987654321)); //test
     }
-    public static int reverse (int x) {
+    public static int reverse(int x) {
         int rev = 0;
 
         while(x != 0) {
@@ -18,4 +18,17 @@ public class reverseInt {
 
         return rev;
     }
+
+    class Solution {// Leetcode solution
+        public int reverse(int x) {
+          long ans = 0;
+      
+          while (x != 0) {
+            ans = ans * 10 + x % 10;
+            x /= 10;
+          }
+      
+          return (ans < Integer.MIN_VALUE || ans > Integer.MAX_VALUE) ? 0 : (int) ans;
+        }
+      }
 }
