@@ -164,7 +164,7 @@ public class Main {
 public static class RemoveDuplicate1 {
     private class ListNode{
 
-        private ListNode first;
+       
         private int info;
         private ListNode next;
 
@@ -180,7 +180,7 @@ public static class RemoveDuplicate1 {
         }
 
     }
-    public static String strBuild(RemoveDuplicate1.ListNode first){
+    public static String strBuild(ListNode first){
             StringBuilder sb = new StringBuilder();
             while(first.next != null){
                 sb.append(first.info).append("->");
@@ -195,17 +195,22 @@ public static class RemoveDuplicate1 {
     public ListNode removeDuplicate(ListNode s){
         
         var first = s;
-        if(first == null || first.next == null) return s;
+
+        if(first == null || first.next == null) return first;
+
         Set<Integer> set = new HashSet<>();
         
         set.add(first.info);
         
         while(first.next != null){
             if(set.contains(first.next.info)) {
+
                 first.next = first.next.next;
-             
+                
             }else{
+
                 set.add(first.next.info);
+
                 first = first.next;
             }
             
@@ -221,9 +226,6 @@ public static class RemoveDuplicate1 {
     private class ListNode {
         private Integer info;
 
-        public ListNode(int info) {
-            this.info = info;
-        }
 
         private ListNode next;
     
@@ -233,7 +235,7 @@ public static class RemoveDuplicate1 {
         }
     }
 
-    private static String listToString(RemoveDuplicate.ListNode head) {
+    private static String listToString(ListNode head) {
             StringBuilder sb = new StringBuilder();
             while (head != null) {
                 sb.append(head.info).append(" -> ");

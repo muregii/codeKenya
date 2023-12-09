@@ -35,15 +35,15 @@ public class RemoveDuplicate {
     public ListNode removeDuplicate(ListNode s){
         var first = s;
      
-        if(first.next == null || first == null) return first;
+        if(first.next == null || first == null) return first; // first os OK, but more readable variables use Head.
         Set<Integer> set = new HashSet<>();
         
         set.add(first.info);
         
         while(first.next != null){
             if(set.contains(first.next.info)) {
-                first.next = first.next.next;
-                first = first.next;
+                first.next = first.next.next;// Consider changing the variable name first to current to make it more descriptive.
+               
             }else{
                 set.add(first.next.info);
                 first = first.next;
