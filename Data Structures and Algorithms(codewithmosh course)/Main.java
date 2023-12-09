@@ -161,12 +161,67 @@ public class Main {
 
     }
 }
+public static class RemoveDuplicate1 {
+    private class ListNode{
+
+        private ListNode first;
+        private int info;
+        private ListNode next;
+
+        public ListNode(int info) {
+            this.info = info;
+        }
+
+        
+
+        @Override
+        public String toString(){
+            return "Node=" + info;
+        }
+
+    }
+    public static String strBuild(RemoveDuplicate1.ListNode first){
+            StringBuilder sb = new StringBuilder();
+            while(first.next != null){
+                sb.append(first.info).append("->");
+                first = first.next;
+            }
+            sb.append("null");
+
+            return sb.toString();
+
+        }
+
+    public ListNode removeDuplicate(ListNode s){
+        
+        var first = s;
+        if(first == null || first.next == null) return s;
+        Set<Integer> set = new HashSet<>();
+        
+        set.add(first.info);
+        
+        while(first.next != null){
+            if(set.contains(first.next.info)) {
+                first.next = first.next.next;
+             
+            }else{
+                set.add(first.next.info);
+                first = first.next;
+            }
+            
+        }
+        return s;
+    }
+
+   
+    
+}
 
     public static class RemoveDuplicate {
     private class ListNode {
         private Integer info;
 
-        public ListNode(Integer info) {
+        public ListNode(int info) {
             this.info = info;
         }
 
@@ -191,17 +246,18 @@ public class Main {
     
 
     public ListNode removeDuplicate(ListNode s){
-       // var first = s;
-       if(s == null || s.next == null) return s;
+       var first = s;
+       if(first == null || s.next == null) return first;
        
        Set<Integer> set = new HashSet<>();
-       ListNode first = s;
+       //ListNode first = s;
        set.add(first.info);
         while(first.next != null){
 
             if(set.contains(first.next.info)) {
 
                 first.next = first.next.next;
+                
             }else{
                 set.add(first.next.info);
                 first = first.next;
@@ -209,9 +265,13 @@ public class Main {
             
             
         }
-        return s;
+        return first;
 
     }
+
+
+
+   
 
   
 }
@@ -233,9 +293,9 @@ public class Main {
         };
 
         static Runnable removeDuplicates = () -> {
-        RemoveDuplicate test = new RemoveDuplicate();
+        RemoveDuplicate1 test = new RemoveDuplicate1();
 
-        RemoveDuplicate.ListNode first = test.new ListNode(1);
+        RemoveDuplicate1.ListNode first = test.new ListNode(1);
         first.next = test.new ListNode(2);
         first.next.next = test.new ListNode(2);
         first.next.next.next = test.new ListNode(3);
@@ -243,9 +303,9 @@ public class Main {
         first.next.next.next.next.next = test.new ListNode(4);
 
     
-        System.out.println("Original list: " + RemoveDuplicate.listToString(first));
-        RemoveDuplicate.ListNode result = test.removeDuplicate(first);
-        System.out.println("List after removing duplicates: " + RemoveDuplicate.listToString(result));
+        System.out.println("Original list: " + RemoveDuplicate1.strBuild(first));
+        RemoveDuplicate1.ListNode result = test.removeDuplicate(first);
+        System.out.println("List after removing duplicates: " + RemoveDuplicate1.strBuild(result));
         };
 
         
