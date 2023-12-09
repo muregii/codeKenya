@@ -3,7 +3,81 @@
 import java.util.*;
 
 public class RemoveDuplicate {
-    private class ListNode {
+    private class ListNode{
+
+        private ListNode first;
+        private int info;
+        private ListNode next;
+
+        public ListNode(int info) {
+            this.info = info;
+        }
+
+        public static String strBuild(RemoveDuplicate.ListNode first){
+            StringBuilder sb = new StringBuilder();
+            while(first.next != null){
+                sb.append(first.info).append("->");
+                first = first.next;
+            }
+            sb.append("null");
+
+            return sb.toString();
+
+        }
+
+        @Override
+        public String toString(){
+            return "Node=" + info;
+        }
+
+    }
+
+    public ListNode removeDuplicate(ListNode s){
+        var first = s;
+     
+        if(first.next == null || first == null) return first; // first os OK, but more readable variables use Head.
+        Set<Integer> set = new HashSet<>();
+        
+        set.add(first.info);
+        
+        while(first.next != null){
+            if(set.contains(first.next.info)) {
+                first.next = first.next.next;// Consider changing the variable name first to current to make it more descriptive.
+               
+            }else{
+                set.add(first.next.info);
+                first = first.next;
+            }
+            
+        }
+        return s;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*private class ListNode {
         private Integer info;
 
         private ListNode next;
@@ -45,5 +119,4 @@ public class RemoveDuplicate {
         }
         return s;
 
-    }
-}
+    } */

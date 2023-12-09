@@ -2,14 +2,14 @@
 import java.util.*;
 
 public class Solution {
-
+    //Two pointers pia.
 
     public int lengthOfLongestSubstring(String s){
         int left = 0;
         int maxLength = 0;
         
         //The hashmap stores the last index of each character encountered.
-        Map<Character, Integer> charIdxMap = new HashMap<>();
+        Map<Character, Integer> charIdxMap = new HashMap<>(); //"abcddd"
         
         for(int right = 0; right < s.length(); right++){
             char currentChar = s.charAt(right);
