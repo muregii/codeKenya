@@ -1,4 +1,4 @@
-Tested: isValidSubsequencey
+Tested: isValidSubsequency
 
 Difficulty: Easy
 
