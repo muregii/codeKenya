@@ -2,6 +2,7 @@
 
 //Given two strings, write a method to determine if one is a permutation of the other
 
+
 public class IsPermutation {
     public boolean isPermutation (String s, String t){
         
@@ -16,11 +17,20 @@ public class IsPermutation {
         letterCount[t.charAt(i)]--;
         if(letterCount[t.charAt(i)] > 0) return false;
        }
-       return true;
-
-       
-
-       
+       return true; 
         
     }
+
+    public static void main(String[] args) {
+    //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method    
+    IsPermutation.run();
+}
+
+static Runnable IsPermutation = () -> {
+    IsPermutation test = new IsPermutation();
+    String s = "raydon";
+    String t = "raydon";
+    var result = test.isPermutation(s, t);
+    System.out.println("Are these two strings permutations of each other? " + result);
+};
 }

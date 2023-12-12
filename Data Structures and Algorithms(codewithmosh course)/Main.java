@@ -337,7 +337,7 @@ private static class IsPermutation {
             String t = "ababcc";
             var result = test.isPermutation(s, t);
             System.out.println("Are these two strings permutations of each other? " + result);
-        };
+        }; 
 
         
 
