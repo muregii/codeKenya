@@ -5,15 +5,22 @@
 public class IsPermutation {
     public boolean isPermutation (String s, String t){
         
-        for(var ch : s){
-            char str = t.charAt(0);
-            if(ch == str){
-                t.remove(0);
-            }
-            if(t.length() == 0) return true;
+       if(s.length() != t.length()) return false;
+       int[] letterCount = new int[128];
 
-            return false;
-        }
+       for(int i = 0; i < s.length(); ++i){
+        letterCount[s.charAt(i)]++;
+       }
+
+       for(int i = 0; i < s.length(); ++i){
+        letterCount[t.charAt(i)]--;
+        if(letterCount[t.charAt(i)] > 0) return false;
+       }
+       return true;
+
+       
+
+       
         
     }
 }
