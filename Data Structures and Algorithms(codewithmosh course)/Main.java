@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method    
-        removeDuplicates.run();
+        IsPermutation.run();
     }
 
     public static class Unique {
@@ -270,13 +270,34 @@ public static class RemoveDuplicate1 {
         return first;
 
     }
-
-
-
-   
-
-  
 }
+
+
+
+private static class IsPermutation {
+    public boolean isPermutation(String s, String t) {
+        if (s.length() != t.length()) return false;
+
+        int[] letterFrequencyCounter = new int[128]; // Assuming ASCII
+        for (int i = 0; i < s.length(); i++) {
+            letterFrequencyCounter[s.charAt(i)]++;// 
+             System.out.println(letterFrequencyCounter[s.charAt(i)]);
+         
+        }
+
+        for (int i = 0; i < t.length(); i++) {
+            letterFrequencyCounter[t.charAt(i)]--;
+            if (letterFrequencyCounter[t.charAt(i)] < 0) {
+                return false;
+            }
+            System.out.println(letterFrequencyCounter[t.charAt(i)]);
+        }
+        
+
+        return true;
+    }
+}
+
 
     static Runnable IsUnique = () -> {
         IsUnique ans = new IsUnique();
@@ -310,11 +331,20 @@ public static class RemoveDuplicate1 {
         System.out.println("List after removing duplicates: " + RemoveDuplicate1.strBuild(result));
         };
 
+        static Runnable IsPermutation = () -> {
+            IsPermutation test = new IsPermutation();
+            String s = "aabbcc";
+            String t = "ababcc";
+            var result = test.isPermutation(s, t);
+            System.out.println("Are these two strings permutations of each other? " + result);
+        }; 
+
         
 
         
 
 }
+
   
 
 
