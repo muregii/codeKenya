@@ -15,7 +15,6 @@ class Solution {
                 right--;
             }
 
-            
         }
         return area;
     }
