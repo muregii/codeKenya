@@ -1,13 +1,13 @@
 //package codeK(main).100 Day Challenge.Day 13;
-
+//Write a method to replace all spaces in a string with "%20"
 public class URLify {
     static final int BLANK_SPACE_ASCII = 32;
     public StringBuilder url(String s){
-        StringBuilder bld = new StringBuilder(); //Strings are immutable in Java. As in, huezi edit the original, you have to recreate a copy somewhere. 
+        StringBuilder bld = new StringBuilder(); //Strings are immutable in Java. As in, huezi edit the original string, you have to recreate a copy somewhere. 
      
         for(int i = 0; i < s.length(); i++){
           if(s.charAt(i) != ' '){
-             bld.append(s.toLowerCase().charAt(i));
+             bld.append(s.charAt(i));
           }else{
             bld.append("%20");
           }         
@@ -26,7 +26,6 @@ public class URLify {
             }else{
                  bld.append(chars[i]);
             }
-           
         }
     
         return bld;  
