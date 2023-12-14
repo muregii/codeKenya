@@ -1,0 +1,9 @@
+https://courses.cs.duke.edu/spring23/compsci201/apt/secure/
+
+https://courses.cs.duke.edu/fall22/compsci201/apt/secure/
+
+You'll have to self test by printing outputs, but once you're confident with your answer, raise an issue requesting Raydon 
+to run your code, I'll be happy to share the results with you.
+
+Name: Raydon Muregi
+Email: raydonmuregi@gmail.com
