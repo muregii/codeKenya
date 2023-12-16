@@ -1,7 +1,14 @@
-I interviewed Lelei on the largest non-repeating substring.
+Raydon interviewed Lelei on the largest non-repeating substring. #003
 
-Results: Fail
+Results: Fail / No attempt, hanged his boots !!!
 
-Concept: Sliding window, Hashmaps
+Concept: Sliding window, Hashmap
 
 
+
+
+Lelei interviewed Raydon on valid Anagram.#Leetcode #242
+
+Results: Wrong answer, Used two HashSets, which didn't work, and had poor Space complexity.
+
+Concept: Frequency counter

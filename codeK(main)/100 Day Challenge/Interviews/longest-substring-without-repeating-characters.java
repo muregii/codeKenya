@@ -25,6 +25,8 @@ Updating HashMap and Calculating Max Length:
 charIndexMap.put(currentChar, right): This updates the HashMap with the current character and its latest index. This is crucial because if the character is encountered again, we want to use its most recent index.
 maxLength = Math.max(maxLength, right - left + 1): After potentially updating left and always updating the HashMap, the length of the current substring without repeating characters is right - left + 1. We compare this with maxLength to keep track of the longest such substring found so far.*/
 
+import java.util.*;
+
 class Solution {
     public int lengthOfLongestSubstring(String s){
         int left = 0;
