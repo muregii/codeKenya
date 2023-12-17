@@ -5,7 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
         //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method    
+        
         IsPermutation.run();
+
     }
 
     public static class Unique {
@@ -235,7 +237,7 @@ public static class RemoveDuplicate1 {
         }
     }
 
-    private static String listToString(ListNode head) {
+    private static String listToString (ListNode head) {
             StringBuilder sb = new StringBuilder();
             while (head != null) {
                 sb.append(head.info).append(" -> ");

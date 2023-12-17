@@ -4,7 +4,7 @@ Results: Fail / No attempt, hanged his boots !!!
 
 Concept: Sliding window, Hashmap
 
-
+Zoom Link to the interviews : https://duke.zoom.us/rec/share/yXUPV0I15imG6EMMyckhgbQUy8d17V8nb7GkHphzFQtKcHyQn1r8vZyJxabf7Nkp._FgaM7_1otuAflxp
 
 
 Lelei interviewed Raydon on valid Anagram.#Leetcode #242
