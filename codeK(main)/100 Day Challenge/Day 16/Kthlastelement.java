@@ -1,5 +1,4 @@
 
-
-public class Kthlastelement {
+public class KthLastElement {
     
 }
