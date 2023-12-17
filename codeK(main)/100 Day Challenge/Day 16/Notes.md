@@ -1,8 +1,10 @@
 1. Review github
 
 2. Assign concepts:
-Raydon  -   Graphs & Complexity analysis
+Everyone - String manipulation, Arrays, HashMaps, HashSets
+
+Raydon  -   Graphs & Cracking the coding interview
 Kennedy -   Trees, Heaps
 Nesta  -    LinkedLists & Complexity analysis
 Pile    -   Sorting and Searching Algorithms 
-Greg    -   Leetcode specific algorithms 
+Greg    -   Leetcode specific algorithms  & Complexity analysis
