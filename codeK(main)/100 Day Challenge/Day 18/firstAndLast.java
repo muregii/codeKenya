@@ -21,8 +21,8 @@ class FirstAndLast {
     public static int[] firstAndLast(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
-
-        for (int i = 0; i < arr.length; i++) {
+        
+        for (int i = 0; i < arr.length; i++) { //left pointer checks for left occurence of target
             if (arr[i] != target) {
                 left++;
             } else {
@@ -30,13 +30,18 @@ class FirstAndLast {
             }
 
         }
-        for (int i = arr.length  - 1; i >= 0; i--) {
+        for (int i = arr.length  - 1; i >= 0; i--) { //right pointer checks for right occurence of target
             if (arr[i] != target) {
                 right--;
             } else {
                 break;
             }
         }
+        
+        if (left > right) { //If target was not found in arr[]
+            return new int[]{-1, -1};
+        }
+
         return new int[] {left,right};
     }
 }
