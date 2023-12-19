@@ -1,6 +1,7 @@
 
 public class KthLastElement {
-   public ListNode find(ListNode head){
-    return ListNode;
+   public int find(int k){
+    
+    return 0;
    } 
 }
