@@ -1,3 +1,4 @@
+import java.util.*;
 /*
  * Given a sorted array of integers arr and an integer target,
  * find the index of the first and last position of target in arr.
@@ -14,7 +15,7 @@ class FirstAndLast {
         int[] arr = {2,4,5,5,5,5,5,7,9,9};
         int target = 5;
         int[] result = firstAndLast(arr, target);
-        System.out.println("The output is " + result);
+        System.out.println("The output is " + Arrays.toString(result));
     }
 
     public static int[] firstAndLast(int[] arr, int target) {
