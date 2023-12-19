@@ -9,6 +9,8 @@
  * output: [2,6]
  */
 
-class FirstAndLast {
-    
+class Solution {
+    public static int firstAndLast(int arr[]) {
+        
+    }
 }
