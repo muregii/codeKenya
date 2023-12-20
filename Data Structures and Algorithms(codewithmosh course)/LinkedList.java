@@ -134,6 +134,7 @@ public void reverse() {
     first = previous;
 }
 
+    //Video review: https://duke.box.com/s/ajv9w7404wl30dqpfr95bdso6c7j5cpd
 public int findKthFromTheEnd(int k) {
 //[10 -> 20 -> 30 -> 40 -> 50]
 //              *            *
