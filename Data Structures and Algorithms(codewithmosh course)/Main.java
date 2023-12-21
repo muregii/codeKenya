@@ -6,8 +6,51 @@ public class Main {
     public static void main(String[] args) {
         //I introduced lambda expression to help us run test cases on leetcode questions we've done. Ndio tusidelete data we've typed kwa main method to create some space in the main method    
         
-        IsPermutation.run();
+        getKthFromLast.run();
 
+    }
+
+    public static class KthLastElement {
+   
+        public class ListNode{
+           
+          private ListNode next;
+          private int info;
+           
+    
+          public ListNode(int info) {
+             
+             this.info = info;
+          }
+       } 
+       private ListNode head;
+      
+       //private int size;    
+    
+    
+    
+       public int getKthLastElement(int k){
+          if(head == null || k < 0) return -1;
+    
+        var left = head;
+        var right = head;
+       
+        for(int i = 0; i < k - 1; i++){
+          if(right.next == null) return -1;
+          right = right.next;
+          
+        }
+    
+        while(right.next != null){
+          left = left.next;
+          right = right.next;
+    
+        }
+       
+    
+        return left.info;
+     
+       } 
     }
 
     public static class Unique {
@@ -340,6 +383,17 @@ private static class IsPermutation {
             var result = test.isPermutation(s, t);
             System.out.println("Are these two strings permutations of each other? " + result);
         }; 
+
+        static Runnable getKthFromLast = () -> {
+           
+            LinkedList list = new LinkedList();
+            list.addLast(0);
+            list.addLast(1);
+            list.addLast(2);
+            list.addLast(3);
+            list.addLast(4);
+            System.out.println(list.findKthFromTheEnd(5));
+        };
 
         
 

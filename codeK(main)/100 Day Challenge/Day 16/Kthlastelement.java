@@ -1,29 +1,43 @@
 
 public class KthLastElement {
    
-    private class ListNode{
-        private int info;
-        private ListNode next;
+    public class ListNode{
        
-       public ListNode (int info) {
-        this.info = info;
-       }
+      private ListNode next;
+      private int info;
+       
+
+      public ListNode(int info) {
+         
+         this.info = info;
+      }
    } 
    private ListNode head;
-   private ListNode tail;
-   private int size;    
+  
+   //private int size;    
 
 
 
-   public ListNode getKthLastElement(int k){
+   public int getKthLastElement(int k){
+      if(head == null || k < 0) return -1;
+
     var left = head;
-    var right = head.next.next;
-
-    while(right.next != null){
+    var right = head;
+   
+    for(int i = 0; i < k - 1; i++){
+      if(right.next == null) return -1;
+      right = right.next;
       
     }
 
-    return left;
+    while(right.next != null){
+      left = left.next;
+      right = right.next;
+
+    }
+   
+
+    return left.info;
  
    } 
 }
