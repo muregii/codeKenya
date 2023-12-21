@@ -12,17 +12,7 @@
 import java.util.*;
 
 public class Firstandlast {
-    // public int[] targetIndex(int[] arr, int target){
-    //     Map<Integer, Integer> map = new HashMap<>();
-       
-    //     for(int i = 0; i < arr.length; i++){
-    //         if(map.containsKey(target)){
-    //             return new int[] {map.get(target), };
-    //         }
-    //         map.put(arr[i], i);
-                 
-    //     }
-    // }
+
 
     public static int[] targetIndex(int[] arr, int target){
         int left = 0;
