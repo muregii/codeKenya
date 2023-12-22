@@ -10,6 +10,8 @@ import java.util.*;
  * output: [2,6]
  */
 
+//Kennedy Lelei
+
 class FirstAndLast {
     public static void main (String[] args) {
         int[] arr = {2,4,5,5,5,5,5,7,9,9};

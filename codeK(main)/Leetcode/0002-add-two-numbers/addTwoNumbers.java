@@ -18,6 +18,7 @@ class Solution {
       ListNode(int val) { this.val = val; }
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
+  
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode tempHead = new ListNode(0);
         ListNode list1 = l1, list2 = l2, current = tempHead;

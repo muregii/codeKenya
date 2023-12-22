@@ -34,15 +34,15 @@ class Solution {
         
         //We use a HashMap (charIndexMap) to store the last index of each character encountered.
         Map<Character, Integer> charIdxMap = new HashMap<>();
-        
+        //a b c a
         for(int right = 0; right < s.length(); right++){
             char currentChar = s.charAt(right);
             //if the current char has been seen before is when we update the left pointer
             if(charIdxMap.containsKey(currentChar)){
-                left = Math.max(charIdxMap.get(currentChar) + 1, left); //left = 2
+                left = Math.max(charIdxMap.get(currentChar) + 1, left);
             }
             charIdxMap.put(currentChar, right);// a, 0 b,1 c,2 a, 3 b, 4 c, 5
-            maxLength = Math.max(maxLength, right - left + 1); // max(1 and 3) = 3
+            maxLength = Math.max(maxLength, right - left + 1); 
                 
         }
         return maxLength;
