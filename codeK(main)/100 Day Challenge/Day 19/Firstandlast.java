@@ -15,19 +15,18 @@ public class Firstandlast {
 
 
     public static int[] targetIndex(int[] arr, int target){
-        int left = 0;
-        int right = arr.length-1;
-        int first = -1;
-        int last = -1;
-        
-        
+        var left = 0;
+        var right = arr.length -1;
+        var first = -1;
+        var last = -1;
+
         while(left <= right){
-         
-            if(arr[left] == target) {
+            if(arr[left] == target){
                 first = left;
-               break;
+                break;
             }
             left++;
+
         }
 
         while(left <= right){
@@ -37,14 +36,13 @@ public class Firstandlast {
             }
             right--;
         }
-            
         return new int[]{first, last};
-
     }
+
     public static void main(String[] args){
         
         int[] arr = {1, 2, 3, 3, 3, 3, 4, 4, 5, 6, 6};
-        int[] result = Firstandlast.targetIndex(arr, 2);
+        int[] result = Firstandlast.targetIndex(arr, 3);
         System.out.println(Arrays.toString(result));
     }
 }
