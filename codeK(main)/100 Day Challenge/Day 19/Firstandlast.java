@@ -8,15 +8,14 @@
  * target = 5;
  * output: [2,6]
  */
+
 //Raydon M.
 import java.util.*;
 
 public class Firstandlast {
-
-
     public static int[] targetIndex(int[] arr, int target){
         var left = 0;
-        var right = arr.length -1;
+        var right = arr.length - 1;
         var first = -1;
         var last = -1;
 
@@ -36,13 +35,15 @@ public class Firstandlast {
             }
             right--;
         }
-        return new int[]{first, last};
+
+        return new int[] {first, last};
+
     }
 
     public static void main(String[] args){
         
         int[] arr = {1, 2, 3, 3, 3, 3, 4, 4, 5, 6, 6};
-        int[] result = Firstandlast.targetIndex(arr, 3);
+        int[] result = Firstandlast.targetIndex(arr, 0);
         System.out.println(Arrays.toString(result));
     }
 }

@@ -16,8 +16,8 @@ public class KthLastElement {
   
    //private int size;    
 
-
-
+   // 10 -> 20 -> 30 -> 40
+   //  *                 *
    public int getKthLastElement(int k){
       if(head == null || k < 0) return -1;
 
