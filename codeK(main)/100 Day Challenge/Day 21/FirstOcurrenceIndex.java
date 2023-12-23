@@ -6,7 +6,7 @@ class Solution {
         int[] count_char = new int[26]; //frequency array we'll use to compare the two strings
 
         //Map<Character, Integer> haystackMap = new HashMap<>();
-
+        
 
         for (int i = 0; i < haystack.length(); i++) {
             if (haystack.charAt(i) == needle.charAt(0)) {
