@@ -1,5 +1,7 @@
 # codeKenya Swahili / English!
 
+
+
 Heko!!! Congratulations !!!
 
 Welcome developers. This is the repo to share your achievements, solutions and cool stuff you've built.
@@ -61,3 +63,4 @@ Contributing to open source is an ongoing process. Stay active in the community,
 
 HOW TO MAKE A CLEAN PULL REQUEST:
 https://gist.github.com/MarcDiethelm/7303312
+![WhatsApp Image 2023-12-25 at 01 31 08](https://github.com/muregii/codeKenya/assets/88530358/a2f19dc5-22fd-40f3-927f-fb0284c7bf3e)
