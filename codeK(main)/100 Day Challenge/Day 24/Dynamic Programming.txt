@@ -1,3 +1,6 @@
 Dynamic programming ni ...
 
-Example of a question on Leetcode ni #No.
+Example of a question on Leetcode ni:
+
+ #No.91 Decode Ways
+ #No. 1531 String Compression II
