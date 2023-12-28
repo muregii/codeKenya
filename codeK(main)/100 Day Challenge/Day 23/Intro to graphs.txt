@@ -1,3 +1,15 @@
- What is a graph?
+Graph na Tree questions ndio huseparate the men from the boys, 
+the wheat from the chaff.
 
+So What is a graph? - a graph is a collection of nodes with edges between all or some of them nodes
+ -all trees are graphs, but not all graphs are trees.😅
+ 
+ Types of graphs:
+ 1. Directed graphs
+ 2. Undirected graphs.
+
+ What sets them apart ni: 
+ 1. Average case na Worst case can be very different kuanalyze
+ 2. Searching a graph or a tree is more tricky than a linear data structure.
+ 3. Sometimes you just have to know how to implement the the tree or Graph from scratch for you to actually understand.
  
