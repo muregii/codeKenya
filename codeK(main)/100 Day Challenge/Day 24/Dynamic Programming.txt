@@ -1,6 +1,25 @@
-Dynamic programming ni ...
+Dynamic programming ni ... maswali zinaezasolviwa na recursion. or can be solved
+by dividing a problem into subproblems. 
+
+Dynamic programming(Bottom up approach. ) - finding how to solve a list with one element, then two elements, then three e.t.c
+
+- ni basically kuchukua a recursive algorithm , finding subproblem ina overlap alafu
+caching the results for future recursive calls.
+They sounds like, 
+*   Find the nth ...,
+*   List the first n ...,
+*   Compute all ...,
+
+
 
 Example of a question on Leetcode ni:
+Popular ones:
+*   Fibonacci numbers - finding the nth Fibonacci number. Ukisolve recursively runtime ni O(2^n) "exponential" / Very poor *refer to pg112
+Solving it in a top down/ recursive memoized approach (Dynamic programming) / also called memoization itafanya na runtime ya O(n)
+
 
  #No.91 Decode Ways
  #No. 1531 String Compression II
+
+ Left to be done:
+  ✅ Implementation if these solutions and sample questions from Cracking the coding interview.
