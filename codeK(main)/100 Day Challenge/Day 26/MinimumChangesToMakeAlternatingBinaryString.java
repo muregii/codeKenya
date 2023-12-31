@@ -14,7 +14,7 @@ public class MinimumChangesToMakeAlternatingBinaryString {
                 count++;
             }
 
-            if(ch == 0){
+            if(ch == '0'){
                 ch = '1';
             }else{
                 ch = '0';
