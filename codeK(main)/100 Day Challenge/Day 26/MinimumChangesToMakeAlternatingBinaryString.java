@@ -8,9 +8,9 @@ public class MinimumChangesToMakeAlternatingBinaryString {
 
      private int count(String s, char ch){
         var count = 0;
-        var currentChar = s.toCharArray();
-        for(int i = 0; i < s.length(); i++){
-            if(currentChar[i] != ch){
+        var stringArray = s.toCharArray();
+        for(int i = 0; i < stringArray.length; i++){
+            if(stringArray[i] != ch){
                 count++;
             }
 
