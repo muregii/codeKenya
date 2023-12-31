@@ -2,7 +2,7 @@
 
 public class MinimumChangesToMakeAlternatingBinaryString {
     
-    public int operations(String s){
+    public int minOperations(String s){
       return  Math.min(count(s, '0'), count(s, '1'));
     }
 
