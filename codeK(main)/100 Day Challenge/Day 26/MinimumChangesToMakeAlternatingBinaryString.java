@@ -19,8 +19,7 @@ public class MinimumChangesToMakeAlternatingBinaryString {
               }else{
                   ch = '0';
               }
-  
-              
+      
           }
           return count;
   
