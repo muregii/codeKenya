@@ -8,6 +8,7 @@ import java.util.*;
 public class WordLadder {
     public class Solution {
         public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+            
            return 0;
         }
     }
