@@ -22,4 +22,4 @@ Solving it in a top down/ recursive memoized approach (Dynamic programming) / al
  #No. 1531 String Compression II
 
  Left to be done:
-  ✅ Implementation if these solutions and sample questions from Cracking the coding interview.
+  ✅ Implementation of these solutions and sample questions from Cracking the coding interview.

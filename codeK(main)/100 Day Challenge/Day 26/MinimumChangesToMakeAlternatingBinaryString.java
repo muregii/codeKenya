@@ -1,4 +1,4 @@
-
+//Hii ndio  tunaita dynamic programming sasa. One of the forms.
 
 public class MinimumChangesToMakeAlternatingBinaryString {
     

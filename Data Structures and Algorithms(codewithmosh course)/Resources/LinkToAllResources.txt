@@ -1,0 +1,3 @@
+https://github.com/muregii/codeKenya/tree/4d3e984652d3fec95e9437bf1ed5e676dac748d0/Resources
+
+This is just a temporary fix as we try to restore the deleted folder
