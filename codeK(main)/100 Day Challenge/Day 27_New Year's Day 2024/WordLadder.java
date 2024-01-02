@@ -4,11 +4,13 @@ import java.util.*;
 Time spent today just kuelewa swali na kuthink about this question: 1 hr
 
  Difficulty: Hard
- 
+
  * Concepts: 
  * 1. HashTable
  * 2. String
  * 3. BFS - Breadth First Search.
+ * 
+ * This thing is like 50 lines of code bruh
  */
 public class WordLadder {
     public class Solution {
