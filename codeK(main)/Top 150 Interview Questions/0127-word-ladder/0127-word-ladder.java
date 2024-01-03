@@ -5,6 +5,9 @@ Output: 5
         
         //attempting the use of a bidirectional  BFS to cut down complexity to O(M^2 * N(1/2))
          //Ok now improve the code with bidirectional BFS
+
+import java.util.*;
+
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
        
