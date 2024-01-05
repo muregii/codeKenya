@@ -1,0 +1,13 @@
+Here is the link to our trainable GPT version to walk you through problems:
+
+Currrently requires that you be a GPT4 premium user for it to work.
+
+Advantages,
+1.You can see past conversations.
+2. Get responses quickly.
+3. Solve literally any question on Leetcode optimally.
+4. Get the best value for time spent if you prompt correctly, for example asking it to challenge you with bubble/ABCD choices on the next line of code e.t.c
+
+Disadvatages
+1. Might impede your grasp because you won't spend enough time to comprehend and solve problems one your own
+2. It's too powerful
