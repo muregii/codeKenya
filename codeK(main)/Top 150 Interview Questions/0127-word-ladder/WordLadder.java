@@ -9,7 +9,7 @@ public class WordLadder {
         var changes = 1;
 
         Set<String> visited = new HashSet<>();
-        //visited.add(beginWord);
+        visited.add(beginWord);
 
         Set<String> fromTheStart = new HashSet<>();
         fromTheStart.add(beginWord);
