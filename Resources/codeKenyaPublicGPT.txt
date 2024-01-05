@@ -2,6 +2,8 @@ Here is the link to our trainable GPT version to walk you through problems:
 
 https://chat.openai.com/gpts/editor/g-vOpODF75i
 
+~ Ksh.900 monthly for my logins.
+
 Currrently requires that you be a GPT4 premium user for it to work.
 
 Advantages,
