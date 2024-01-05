@@ -18,7 +18,7 @@ class Solution {
             last--;
         }
 
-        //j = -1
+        
         while(j >= 0){
             nums1[last] =  nums2[j];
             j--;
