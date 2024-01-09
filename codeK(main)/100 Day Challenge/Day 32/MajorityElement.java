@@ -7,5 +7,7 @@ The majority element is the element that appears more than ⌊n / 2⌋ times. Yo
 
 
 public class MajorityElement {
-    
+    public int majorityElement(int[] nums) {
+        return 0;
+    }
 }
