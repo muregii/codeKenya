@@ -7,7 +7,8 @@ Concepts:
 1. Arrays
 2. HashTable
 3. Divide and Conquer
-4.  
+4. Sorting
+5. Counting
 
 */
 
