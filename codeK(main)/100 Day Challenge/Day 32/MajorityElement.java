@@ -13,7 +13,7 @@ Concepts:
 */
 
 import java.util.*;
-
+//Hii Solution haikuwork. I'll try later.
 public class MajorityElement {
     public int majorityElement(int[] nums) {
         var size = nums.length;
