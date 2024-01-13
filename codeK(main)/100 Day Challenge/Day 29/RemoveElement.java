@@ -2,8 +2,15 @@
 /*Ukiambiwa solve in place, you should not use new Data structures, rather, jaribu tu variations za iterations */
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
-        
-        return 0;
+        int k = 0;
+
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] != val ){
+                nums[k] = nums[i];  // https://www.youtube.com/watch?v=Pcd1ii9P9ZI
+            }
+        }
+
+        return k;
     }
 }
 
