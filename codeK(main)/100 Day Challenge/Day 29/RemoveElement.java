@@ -1,5 +1,5 @@
 
-
+/*Ukiambiwa solve in place, you should not use new Data structures, rather, jaribu tu variations za iterations */
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         
