@@ -7,6 +7,7 @@ public class RemoveElement {
         for(int i = 0; i < nums.length; i++){
             if(nums[i] != val ){
                 nums[k] = nums[i];  // https://www.youtube.com/watch?v=Pcd1ii9P9ZI
+                k++;
             }
         }
 
