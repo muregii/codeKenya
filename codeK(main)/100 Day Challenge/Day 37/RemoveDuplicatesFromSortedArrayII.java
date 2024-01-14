@@ -2,6 +2,6 @@
 
 public class RemoveDuplicatesFromSortedArrayII {
     public int removeDuplicates(int[] nums) {
-        
+        return 0;
     }
 }
