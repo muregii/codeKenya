@@ -2,6 +2,7 @@
 
 public class RemoveDuplicatesFromSortedArray {
     public int removeElements(int[] nums, int val){
-        return 0;
+        int k = 0;
+        for(int i = 0; i < )
     }
 }
