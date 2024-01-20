@@ -1,6 +1,5 @@
 //             Input: nums = [1,1,1,2,2,3]
 //             Output: 5, nums = [1,1,2,2,3,_]
-
 public class RemoveDuplicatesFromSortedArray {
     public int removeElements(int[] nums, int val){
         if(nums.length <= 2) return nums.length;
