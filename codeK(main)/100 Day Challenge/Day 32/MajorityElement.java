@@ -1,4 +1,4 @@
-
+//Boyer-Moore Voting Algorithm
 
 public class MajorityElement {
 
