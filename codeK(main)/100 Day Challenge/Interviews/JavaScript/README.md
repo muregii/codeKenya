@@ -2,7 +2,7 @@
 
 ## About this directory
 
-This directory contains interview problem solving questions written in JavaScript. 
+This directory contains interview problem solving questions written in JavaScript.
 
 ## Structure
 
