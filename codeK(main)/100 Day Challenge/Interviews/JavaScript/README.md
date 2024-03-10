@@ -23,3 +23,10 @@ The directory is structured as follows:
             |-- Problem2.md
             |
             |-- Problem2.js
+
+## Contents
+
+The directory contains the following problems:
+
+1. [Days in a month](./how_many_days_in_a_month/Explanation.md)
+2. [Count the number of vowels](./count_vowels/Explanation.md)
