@@ -28,4 +28,4 @@ Equip yourself with the requisite knowledge and skills to tackle system design c
 ### Top 150 Interview Questions
 Prepare for technical interviews with a curated collection of the top 150 coding interview questions, accompanied by solutions and explanations. Spanning a wide spectrum of topics, from fundamental data structures to advanced algorithmic techniques, these questions serve as a litmus test for interview readiness. Hone your problem-solving acumen and strategize your interview approach with this invaluable resource.
 
-Feel free to navigate through these directories and leverage the provided resources to augment your coding prowess and fortify your preparation for technical interviews. Should you require further clarification or assistance, do not hesitate to reach out. Happy coding!
+Please feel free to explore these directories and use the resources to enhance your coding skills and prepare for technical interviews. If you have any questions or need further assistance, don't hesitate to ask!
