@@ -1,5 +1,3 @@
-Okay, let's use the Feynman Learning Technique to explain the "Maximum Area of Rectangle" problem and solution:
-
 # Leetcode - Maximum Area of Rectangle
 
 ## Problem Description
