@@ -16,8 +16,10 @@ def pascal_triangle(n: int) -> list:
     """
     if not isinstance(n, int):
         raise TypeError(f"{n} is not an integer")
-    if n <= 0:
-        return ([])
+    if n < 0:
+        raise ValueError("n must be a non-negative integer")
+    
+    
     triangles = []
     for i in range(n):
         temp = []
