@@ -28,4 +28,33 @@ Equip yourself with the requisite knowledge and skills to tackle system design c
 ### Top 150 Interview Questions
 Prepare for technical interviews with a curated collection of the top 150 coding interview questions, accompanied by solutions and explanations. Spanning a wide spectrum of topics, from fundamental data structures to advanced algorithmic techniques, these questions serve as a litmus test for interview readiness. Hone your problem-solving acumen and strategize your interview approach with this invaluable resource.
 
+
+## Proper Commit Type Prefixes
+- feat: A new feature or functionality has been added.
+- fix: A bug or issue has been fixed.
+- docs: Changes have been made to documentation or comments in the code.
+- style: Changes to the code that do not affect its functionality, such as formatting or styling.
+- refactor: Code has been refactored or restructured, without changing its functionality.
+- perf: Changes made to improve the performance of the code.
+- test: Changes made to testing or test files.
+- chore: Changes made to build, tooling, or other non-code related tasks.
+- build: Changes to build process, scripts or configuration files.
+- ci: Changes to Continuous Integration configuration files or scripts.
+- revert: Reverting a previous commit.
+- merge: Merging branches or changes.
+- release: A new release or version has been created.
+- deps: Updates or changes to dependencies.
+
+## Example of a Proper Commit Message
+A proper commit message should follow this format:
+
+`<type>: <subject>; <description>; branch: <branch name>`
+
+where `<type>` is one of the prefixes listed above, `<subject>` is a concise summary of the changes made, `<description>` is an optional explanation of the changes in more detail, and `<branch name>` is the name of the branch where the commit was made.
+
+For example:
+
+- "feat: Add user authentication; improved security for email and password logins; branch: feature/user-auth"
+- "git commit -m "feat: Add Necessary Fonts; added appropriate fonts; branch: origin/dev""
+
 Please feel free to explore these directories and use the resources to enhance your coding skills and prepare for technical interviews. If you have any questions or need further assistance, don't hesitate to ask!
