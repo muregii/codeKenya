@@ -41,6 +41,7 @@ solution = Solution()
 indices = solution.twoSum(nums, target)
 print(indices)  # Output: [0, 1]
 ```
+![illustration](https://raw.githubusercontent.com/aTfure/codeKenya/7d44f8723062a8aededbc12b9760801a86c31509/codeK(main)/Leetcode/Problem_List/0001-two_sum/Two-sum.jpg)
 
 ## Complexity Analysis
 
