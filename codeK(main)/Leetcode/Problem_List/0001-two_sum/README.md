@@ -1,5 +1,3 @@
-Certainly! Here's the README.md file for the "Two Sum" problem using the Feynman Learning Technique:
-
 # Leetcode - Two Sum
 
 ## Problem Description
