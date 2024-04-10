@@ -1,5 +1,3 @@
-
-
 # Leetcode - Two Sum
 
 ## Problem Description
