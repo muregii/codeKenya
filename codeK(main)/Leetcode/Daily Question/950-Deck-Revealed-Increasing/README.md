@@ -32,6 +32,9 @@ Does this make sense? Great!
 
 Our target is to get an deck array that an ordering of the deck that would reveal the cards in increasing order. It can be difficult to go through an original deck array. So we will start from the increasing order of deck array. And we will go to these reversed steps.
 
+![leetcode-950-1](https://github.com/aTfure/codeKenya/assets/87364726/98f6a326-9648-4933-bebd-03838db0946c)
+
+
 
 ## Check Out this video
 
