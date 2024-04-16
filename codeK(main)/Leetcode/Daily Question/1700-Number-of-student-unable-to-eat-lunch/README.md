@@ -52,7 +52,7 @@ print(unable_to_eat)  # Output: 0
 ```
 ## Check Out this video
 
-[![Video Explanation](https://img.youtube.com/vi/d_cvtFwnOZg/0.jpg)](https://youtu.be/d_cvtFwnOZg)
+[![Video Explanation](https://img.youtube.com/vi/d_cvtFwnOZg/mqdefault.jpg)](https://youtu.be/d_cvtFwnOZg)
 
 
 ## Complexity Analysis

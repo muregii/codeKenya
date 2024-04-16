@@ -38,11 +38,10 @@ This will output the smallest possible integer after removing `k` digits from `n
 
 ## Check Out this videos
 
-[![Video Explanation](https://img.youtube.com/vi/3QJzHqNAEXs/0.jpg)](https://youtu.be/3QJzHqNAEXs)
+[![Video Explanation](https://img.youtube.com/vi/3QJzHqNAEXs/mqdefault.jpg)](https://youtu.be/3QJzHqNAEXs)
 
 
-[![Video Explanation](https://img.youtube.com/vi/cFabMOnJaq0/0.jpg)](https://youtu.be/cFabMOnJaq0)
-
+[![Video Explanation](https://img.youtube.com/vi/cFabMOnJaq0/mqdefault.jpg)](https://youtu.be/cFabMOnJaq0)
 The videos above explain the solution approach in detail.
 
 
