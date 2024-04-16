@@ -38,7 +38,7 @@ Our target is to get an deck array that an ordering of the deck that would revea
 
 ## Check Out this video
 
-[![Video Explanation](https://img.youtube.com/vi/lx7sXPATO3U/mqdefault.jpg.jpg)](https://youtu.be/lx7sXPATO3U)
+[![Video Explanation](https://img.youtube.com/vi/lx7sXPATO3U/mqdefault.jpg)](https://youtu.be/lx7sXPATO3U)
 
 The video above explains the solution approach in detail.
 
