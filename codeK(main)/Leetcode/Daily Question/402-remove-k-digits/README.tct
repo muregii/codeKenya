@@ -1,0 +1,17 @@
+Great! Let's include the link in the README file:
+
+---
+
+# Leetcode - Smallest Integer After Removing K Digits
+
+## Problem Description
+
+Given a string of non-negative integers `num` and an integer `k`, find the smallest possible integer after removing `k` digits from the given string.
+
+## Solution
+
+[Link to detailed explanation on Medium](https://medium.com/@mistysamia/402-remove-k-digits-leetcode-83b09be3dbf1)
+
+---
+
+This README file now includes a link to a detailed explanation of the problem on Medium.
