@@ -33,7 +33,7 @@ print(result)
 
 This will output the smallest possible integer after removing `k` digits from `num`.
 
-![leetcode-402-1](https://medium.com/@mistysamia/402-remove-k-digits-leetcode-83b09be3dbf1)
+[![Leet Code Medium Stories](https://img.medium.com/vi/402-remove-k-digits-leetcode-83b09be3dbf1/0.jpg)](https://medium.com/@mistysamia/402-remove-k-digits-leetcode-83b09be3dbf1)
 
 
 
