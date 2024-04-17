@@ -44,7 +44,7 @@ This will output the smallest possible integer after removing `k` digits from `n
 [![Video Explanation](https://img.youtube.com/vi/cFabMOnJaq0/mqdefault.jpg)](https://youtu.be/cFabMOnJaq0)
 
 
-The videos above explain the solution approach in detail.
+
 
 
 ## Complexity Analysis
