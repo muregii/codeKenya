@@ -33,6 +33,7 @@ print(result)
 
 
 [Link to detailed explanation on Medium](https://medium.com/enjoy-algorithm/trapping-rain-water-a79938abf921)
+
 [Link to detailed explanation on Geeksforgeeks](https://www.geeksforgeeks.org/trapping-rain-water/)
 
 
