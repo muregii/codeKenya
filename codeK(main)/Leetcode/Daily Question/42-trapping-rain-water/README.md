@@ -19,11 +19,10 @@ Here's how we can calculate the amount of water trapped:
 For example, if the elevation map is [0,1,0,2,1,0,1,3,2,1,2,1], the total amount of trapped water is 6 units.
 
 Does this make sense? Great!"
-![1_0fL9cKIRNTCOkybt7zTNsw](https://github.com/muregii/codeKenya/assets/87364726/8d6f2f20-ce4c-4dbc-b5b8-f9ebfd3ccd56){:width="200px"}
 
-![1_q64XKMICwlYIL06tOQrteg](https://github.com/muregii/codeKenya/assets/87364726/3a1ee684-1a22-45a0-ae3b-bbd99f8838ca){:width="200px"}
-
-![1_8SkgEDMEMM6ClQH_rweYrw](https://github.com/muregii/codeKenya/assets/87364726/a6364e29-8b3d-4578-a8a5-f244005867c7){:width="200px"}
+![1_q64XKMICwlYIL06tOQrteg](https://github.com/muregii/codeKenya/assets/87364726/42ec84a0-519e-4b72-8ffe-8e90476d7074)
+![1_8SkgEDMEMM6ClQH_rweYrw](https://github.com/muregii/codeKenya/assets/87364726/23610f2e-5778-43cc-98b1-f90be01187a0)
+![1_0fL9cKIRNTCOkybt7zTNsw](https://github.com/muregii/codeKenya/assets/87364726/55d7e66d-b787-41d2-aa25-7b5849f66361)
 
 
 
