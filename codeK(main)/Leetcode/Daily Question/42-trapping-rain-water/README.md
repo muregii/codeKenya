@@ -20,12 +20,6 @@ For example, if the elevation map is [0,1,0,2,1,0,1,3,2,1,2,1], the total amount
 
 Does this make sense? Great!"
 
-![1_q64XKMICwlYIL06tOQrteg](https://github.com/muregii/codeKenya/assets/87364726/42ec84a0-519e-4b72-8ffe-8e90476d7074)
-![1_8SkgEDMEMM6ClQH_rweYrw](https://github.com/muregii/codeKenya/assets/87364726/23610f2e-5778-43cc-98b1-f90be01187a0)
-![1_0fL9cKIRNTCOkybt7zTNsw](https://github.com/muregii/codeKenya/assets/87364726/55d7e66d-b787-41d2-aa25-7b5849f66361)
-
-
-
 
 ## Usage
 
