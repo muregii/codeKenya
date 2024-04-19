@@ -20,6 +20,7 @@ For example, if the elevation map is [0,1,0,2,1,0,1,3,2,1,2,1], the total amount
 
 Does this make sense? Great!"
 
+
 ## Usage
 
 To use the solution, simply create an instance of the `Solution` class and call the `trap` method with the input list `height` representing the elevation map:
