@@ -8,7 +8,7 @@
 |  #  |  Solution  |  Topics  |  Difficulty  |  Remark |
 | --- | --- | --- | --- | --- |
 |  0001  |  [Two Sum](/solution/0000-0099/0001%20Lelei-two-sum/TwoSum_Lelei.md)  |  `Array`,`Hash Table`  |  Easy  |    |
-|  0002  |  [Add Two Numbers](codeK(main)/Leetcode/solution/0000-0099/0002-add-two-numbers/README.md)  |  `Recursion`,`Linked List`,`Math`  |  Medium  |    |
+|  0002  |  [Add Two Numbers](/solution/0000-0099/0002-add-two-numbers/README.md)  |  `Recursion`,`Linked List`,`Math`  |  Medium  |    |
 |  0003  |  [Longest Substring Without Repeating Characters](/solution/0000-0099/0003-longest-substring-without-repeating-characters/README.md)  |  `Hash Table`,`String`,`Sliding Window`  |  Medium  |    |
 |  0007  |  [Reverse Integer](/solution/0000-0099/0007-reverse-integer/README.md)  |  `Math`  |  Medium  |    |
 |  0009  |  [Palindrome Number](/solution/0000-0099/0009-palindrome-number/README.md)  |  `Math`  |  Easy  |    |
