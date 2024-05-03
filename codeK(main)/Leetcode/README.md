@@ -1,7 +1,5 @@
 # LeetCode
 
-(/solution/README.md)
-
 ## Solutions
 
 
