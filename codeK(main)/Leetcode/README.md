@@ -35,7 +35,6 @@
 |  0463  |  [Island Perimeter](../Leetcode/solution/0400-0499/463-island-perimeter/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Easy  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0752  |  [Open the Lock](../Leetcode/solution/0700-0799/0752-open-the-lock/README.md)  |  `Breadth-First Search`,`Array`,`Hash Table`,`String`  |  Medium  |    |
-
 |  0821  |  [Shortest Distance to a Character](../Leetcode/solution/0800-0899/821-shortest-distance-to-a-character/README.md)  |  `Array`,`Two Pointers`,`String`  |  Easy  |    |
 |  0950  |  [Reveal Cards In Increasing Order](../Leetcode/solution/0900-0999/950-Deck-Revealed-Increasing/README.md)  |  `Queue`,`Array`,`Sorting`,`Simulation`  |  Medium  |     |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
