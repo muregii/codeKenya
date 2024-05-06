@@ -43,3 +43,4 @@
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
 |  1971  |  [Find if Path Exists in Graph](../Leetcode/solution/1900-1999/1971-find-if-path-exists-in-graph/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Graph`  |  Easy  |    |
 |  1992  |  [Find All Groups of Farmland](../Leetcode/solution/1900-1999/1992-find-all-groups-of-farmland/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Medium  |    |
+|  2370  |  [Longest Ideal Subsequence](../Leetcode/solution/2300-2399/2370-longest-ideal-subsequence/README.md)  |  `Hash Table`,`String`,`Dynamic Programming`  |  Medium  |    |
