@@ -47,3 +47,4 @@
 |  1971  |  [Find if Path Exists in Graph](../Leetcode/solution/1900-1999/1971-find-if-path-exists-in-graph/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Graph`  |  Easy  |    |
 |  1992  |  [Find All Groups of Farmland](../Leetcode/solution/1900-1999/1992-find-all-groups-of-farmland/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Medium  |    |
 |  2370  |  [Longest Ideal Subsequence](../Leetcode/solution/2300-2399/2370-longest-ideal-subsequence/README.md)  |  `Hash Table`,`String`,`Dynamic Programming`  |  Medium  |    |
+|  2997  |  [Minimum Number of Operations to Make Array XOR Equal to K](../Leetcode/solution/2900-2999/2997.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K/README.md)  |  `Bit Manipulation`,`Array`  |  Medium  |    |
