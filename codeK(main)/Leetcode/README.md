@@ -39,6 +39,7 @@
 |  0752  |  [Open the Lock](../Leetcode/solution/0700-0799/0752-open-the-lock/README.md)  |  `Breadth-First Search`,`Array`,`Hash Table`,`String`  |  Medium  |    |
 |  0821  |  [Shortest Distance to a Character](../Leetcode/solution/0800-0899/821-shortest-distance-to-a-character/README.md)  |  `Array`,`Two Pointers`,`String`  |  Easy  |    |
 |  0834  |  [Sum of Distances in Tree](../Leetcode/solution/0800-0899/0834.%20Sum%20of%20Distances%20in%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Graph`,`Dynamic Programming`  |  Hard  |    |
+|  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
 |  0950  |  [Reveal Cards In Increasing Order](../Leetcode/solution/0900-0999/950-Deck-Revealed-Increasing/README.md)  |  `Queue`,`Array`,`Sorting`,`Simulation`  |  Medium  |     |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
