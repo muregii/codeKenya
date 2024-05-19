@@ -26,6 +26,7 @@
 |  0165  |  [Compare Version Numbers](../Leetcode/solution/0100-0199/0165.%20Compare%20Version%20Numbers/README.md)  |  `Two Pointers`,`String`  |  Medium  |    |
 |  0189  |  [Rotate Array](../Leetcode/solution/0100-0199/0189-rotate-array/README.md)  |  `Array`,`Math`,`Two Pointers`  |  Medium  |    |
 |  0200  |  [Number of Islands](../Leetcode/solution/0200-0299/200-number-of-islands/)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Array`,`Matrix`  |  Medium  |    |
+|  0237  |  [Delete Node in a Linked List](../Leetcode/solution/0200-0299/0237.%20Delete%20Node%20in%20a%20Linked%20List/README.md)  |  `Linked List`  |  Medium  |    |
 |  0242  |  [Valid Anagram](../Leetcode/solution/0200-0299/0242-valid-anagram/README.md)  |  `Hash Table`,`String`,`Sorting`  |  Easy  |    |
 |  0274  |  [H-Index](../Leetcode/solution/0200-0299/0274-h-index/README.md)  |  `Array`,`Counting Sort`,`Sorting`  |  Medium  |    |
 |  0310  |  [Minimum Height Trees](../Leetcode/solution/0300-0399/0310-minimum-height-trees/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Topological Sort`  |  Medium  |    |
