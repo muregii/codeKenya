@@ -35,6 +35,7 @@
 |  0402  |  [Remove K Digits](../Leetcode/solution/0400-0499/402-remove-k-digits/README.md)  |  `Stack`,`Greedy`,`String`,`Monotonic Stack`  |  Medium  |    |
 |  0404  |  [Sum of Left Leaves](../Leetcode/solution/0400-0499/404-sum-of-left-leaves/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Easy  |    |
 |  0463  |  [Island Perimeter](../Leetcode/solution/0400-0499/463-island-perimeter/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Easy  |    |
+|  0506  |  [Relative Ranks](../Leetcode/solution/0500-0599/0506.%20Relative%20Ranks/README.md)  |  `Array`,`Sorting`,`Heap (Priority Queue)`  |  Easy  |    |
 |  0514  |  [Freedom Trail](../Leetcode/solution/0500-0599/0514.%20Freedom%20Trail/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`String`,`Dynamic Programming`  |  Hard  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0752  |  [Open the Lock](../Leetcode/solution/0700-0799/0752-open-the-lock/README.md)  |  `Breadth-First Search`,`Array`,`Hash Table`,`String`  |  Medium  |    |
