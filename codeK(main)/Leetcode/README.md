@@ -39,6 +39,7 @@
 |  0514  |  [Freedom Trail](../Leetcode/solution/0500-0599/0514.%20Freedom%20Trail/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`String`,`Dynamic Programming`  |  Hard  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0752  |  [Open the Lock](../Leetcode/solution/0700-0799/0752-open-the-lock/README.md)  |  `Breadth-First Search`,`Array`,`Hash Table`,`String`  |  Medium  |    |
+|  0786  |  [K-th Smallest Prime Fraction](../Leetcode/solution/0700-0799/0786.%20K-th%20Smallest%20Prime%20Fraction/README.md)  |  `Array`,`Two Pointers`,`Binary Search`,`Sorting`,`Heap (Priority Queue)`  |  Medium  |    |
 |  0821  |  [Shortest Distance to a Character](../Leetcode/solution/0800-0899/821-shortest-distance-to-a-character/README.md)  |  `Array`,`Two Pointers`,`String`  |  Easy  |    |
 |  0834  |  [Sum of Distances in Tree](../Leetcode/solution/0800-0899/0834.%20Sum%20of%20Distances%20in%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Graph`,`Dynamic Programming`  |  Hard  |    |
 |  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
