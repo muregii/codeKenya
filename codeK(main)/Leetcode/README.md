@@ -58,6 +58,7 @@
 |  2373  |  [Largest Local Values in a Matrix](../Leetcode/solution/2300-2399/2373.%20Largest%20Local%20Values%20in%20a%20Matrix/README.md)  |  `Array`,`Matrix`  |  Easy  |    |
 |  2441  |  [Largest Positive Integer That Exists With Its Negative](../Leetcode/solution/2400-2499/2441.%20Largest%20Positive%20Integer%20That%20Exists%20With%20Its%20Negative/README.md)  |  `Array`,`Hash Table`,`Two Pointers`,`Sorting`  |  Easy  |    |
 |  2487  |  [Remove Nodes From Linked List](../Leetcode/solution/2400-2499/2487.%20Remove%20Nodes%20From%20Linked%20List/README.md)  |  `Stack`,`Recursion`,`Linked List`,`Monotonic Stack`  |  Medium  |    |
+|  2812  |  [Find the Safest Path in a Grid](../Leetcode/solution/2800-2899/2812.%20Find%20the%20Safest%20Path%20in%20a%20Grid/README.md)  |  `Breadth-First Search`,`Union Find`,`Array`,`Binary Search`,`Matrix`  |  Medium  |    |
 |  2816  |  [Double a Number Represented as a Linked List](../Leetcode/solution/2800-2899/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List/README.md)  |  `Stack`,`Linked List`,`Math`  |  Medium  |    |
 |  2997  |  [Minimum Number of Operations to Make Array XOR Equal to K](../Leetcode/solution/2900-2999/2997.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K/README.md)  |  `Bit Manipulation`,`Array`  |  Medium  |    |
 |  3075  |  [Maximize Happiness of Selected Children](../Leetcode/solution/3000-3099/3075.%20Maximize%20Happiness%20of%20Selected%20Children/README.md)  |  `Greedy`,`Array`,`Sorting`  |  Medium  |    |
