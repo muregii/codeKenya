@@ -54,6 +54,7 @@
 |  1915  |  [Number of Wonderful Substrings](../Leetcode/solution/1900-1999/1915.%20Number%20of%20Wonderful%20Substrings/README.md)  |  `Bit Manipulation`,`Hash Table`,`String`,`Prefix Sum`  |  Medium  |    |
 |  1971  |  [Find if Path Exists in Graph](../Leetcode/solution/1900-1999/1971-find-if-path-exists-in-graph/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Graph`  |  Easy  |    |
 |  1992  |  [Find All Groups of Farmland](../Leetcode/solution/1900-1999/1992-find-all-groups-of-farmland/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Medium  |    |
+|  2331  |  [Evaluate Boolean Binary Tree](../Leetcode/solution/2300-2399/2331.%20Evaluate%20Boolean%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Easy  |    |
 |  2370  |  [Longest Ideal Subsequence](../Leetcode/solution/2300-2399/2370-longest-ideal-subsequence/README.md)  |  `Hash Table`,`String`,`Dynamic Programming`  |  Medium  |    |
 |  2373  |  [Largest Local Values in a Matrix](../Leetcode/solution/2300-2399/2373.%20Largest%20Local%20Values%20in%20a%20Matrix/README.md)  |  `Array`,`Matrix`  |  Easy  |    |
 |  2441  |  [Largest Positive Integer That Exists With Its Negative](../Leetcode/solution/2400-2499/2441.%20Largest%20Positive%20Integer%20That%20Exists%20With%20Its%20Negative/README.md)  |  `Array`,`Hash Table`,`Two Pointers`,`Sorting`  |  Easy  |    |
