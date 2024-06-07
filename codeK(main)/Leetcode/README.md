@@ -49,6 +49,7 @@
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
 |  1289  |  [Minimum Falling Path Sum II](../Leetcode/solution/1200-1299/1289.%20Minimum%20Falling%20Path%20Sum%20II/README.md)  |  `Array`,`Dynamic Programming`,`Matrix`  |  Hard  |    |
+|  1325  |  [Delete Leaves With a Given Value](../Leetcode/solution/1300-1399/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
 |  1915  |  [Number of Wonderful Substrings](../Leetcode/solution/1900-1999/1915.%20Number%20of%20Wonderful%20Substrings/README.md)  |  `Bit Manipulation`,`Hash Table`,`String`,`Prefix Sum`  |  Medium  |    |
