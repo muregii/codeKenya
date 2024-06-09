@@ -45,6 +45,7 @@
 |  0857  |  [Minimum Cost to Hire K Workers](../Leetcode/solution/0800-0899/0857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/README.md)  |  `Greedy`,`Array`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |    |
 |  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
 |  0950  |  [Reveal Cards In Increasing Order](../Leetcode/solution/0900-0999/950-Deck-Revealed-Increasing/README.md)  |  `Queue`,`Array`,`Sorting`,`Simulation`  |  Medium  |     |
+|  0979  |  [Distribute Coins in Binary Tree](../Leetcode/solution/0900-0999/0979.%20Distribute%20Coins%20in%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
