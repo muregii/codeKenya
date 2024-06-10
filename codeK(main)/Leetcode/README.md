@@ -53,6 +53,7 @@
 |  1325  |  [Delete Leaves With a Given Value](../Leetcode/solution/1300-1399/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
+|  1863  |  [Sum of All Subset XOR Totals](../Leetcode/solution/1800-1899/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals/README.md)  |  `Bit Manipulation`,`Array`,`Math`,`Backtracking`,`Combinatorics`,`Enumeration`  |  Easy  |    |
 |  1915  |  [Number of Wonderful Substrings](../Leetcode/solution/1900-1999/1915.%20Number%20of%20Wonderful%20Substrings/README.md)  |  `Bit Manipulation`,`Hash Table`,`String`,`Prefix Sum`  |  Medium  |    |
 |  1971  |  [Find if Path Exists in Graph](../Leetcode/solution/1900-1999/1971-find-if-path-exists-in-graph/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Graph`  |  Easy  |    |
 |  1992  |  [Find All Groups of Farmland](../Leetcode/solution/1900-1999/1992-find-all-groups-of-farmland/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Medium  |    |
