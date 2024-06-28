@@ -70,3 +70,4 @@
 |  2997  |  [Minimum Number of Operations to Make Array XOR Equal to K](../Leetcode/solution/2900-2999/2997.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K/README.md)  |  `Bit Manipulation`,`Array`  |  Medium  |    |
 |  3068  |  [Find the Maximum Sum of Node Values](../Leetcode/solution/3000-3099/3068.%20Find%20the%20Maximum%20Sum%20of%20Node%20Values/README.md)  |  `Greedy`,`Bit Manipulation`,`Tree`,`Array`,`Dynamic Programming`,`Sorting`  |  Hard  |    |
 |  3075  |  [Maximize Happiness of Selected Children](../Leetcode/solution/3000-3099/3075.%20Maximize%20Happiness%20of%20Selected%20Children/README.md)  |  `Greedy`,`Array`,`Sorting`  |  Medium  |    |
+|  3110  |  [Score of a String](../Leetcode/solution/3100-3199/3110.%20Score%20of%20a%20String/README.md)  |  `String`  |  Easy  |    |
