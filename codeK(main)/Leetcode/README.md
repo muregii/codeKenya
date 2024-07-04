@@ -41,6 +41,7 @@
 |  0463  |  [Island Perimeter](../Leetcode/solution/0400-0499/463-island-perimeter/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Easy  |    |
 |  0506  |  [Relative Ranks](../Leetcode/solution/0500-0599/0506.%20Relative%20Ranks/README.md)  |  `Array`,`Sorting`,`Heap (Priority Queue)`  |  Easy  |    |
 |  0514  |  [Freedom Trail](../Leetcode/solution/0500-0599/0514.%20Freedom%20Trail/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`String`,`Dynamic Programming`  |  Hard  |    |
+|  0523  |  [Continuous Subarray Sum](../Leetcode/solution/0500-0599/0523.%20Continuous%20Subarray%20Sum/README.md)  |  `Array`,`Hash Table`,`Math`,`Prefix Sum`  |  Medium  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0648  |  [Replace Words](../Leetcode/solution/0600-0699/0648.%20Replace%20Words/README.md)  |  `Trie`,`Array`,`Hash Table`,`String`  |  Medium  |    |
 |  0752  |  [Open the Lock](../Leetcode/solution/0700-0799/0752-open-the-lock/README.md)  |  `Breadth-First Search`,`Array`,`Hash Table`,`String`  |  Medium  |    |
