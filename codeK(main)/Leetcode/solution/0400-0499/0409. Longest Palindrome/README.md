@@ -77,7 +77,3 @@ print(result)  # Output: 7, because we can build the palindrome "dccaccd"
 
 - **Time Complexity:** O(n), where `n` is the length of the string `s`. We iterate through the string once to count the characters and once to calculate the palindrome length.
 - **Space Complexity:** O(1), as we are using a constant amount of extra space for the character counts and a few variables. The size of the alphabet is fixed, and thus the space needed to store the counts is also constant.
-
----
-
-This README file explains the problem clearly, offers a step-by-step solution using the Feynman Learning Technique, includes a usage example, and provides a complexity analysis.
