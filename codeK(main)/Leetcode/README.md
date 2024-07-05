@@ -56,6 +56,7 @@
 |  0979  |  [Distribute Coins in Binary Tree](../Leetcode/solution/0900-0999/0979.%20Distribute%20Coins%20in%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
 |  1002  |  [Find Common Characters](../Leetcode/solution/1000-1099/1002.%20Find%20Common%20Characters/README.md)  |  `Array`,`Hash Table`,`String`  |  Easy  |    |
+|  1051  |  [Height Checker](../Leetcode/solution/1000-1099/1051.%20Height%20Checker/README.md)  |  `Array`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
 |  1289  |  [Minimum Falling Path Sum II](../Leetcode/solution/1200-1299/1289.%20Minimum%20Falling%20Path%20Sum%20II/README.md)  |  `Array`,`Dynamic Programming`,`Matrix`  |  Hard  |    |
