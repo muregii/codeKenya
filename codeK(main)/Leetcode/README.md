@@ -52,6 +52,7 @@
 |  0857  |  [Minimum Cost to Hire K Workers](../Leetcode/solution/0800-0899/0857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/README.md)  |  `Greedy`,`Array`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |    |
 |  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
 |  0950  |  [Reveal Cards In Increasing Order](../Leetcode/solution/0900-0999/950-Deck-Revealed-Increasing/README.md)  |  `Queue`,`Array`,`Sorting`,`Simulation`  |  Medium  |     |
+|  0974  |  [Subarray Sums Divisible by K](../Leetcode/solution/0900-0999/0974.%20Subarray%20Sums%20Divisible%20by%20K/README.md)  |  `Array`,`Hash Table`,`Prefix Sum`  |  Medium  |    |
 |  0979  |  [Distribute Coins in Binary Tree](../Leetcode/solution/0900-0999/0979.%20Distribute%20Coins%20in%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
 |  1002  |  [Find Common Characters](../Leetcode/solution/1000-1099/1002.%20Find%20Common%20Characters/README.md)  |  `Array`,`Hash Table`,`String`  |  Easy  |    |
