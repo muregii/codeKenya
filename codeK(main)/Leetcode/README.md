@@ -52,6 +52,7 @@
 |  0846  |  [Hand of Straights](../Leetcode/solution/0800-0899/0846.%20Hand%20of%20Straights/README.md)  |  `Greedy`,`Array`,`Hash Table`,`Sorting`  |  Medium  |    |
 |  0857  |  [Minimum Cost to Hire K Workers](../Leetcode/solution/0800-0899/0857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/README.md)  |  `Greedy`,`Array`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |    |
 |  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
+|  0945  |  [Minimum Increment to Make Array Unique](../Leetcode/solution/0900-0999/0945.%20Minimum%20Increment%20to%20Make%20Array%20Unique/README.md)  |  `Greedy`,`Array`,`Counting`,`Sorting`  |  Medium  |    |
 |  0950  |  [Reveal Cards In Increasing Order](../Leetcode/solution/0900-0999/950-Deck-Revealed-Increasing/README.md)  |  `Queue`,`Array`,`Sorting`,`Simulation`  |  Medium  |     |
 |  0974  |  [Subarray Sums Divisible by K](../Leetcode/solution/0900-0999/0974.%20Subarray%20Sums%20Divisible%20by%20K/README.md)  |  `Array`,`Hash Table`,`Prefix Sum`  |  Medium  |    |
 |  0979  |  [Distribute Coins in Binary Tree](../Leetcode/solution/0900-0999/0979.%20Distribute%20Coins%20in%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
