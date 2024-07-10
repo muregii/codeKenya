@@ -105,5 +105,3 @@ print(result)  # Output: 4
 
 - **Time Complexity:** O(n log n + k log n), where `n` is the number of projects. The complexity is dominated by the heap operations.
 - **Space Complexity:** O(n), since we store all projects in the heaps.
-
-This README file explains the steps to solve the problem of selecting at most `k` projects to maximize the final capital using the Feynman Learning Technique, ensuring clarity and simplicity.
