@@ -68,6 +68,7 @@
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
 |  1289  |  [Minimum Falling Path Sum II](../Leetcode/solution/1200-1299/1289.%20Minimum%20Falling%20Path%20Sum%20II/README.md)  |  `Array`,`Dynamic Programming`,`Matrix`  |  Hard  |    |
 |  1325  |  [Delete Leaves With a Given Value](../Leetcode/solution/1300-1399/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
+|  1482  |  [Minimum Number of Days to Make m Bouquets](../Leetcode/solution/1400-1499/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/README.md)  |  `Array`,`Binary Search`  |  Medium  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
 |  1863  |  [Sum of All Subset XOR Totals](../Leetcode/solution/1800-1899/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals/README.md)  |  `Bit Manipulation`,`Array`,`Math`,`Backtracking`,`Combinatorics`,`Enumeration`  |  Easy  |    |
