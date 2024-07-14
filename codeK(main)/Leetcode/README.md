@@ -67,6 +67,7 @@
 |  1122  |  [Relative Sort Array](../Leetcode/solution/1100-1199/1122.%20Relative%20Sort%20Array/README.Md)  |  `Array`,`Hash Table`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
+|  1248  |  [Count Number of Nice Subarrays](../Leetcode/solution/1200-1299/1248.%20Count%20Number%20of%20Nice%20Subarrays/README.md)  |  `Array`,`Hash Table`,`Math`,`Sliding Window`  |  Medium  |    |
 |  1289  |  [Minimum Falling Path Sum II](../Leetcode/solution/1200-1299/1289.%20Minimum%20Falling%20Path%20Sum%20II/README.md)  |  `Array`,`Dynamic Programming`,`Matrix`  |  Hard  |    |
 |  1325  |  [Delete Leaves With a Given Value](../Leetcode/solution/1300-1399/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  1482  |  [Minimum Number of Days to Make m Bouquets](../Leetcode/solution/1400-1499/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/README.md)  |  `Array`,`Binary Search`  |  Medium  |    |
