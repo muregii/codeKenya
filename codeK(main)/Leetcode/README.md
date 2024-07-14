@@ -63,6 +63,7 @@
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
 |  1002  |  [Find Common Characters](../Leetcode/solution/1000-1099/1002.%20Find%20Common%20Characters/README.md)  |  `Array`,`Hash Table`,`String`  |  Easy  |    |
 |  1051  |  [Height Checker](../Leetcode/solution/1000-1099/1051.%20Height%20Checker/README.md)  |  `Array`,`Counting Sort`,`Sorting`  |  Easy  |    |
+|  1052  |  [Grumpy Bookstore Owner](../Leetcode/solution/1000-1099/1052.%20Grumpy%20Bookstore%20Owner/README.md)  |  `Array`,`Sliding Window`  |  Medium  |    |
 |  1122  |  [Relative Sort Array](../Leetcode/solution/1100-1199/1122.%20Relative%20Sort%20Array/README.Md)  |  `Array`,`Hash Table`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
