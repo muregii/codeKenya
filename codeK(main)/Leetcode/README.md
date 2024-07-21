@@ -61,6 +61,7 @@
 |  0974  |  [Subarray Sums Divisible by K](../Leetcode/solution/0900-0999/0974.%20Subarray%20Sums%20Divisible%20by%20K/README.md)  |  `Array`,`Hash Table`,`Prefix Sum`  |  Medium  |    |
 |  0979  |  [Distribute Coins in Binary Tree](../Leetcode/solution/0900-0999/0979.%20Distribute%20Coins%20in%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
+|  0995  |  [Minimum Number of K Consecutive Bit Flips](../Leetcode/solution/0900-0999/0995.%20Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips/README.md)  |  `Bit Manipulation`,`Queue`,`Array`,`Prefix Sum`,`Sliding Window`  |  Hard  |    |
 |  1002  |  [Find Common Characters](../Leetcode/solution/1000-1099/1002.%20Find%20Common%20Characters/README.md)  |  `Array`,`Hash Table`,`String`  |  Easy  |    |
 |  1051  |  [Height Checker](../Leetcode/solution/1000-1099/1051.%20Height%20Checker/README.md)  |  `Array`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1052  |  [Grumpy Bookstore Owner](../Leetcode/solution/1000-1099/1052.%20Grumpy%20Bookstore%20Owner/README.md)  |  `Array`,`Sliding Window`  |  Medium  |    |
