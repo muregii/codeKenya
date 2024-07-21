@@ -76,6 +76,7 @@
 |  1438  |  [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../Leetcode/solution/1400-1499/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit/README.md)  |  `Queue`,`Array`,`Ordered Set`,`Sliding Window`,`Monotonic Queue`,`Heap (Priority Queue)`  |  Medium  |    |
 |  1482  |  [Minimum Number of Days to Make m Bouquets](../Leetcode/solution/1400-1499/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/README.md)  |  `Array`,`Binary Search`  |  Medium  |    |
 |  1552  |  [Magnetic Force Between Two Balls](../Leetcode/solution/1500-1599/1552.%20Magnetic%20Force%20Between%20Two%20Balls/README.md)  |  `Array`,`Binary Search`,`Sorting`  |  Medium  |    |
+|  1579  |  [Remove Max Number of Edges to Keep Graph Fully Traversable](../Leetcode/solution/1500-1599/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/README.md)  |  `Union Find`,`Graph`  |  Hard  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
 |  1791  |  [Find Center of Star Graph](../Leetcode/solution/1700-1799/1791.%20Find%20Center%20of%20Star%20Graph/README.md)  |  `Graph`  |  Easy  |    |
