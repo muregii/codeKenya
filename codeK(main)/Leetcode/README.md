@@ -36,6 +36,7 @@
 |  0312  |  [Burst Balloons](../Leetcode/solution/0300-0399/0312-burst-balloons/README.md)  |  `Array`,`Dynamic Programming`  |  Hard  | [Coding Challenge](https://www.linkedin.com/posts/codekenya_our-long-awaited-coding-challenge-is-now-activity-7190002698535022592-DCEB?utm_source=share&utm_medium=member_desktop)   |
 |  0330  |  [Patching Array](../Leetcode/solution/0300-0399/0330.%20Patching%20Array/README.md)  |  `Greedy`,`Array`  |  Hard  |    |
 |  0344  |  [Reverse String](../Leetcode/solution/0300-0399/0344.%20Reverse%20String/README.md)  |  `Two Pointers`,`String`  |  Easy  |    |
+|  0350  |  [Intersection of Two Arrays II](../Leetcode/solution/0300-0399/0350.%20Intersection%20of%20Two%20Arrays%20II/README.md)  |  `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting`  |  Easy  |    |
 |  0371  |  [Sum of Two Integers](../Leetcode/solution/0300-0399/0371-sum-of-two-integers/README.md)  |  `Bit Manipulation`,`Math`  |  Medium  |    |
 |  0402  |  [Remove K Digits](../Leetcode/solution/0400-0499/402-remove-k-digits/README.md)  |  `Stack`,`Greedy`,`String`,`Monotonic Stack`  |  Medium  |    |
 |  0404  |  [Sum of Left Leaves](../Leetcode/solution/0400-0499/404-sum-of-left-leaves/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Easy  |    |
