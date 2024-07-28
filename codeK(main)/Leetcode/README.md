@@ -77,6 +77,7 @@
 |  1438  |  [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../Leetcode/solution/1400-1499/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit/README.md)  |  `Queue`,`Array`,`Ordered Set`,`Sliding Window`,`Monotonic Queue`,`Heap (Priority Queue)`  |  Medium  |    |
 |  1482  |  [Minimum Number of Days to Make m Bouquets](../Leetcode/solution/1400-1499/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/README.md)  |  `Array`,`Binary Search`  |  Medium  |    |
 |  1509  |  [Minimum Difference Between Largest and Smallest Value in Three Moves](../Leetcode/solution/1500-1599/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves/README.md)  |  `Greedy`,`Array`,`Sorting`  |  Medium  |    |
+|  1518  |  [Water Bottles](../Leetcode/solution/1500-1599/1518.%20Water%20Bottles/README.md)  |  `Math`,`Simulation`  |  Easy  |    |
 |  1550  |  [Three Consecutive Odds](../Leetcode/solution/1500-1599/1550.%20Three%20Consecutive%20Odds/README.md)  |  `Array`  |  Easy  |    |
 |  1552  |  [Magnetic Force Between Two Balls](../Leetcode/solution/1500-1599/1552.%20Magnetic%20Force%20Between%20Two%20Balls/README.md)  |  `Array`,`Binary Search`,`Sorting`  |  Medium  |    |
 |  1579  |  [Remove Max Number of Edges to Keep Graph Fully Traversable](../Leetcode/solution/1500-1599/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/README.md)  |  `Union Find`,`Graph`  |  Hard  |    |
