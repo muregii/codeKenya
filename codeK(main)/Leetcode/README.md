@@ -82,6 +82,7 @@
 |  1552  |  [Magnetic Force Between Two Balls](../Leetcode/solution/1500-1599/1552.%20Magnetic%20Force%20Between%20Two%20Balls/README.md)  |  `Array`,`Binary Search`,`Sorting`  |  Medium  |    |
 |  1579  |  [Remove Max Number of Edges to Keep Graph Fully Traversable](../Leetcode/solution/1500-1599/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/README.md)  |  `Union Find`,`Graph`  |  Hard  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
+|  1701  |  [Average Waiting Time](../Leetcode/solution/1700-1799/1701.%20Average%20Waiting%20Time/README.md)  |  `Array`,`Simulation`  |  Medium  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
 |  1791  |  [Find Center of Star Graph](../Leetcode/solution/1700-1799/1791.%20Find%20Center%20of%20Star%20Graph/README.md)  |  `Graph`  |  Easy  |    |
 |  1823  |  [Find the Winner of the Circular Game](../Leetcode/solution/1800-1899/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game/README.md)  |  `Recursion`,`Queue`,`Array`,`Math`,`Simulation`  |  Medium  |    |
