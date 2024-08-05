@@ -85,6 +85,7 @@
 |  1598  |  [Crawler Log Folder](../Leetcode/solution/1500-1599/1598.%20Crawler%20Log%20Folder/README.md)  |  `Stack`,`Array`,`String`  |  Easy  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1701  |  [Average Waiting Time](../Leetcode/solution/1700-1799/1701.%20Average%20Waiting%20Time/README.md)  |  `Array`,`Simulation`  |  Medium  |    |
+|  1717  |  [Maximum Score From Removing Substrings](../Leetcode/solution/1700-1799/1717.%20Maximum%20Score%20From%20Removing%20Substrings/README.md)  |  `Stack`,`Greedy`,`String`  |  Medium  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
 |  1791  |  [Find Center of Star Graph](../Leetcode/solution/1700-1799/1791.%20Find%20Center%20of%20Star%20Graph/README.md)  |  `Graph`  |  Easy  |    |
 |  1823  |  [Find the Winner of the Circular Game](../Leetcode/solution/1800-1899/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game/README.md)  |  `Recursion`,`Queue`,`Array`,`Math`,`Simulation`  |  Medium  |    |
