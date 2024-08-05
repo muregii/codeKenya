@@ -81,6 +81,7 @@
 |  1550  |  [Three Consecutive Odds](../Leetcode/solution/1500-1599/1550.%20Three%20Consecutive%20Odds/README.md)  |  `Array`  |  Easy  |    |
 |  1552  |  [Magnetic Force Between Two Balls](../Leetcode/solution/1500-1599/1552.%20Magnetic%20Force%20Between%20Two%20Balls/README.md)  |  `Array`,`Binary Search`,`Sorting`  |  Medium  |    |
 |  1579  |  [Remove Max Number of Edges to Keep Graph Fully Traversable](../Leetcode/solution/1500-1599/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/README.md)  |  `Union Find`,`Graph`  |  Hard  |    |
+|  1598  |  [Crawler Log Folder](../Leetcode/solution/1500-1599/1598.%20Crawler%20Log%20Folder/README.md)  |  `Stack`,`Array`,`String`  |  Easy  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1701  |  [Average Waiting Time](../Leetcode/solution/1700-1799/1701.%20Average%20Waiting%20Time/README.md)  |  `Array`,`Simulation`  |  Medium  |    |
 |  1758  |  [Minimum Changes To Make Alternating Binary String](../Leetcode/solution/1700-1799/1758-minimum-changes-to-make-alternating-binary-string/README.md)  |  `String`  |  Easy  |    |
