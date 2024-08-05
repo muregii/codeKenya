@@ -49,6 +49,7 @@
 |  0633  |  [Sum of Square Numbers](../Leetcode/solution/0600-0699/0633.%20Sum%20of%20Square%20Numbers/README.md)  |  `Math`,`Two Pointers`,`Binary Search`  |  Medium  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0648  |  [Replace Words](../Leetcode/solution/0600-0699/0648.%20Replace%20Words/README.md)  |  `Trie`,`Array`,`Hash Table`,`String`  |  Medium  |    |
+|  0726  |  [Number of Atoms](../Leetcode/solution/0700-0799/0726.%20Number%20of%20Atoms/README.md)  |  `Stack`,`Hash Table`,`String`,`Sorting`  |  Hard  |    |
 |  0752  |  [Open the Lock](../Leetcode/solution/0700-0799/0752-open-the-lock/README.md)  |  `Breadth-First Search`,`Array`,`Hash Table`,`String`  |  Medium  |    |
 |  0786  |  [K-th Smallest Prime Fraction](../Leetcode/solution/0700-0799/0786.%20K-th%20Smallest%20Prime%20Fraction/README.md)  |  `Array`,`Two Pointers`,`Binary Search`,`Sorting`,`Heap (Priority Queue)`  |  Medium  |    |
 |  0821  |  [Shortest Distance to a Character](../Leetcode/solution/0800-0899/821-shortest-distance-to-a-character/README.md)  |  `Array`,`Two Pointers`,`String`  |  Easy  |    |
