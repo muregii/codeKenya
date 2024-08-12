@@ -76,6 +76,7 @@
 |  1248  |  [Count Number of Nice Subarrays](../Leetcode/solution/1200-1299/1248.%20Count%20Number%20of%20Nice%20Subarrays/README.md)  |  `Array`,`Hash Table`,`Math`,`Sliding Window`  |  Medium  |    |
 |  1289  |  [Minimum Falling Path Sum II](../Leetcode/solution/1200-1299/1289.%20Minimum%20Falling%20Path%20Sum%20II/README.md)  |  `Array`,`Dynamic Programming`,`Matrix`  |  Hard  |    |
 |  1325  |  [Delete Leaves With a Given Value](../Leetcode/solution/1300-1399/1325.%20Delete%20Leaves%20With%20a%20Given%20Value/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
+|  1380  |  [Lucky Numbers in a Matrix](../Leetcode/solution/1300-1399/1380.%20Lucky%20Numbers%20in%20a%20Matrix/README.md)  |  `Array`,`Matrix`  |  Easy  |    |
 |  1382  |  [Balance a Binary Search Tree](../Leetcode/solution/1300-1399/1382.%20Balance%20a%20Binary%20Search%20Tree/README.md)  |  `Greedy`,`Tree`,`Depth-First Search`,`Binary Search Tree`,`Divide and Conquer`,`Binary Tree`  |  Medium  |    |
 |  1438  |  [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../Leetcode/solution/1400-1499/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit/README.md)  |  `Queue`,`Array`,`Ordered Set`,`Sliding Window`,`Monotonic Queue`,`Heap (Priority Queue)`  |  Medium  |    |
 |  1482  |  [Minimum Number of Days to Make m Bouquets](../Leetcode/solution/1400-1499/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets/README.md)  |  `Array`,`Binary Search`  |  Medium  |    |
