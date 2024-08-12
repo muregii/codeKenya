@@ -40,18 +40,20 @@ To solve this problem, identify numbers in the matrix that are both the minimum 
 
 Suppose you have:
 - A matrix:
-  ```
+
+```python
   3  7  8
   9 11 13
   15 16 17
 
-1. Process the matrix:
-   - Row 1: Minimum is `3` (column index 0), maximum in column 0 is `15`, so not a lucky number.
-   - Row 2: Minimum is `9` (column index 0), maximum in column 0 is `15`, so not a lucky number.
-   - Row 3: Minimum is `15` (column index 0), and it is also the maximum in column 0, so `15` is a lucky number.
+  1. Process the matrix:
+     - Row 1: Minimum is `3` (column index 0), maximum in column 0 is `15`, so not a lucky number.
+     - Row 2: Minimum is `9` (column index 0), maximum in column 0 is `15`, so not a lucky number.
+     - Row 3: Minimum is `15` (column index 0), and it is also the maximum in column 0, so `15` is a lucky number.
 
-2. The result is `[15]`.
-  ```
+  2. The result is `[15]`.
+```
+
 
 ### Python Code
 
@@ -83,8 +85,7 @@ print(lucky_numbers)  # Output: [15]
 
 ### Additional Resources
 
-[Link to detailed explanation on Algo Monster]([Link to detailed explanation on GeeksforGeeks](https://www.geeksforgeeks.org/find-lucky-numbers-in-a-matrix/)
-)
+[Link to detailed explanation on Algo Monster]((https://algo.monster/liteproblems/1380))
 
 ### Check Out These Videos
 
