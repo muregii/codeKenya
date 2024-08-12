@@ -85,7 +85,7 @@ print(lucky_numbers)  # Output: [15]
 
 ### Additional Resources
 
-[Link to detailed explanation on Algo Monster]((https://algo.monster/liteproblems/1380))
+[Link to detailed explanation on Algo Monster](https://algo.monster/liteproblems/1380)
 
 ### Check Out These Videos
 
