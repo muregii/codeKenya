@@ -109,6 +109,7 @@
 |  2370  |  [Longest Ideal Subsequence](../Leetcode/solution/2300-2399/2370-longest-ideal-subsequence/README.md)  |  `Hash Table`,`String`,`Dynamic Programming`  |  Medium  |    |
 |  2373  |  [Largest Local Values in a Matrix](../Leetcode/solution/2300-2399/2373.%20Largest%20Local%20Values%20in%20a%20Matrix/README.md)  |  `Array`,`Matrix`  |  Easy  |    |
 |  2392  |  [Build a Matrix With Conditions](../Leetcode/solution/2300-2399/2392.%20Build%20a%20Matrix%20With%20Conditions/README.md)  |  `Graph`,`Topological Sort`,`Array`,`Matrix`  |  Hard  |    |
+|  2418  |  [Sort the People](../Leetcode/solution/2400-2499/2418.%20Sort%20the%20People/README.md)  |  `Array`,`Hash Table`,`String`,`Sorting`  |  Easy  |    |
 |  2441  |  [Largest Positive Integer That Exists With Its Negative](../Leetcode/solution/2400-2499/2441.%20Largest%20Positive%20Integer%20That%20Exists%20With%20Its%20Negative/README.md)  |  `Array`,`Hash Table`,`Two Pointers`,`Sorting`  |  Easy  |    |
 |  2486  |  [Append Characters to String to Make Subsequence](../Leetcode/solution/2400-2499/2486.%20Append%20Characters%20to%20String%20to%20Make%20Subsequence/README.md)  |  `Greedy`,`Two Pointers`,`String`  |  Medium  |    |
 |  2487  |  [Remove Nodes From Linked List](../Leetcode/solution/2400-2499/2487.%20Remove%20Nodes%20From%20Linked%20List/README.md)  |  `Stack`,`Recursion`,`Linked List`,`Monotonic Stack`  |  Medium  |    |
