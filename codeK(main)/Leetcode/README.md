@@ -102,6 +102,7 @@
 |  1971  |  [Find if Path Exists in Graph](../Leetcode/solution/1900-1999/1971-find-if-path-exists-in-graph/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Graph`  |  Easy  |    |
 |  1992  |  [Find All Groups of Farmland](../Leetcode/solution/1900-1999/1992-find-all-groups-of-farmland/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Medium  |    |
 |  2037  |  [Minimum Number of Moves to Seat Everyone](../Leetcode/solution/2000-2099/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone/README.md)  |  `Greedy`,`Array`,`Sorting`  |  Easy  |    |
+|  2045  |  [Second Minimum Time to Reach Destination](../Leetcode/solution/2000-2099/2045.%20Second%20Minimum%20Time%20to%20Reach%20Destination/README.md)  |  `Breadth-First Search`,`Graph`,`Shortest Path`  |  Hard  |   |
 |  2058  |  [Find the Minimum and Maximum Number of Nodes Between Critical Points](../Leetcode/solution/2000-2099/2058.%20Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points/README.md)  |  `Linked List`  |  Medium  |    |
 |  2096  |  [Step-By-Step Directions From a Binary Tree Node to Another](../Leetcode/solution/2000-2099/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
 |  2181  |  [Merge Nodes in Between Zeros](../Leetcode/solution/2100-2199/2181.%20Merge%20Nodes%20in%20Between%20Zeros/README.md)  |  `Linked List`,`Simulation`  |  Medium  |    |
