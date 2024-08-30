@@ -92,6 +92,7 @@
 |  1598  |  [Crawler Log Folder](../Leetcode/solution/1500-1599/1598.%20Crawler%20Log%20Folder/README.md)  |  `Stack`,`Array`,`String`  |  Easy  |    |
 |  1605  |  [Find Valid Matrix Given Row and Column Sums](../Leetcode/solution/1600-1699/1605.%20Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums/README.md)  |  `Greedy`,`Array`,`Matrix`  |  Medium  |    |
 |  1636  |  [Sort Array by Increasing Frequency](../Leetcode/solution/1600-1699/1636.%20Sort%20Array%20by%20Increasing%20Frequency/README.md)  |  `Array`,`Hash Table`,`Sorting`  |  Easy  |    |
+|  1653  |  [Minimum Deletions to Make String Balanced](../Leetcode/solution/1600-1699/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced/README.md)  |  `Stack`,`String`,`Dynamic Programming`  |  Medium  |    |
 |  1700  |  [Number of Students Unable to Eat Lunch](../Leetcode/solution/1700-1799/1700-Number-of-student-unable-to-eat-lunch/README.md)  |  `Stack`,`Queue`,`Array`,`Simulation`  |  Easy  |    |
 |  1701  |  [Average Waiting Time](../Leetcode/solution/1700-1799/1701.%20Average%20Waiting%20Time/README.md)  |  `Array`,`Simulation`  |  Medium  |    |
 |  1717  |  [Maximum Score From Removing Substrings](../Leetcode/solution/1700-1799/1717.%20Maximum%20Score%20From%20Removing%20Substrings/README.md)  |  `Stack`,`Greedy`,`String`  |  Medium  |    |
