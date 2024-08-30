@@ -69,6 +69,7 @@
 |  1038  |  [Binary Search Tree to Greater Sum Tree](../Leetcode/solution/1000-1099/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Search Tree`,`Binary Tree`  |  Medium  |    |
 |  1051  |  [Height Checker](../Leetcode/solution/1000-1099/1051.%20Height%20Checker/README.md)  |  `Array`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1052  |  [Grumpy Bookstore Owner](../Leetcode/solution/1000-1099/1052.%20Grumpy%20Bookstore%20Owner/README.md)  |  `Array`,`Sliding Window`  |  Medium  |    |
+|  1105  |  [Filling Bookcase Shelves](../Leetcode/solution/1100-1199/1105.%20Filling%20Bookcase%20Shelves/README.md)  |  `Array`,`Dynamic Programming`  |  Medium  |    |
 |  1110  |  [Delete Nodes And Return Forest](../Leetcode/solution/1100-1199/1110.%20Delete%20Nodes%20And%20Return%20Forest/README.md)  |  `Tree`,`Depth-First Search`,`Array`,`Hash Table`,`Binary Tree`  |  Medium  |   |
 |  1122  |  [Relative Sort Array](../Leetcode/solution/1100-1199/1122.%20Relative%20Sort%20Array/README.Md)  |  `Array`,`Hash Table`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
