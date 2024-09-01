@@ -64,6 +64,7 @@
 |  0912  |  [Sort an Array](../Leetcode/solution/0900-0999/0912.%20Sort%20an%20Array/README.md)  |  `Array`,`Divide and Conquer`,`Bucket Sort`,`Counting Sort`,`Radix Sort`,`Sorting`,`Heap (Priority Queue)`,`Merge Sort`  |  Medium  |    |
 |  0945  |  [Minimum Increment to Make Array Unique](../Leetcode/solution/0900-0999/0945.%20Minimum%20Increment%20to%20Make%20Array%20Unique/README.md)  |  `Greedy`,`Array`,`Counting`,`Sorting`  |  Medium  |    |
 |  0950  |  [Reveal Cards In Increasing Order](../Leetcode/solution/0900-0999/950-Deck-Revealed-Increasing/README.md)  |  `Queue`,`Array`,`Sorting`,`Simulation`  |  Medium  |     |
+|  0959  |  [Regions Cut By Slashes](../Leetcode/solution/0900-0999/0959.%20Regions%20Cut%20By%20Slashes/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Array`,`Hash Table`,`Matrix`  |  Medium  |    |
 |  0974  |  [Subarray Sums Divisible by K](../Leetcode/solution/0900-0999/0974.%20Subarray%20Sums%20Divisible%20by%20K/README.md)  |  `Array`,`Hash Table`,`Prefix Sum`  |  Medium  |    |
 |  0979  |  [Distribute Coins in Binary Tree](../Leetcode/solution/0900-0999/0979.%20Distribute%20Coins%20in%20Binary%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0988  |  [Smallest String Starting From Leaf](../Leetcode/solution/0900-0999/988-smallest-string-starting-from-leaf/README.md)  |  `Tree`,`Depth-First Search`,`String`,`Binary Tree`  |  Medium  |    |
