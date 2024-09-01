@@ -96,7 +96,7 @@ print(result)  # Output: 2
 
 ### Check Out These Video(s)
 
-[![Video Explanation](https://img.youtube.com/vi/QbJ5eZwU/mqdefault.jpg)](https://youtu.be/QbJ5eZwU)
+[![Video Explanation](https://img.youtube.com/vi/aO-QbJ5eZwU/mqdefault.jpg)](https://youtu.be/aO-QbJ5eZwU)
 
 [![Video Explanation](https://img.youtube.com/vi/Cta6Sa9EMYw/mqdefault.jpg)](https://youtu.be/Cta6Sa9EMYw)
 
