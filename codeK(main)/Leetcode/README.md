@@ -95,6 +95,7 @@
 |  1530  |  [Number of Good Leaf Nodes Pairs](../Leetcode/solution/1500-1599/1530.%20Number%20of%20Good%20Leaf%20Nodes%20Pairs/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  1550  |  [Three Consecutive Odds](../Leetcode/solution/1500-1599/1550.%20Three%20Consecutive%20Odds/README.md)  |  `Array`  |  Easy  |    |
 |  1552  |  [Magnetic Force Between Two Balls](../Leetcode/solution/1500-1599/1552.%20Magnetic%20Force%20Between%20Two%20Balls/README.md)  |  `Array`,`Binary Search`,`Sorting`  |  Medium  |    |
+|  1568  |  [Minimum Number of Days to Disconnect Island](../Leetcode/solution/1500-1599/1568.%20Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`,`Strongly Connected Component`  |  Hard  |    |
 |  1579  |  [Remove Max Number of Edges to Keep Graph Fully Traversable](../Leetcode/solution/1500-1599/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/README.md)  |  `Union Find`,`Graph`  |  Hard  |    |
 |  1598  |  [Crawler Log Folder](../Leetcode/solution/1500-1599/1598.%20Crawler%20Log%20Folder/README.md)  |  `Stack`,`Array`,`String`  |  Easy  |    |
 |  1605  |  [Find Valid Matrix Given Row and Column Sums](../Leetcode/solution/1600-1699/1605.%20Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums/README.md)  |  `Greedy`,`Array`,`Matrix`  |  Medium  |    |
