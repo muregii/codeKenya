@@ -56,6 +56,7 @@
 |  0821  |  [Shortest Distance to a Character](../Leetcode/solution/0800-0899/821-shortest-distance-to-a-character/README.md)  |  `Array`,`Two Pointers`,`String`  |  Easy  |    |
 |  0826  |  [Most Profit Assigning Work](../Leetcode/solution/0800-0899/0826.%20Most%20Profit%20Assigning%20Work/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Binary Search`,`Sorting`  |  Medium  |    |
 |  0834  |  [Sum of Distances in Tree](../Leetcode/solution/0800-0899/0834.%20Sum%20of%20Distances%20in%20Tree/README.md)  |  `Tree`,`Depth-First Search`,`Graph`,`Dynamic Programming`  |  Hard  |    |
+|  0840  |  [Magic Squares In Grid](../Leetcode/solution/0800-0899/0840.%20Magic%20Squares%20In%20Grid/README.md)  |  `Array`,`Hash Table`,`Math`,`Matrix`  |  Medium  |    |
 |  0846  |  [Hand of Straights](../Leetcode/solution/0800-0899/0846.%20Hand%20of%20Straights/README.md)  |  `Greedy`,`Array`,`Hash Table`,`Sorting`  |  Medium  |    |
 |  0857  |  [Minimum Cost to Hire K Workers](../Leetcode/solution/0800-0899/0857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/README.md)  |  `Greedy`,`Array`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |    |
 |  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
