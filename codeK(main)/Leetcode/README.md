@@ -32,6 +32,7 @@
 |  0200  |  [Number of Islands](../Leetcode/solution/0200-0299/200-number-of-islands/)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Array`,`Matrix`  |  Medium  |    |
 |  0237  |  [Delete Node in a Linked List](../Leetcode/solution/0200-0299/0237.%20Delete%20Node%20in%20a%20Linked%20List/README.md)  |  `Linked List`  |  Medium  |    |
 |  0242  |  [Valid Anagram](../Leetcode/solution/0200-0299/0242-valid-anagram/README.md)  |  `Hash Table`,`String`,`Sorting`  |  Easy  |    |
+|  0264  |  [Ugly Number II](../Leetcode/solution/0200-0299/0264.%20Ugly%20Number%20II/README.md)  |  `Hash Table`,`Math`,`Dynamic Programming`,`Heap (Priority Queue)`  |  Medium  |    |
 |  0273  |  [Integer to English Words](../Leetcode/solution/0200-0299/0273.%20Integer%20to%20English%20Words/README.md)  |  `Recursion`,`Math`,`String`  |  Hard  |    |
 |  0274  |  [H-Index](../Leetcode/solution/0200-0299/0274-h-index/README.md)  |  `Array`,`Counting Sort`,`Sorting`  |  Medium  |    |
 |  0310  |  [Minimum Height Trees](../Leetcode/solution/0300-0399/0310-minimum-height-trees/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Topological Sort`  |  Medium  |    |
