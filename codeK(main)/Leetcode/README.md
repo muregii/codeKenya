@@ -50,6 +50,7 @@
 |  0523  |  [Continuous Subarray Sum](../Leetcode/solution/0500-0599/0523.%20Continuous%20Subarray%20Sum/README.md)  |  `Array`,`Hash Table`,`Math`,`Prefix Sum`  |  Medium  |    |
 |  0633  |  [Sum of Square Numbers](../Leetcode/solution/0600-0699/0633.%20Sum%20of%20Square%20Numbers/README.md)  |  `Math`,`Two Pointers`,`Binary Search`  |  Medium  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
+|  0624  |  [Maximum Distance in Arrays](../Leetcode/solution/0600-0699/0624.%20Maximum%20Distance%20in%20Arrays/README.md)  |  `Greedy`,`Array`  |  Medium  |    |
 |  0648  |  [Replace Words](../Leetcode/solution/0600-0699/0648.%20Replace%20Words/README.md)  |  `Trie`,`Array`,`Hash Table`,`String`  |  Medium  |    |
 |  0703  |  [Kth Largest Element in a Stream](../Leetcode/solution/0700-0799/0703.%20Kth%20Largest%20Element%20in%20a%20Stream/README.md)  |  `Tree`,`Design`,`Binary Search Tree`,`Binary Tree`,`Data Stream`,`Heap (Priority Queue)`  |  Easy  |    |
 |  0719  |  [Find K-th Smallest Pair Distance](../Leetcode/solution/0700-0799/0719.%20Find%20K-th%20Smallest%20Pair%20Distance/README.md)  |  `Array`,`Two Pointers`,`Binary Search`,`Sorting`  |  Hard  |    |
