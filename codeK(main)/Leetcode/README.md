@@ -114,6 +114,7 @@
 |  1823  |  [Find the Winner of the Circular Game](../Leetcode/solution/1800-1899/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game/README.md)  |  `Recursion`,`Queue`,`Array`,`Math`,`Simulation`  |  Medium  |    |
 |  1863  |  [Sum of All Subset XOR Totals](../Leetcode/solution/1800-1899/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals/README.md)  |  `Bit Manipulation`,`Array`,`Math`,`Backtracking`,`Combinatorics`,`Enumeration`  |  Easy  |    |
 |  1915  |  [Number of Wonderful Substrings](../Leetcode/solution/1900-1999/1915.%20Number%20of%20Wonderful%20Substrings/README.md)  |  `Bit Manipulation`,`Hash Table`,`String`,`Prefix Sum`  |  Medium  |    |
+|  1937  |  [Maximum Number of Points with Cost](../Leetcode/solution/1900-1999/1937.%20Maximum%20Number%20of%20Points%20with%20Cost/README.MD)  |  `Array`,`Dynamic Programming`,`Matrix`  |  Medium  |    |
 |  1971  |  [Find if Path Exists in Graph](../Leetcode/solution/1900-1999/1971-find-if-path-exists-in-graph/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Graph`  |  Easy  |    |
 |  1992  |  [Find All Groups of Farmland](../Leetcode/solution/1900-1999/1992-find-all-groups-of-farmland/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`Array`,`Matrix`  |  Medium  |    |
 |  2037  |  [Minimum Number of Moves to Seat Everyone](../Leetcode/solution/2000-2099/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone/README.md)  |  `Greedy`,`Array`,`Sorting`  |  Easy  |    |
