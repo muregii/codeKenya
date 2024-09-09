@@ -108,7 +108,7 @@ print(result)  # Output: [[1, 1, 6], [1, 2, 5], [1, 7], [2, 6]]
 
 [![Video Explanation](https://img.youtube.com/vi/G1fRTGRxXU8/mqdefault.jpg)](https://youtu.be/G1fRTGRxXU8)
 
-[![Video Explanation](https://img.youtube.com/vi/G1fRTGRxXU8/mqdefault.jpg)](https://youtu.be/G1fRTGRxXU8)
+[![Video Explanation](https://img.youtube.com/vi/rSA3t6BDDwg/mqdefault.jpg)](https://youtu.be/rSA3t6BDDwg)
 
 [![Video Explanation](https://img.youtube.com/vi/FOyRpNUSFeA/mqdefault.jpg)](https://youtu.be/FOyRpNUSFeA)
 
