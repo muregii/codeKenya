@@ -16,6 +16,7 @@
 |  0026  |  [Remove Duplicates from Sorted Array](../Leetcode/solution/0000-0099/0026-remove-duplicates-from-sorted-array/README.md)  |  `Array`,`Two Pointers`  |  Easy  |    |
 |  0027  |  [Remove Element](../Leetcode/solution/0000-0099/0027-remove-element/README.md)  |  `Array`,`Two Pointers`  |  Easy  |    |
 |  0028  |  [Find the Index of the First Occurrence in a String](../Leetcode/solution/0000-0099/0028-find-the-index-of-the-first-occurrence-in-a-string/README.md)  |  `Two Pointers`,`String`,`String Matching`  |  Easy  |    |
+|  0040  |  [Combination Sum II](../Leetcode/solution/0000-0099/0040.%20Combination%20Sum%20II/README.md)  |  `Array`,`Backtracking`  |  Medium  |    |
 |  0042  |  [Trapping Rain Water](../Leetcode/solution/0000-0099/42-trapping-rain-water/README.md)  |  `Stack`,`Array`,`Two Pointers`,`Dynamic Programming`,`Monotonic Stack`  |  Hard  |    |
 |  0075  |  [Sort Colors](../Leetcode/solution/0000-0099/0075.%20Sort%20Colors/README.md)  |  `Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
 |  0078  |  [Subsets](../Leetcode/solution/0000-0099/0078.%20Subsets/README.md)  |  `Bit Manipulation`,`Array`,`Backtracking`  |  Medium  |    |
