@@ -62,6 +62,7 @@
 |  0840  |  [Magic Squares In Grid](../Leetcode/solution/0800-0899/0840.%20Magic%20Squares%20In%20Grid/README.md)  |  `Array`,`Hash Table`,`Math`,`Matrix`  |  Medium  |    |
 |  0846  |  [Hand of Straights](../Leetcode/solution/0800-0899/0846.%20Hand%20of%20Straights/README.md)  |  `Greedy`,`Array`,`Hash Table`,`Sorting`  |  Medium  |    |
 |  0857  |  [Minimum Cost to Hire K Workers](../Leetcode/solution/0800-0899/0857.%20Minimum%20Cost%20to%20Hire%20K%20Workers/README.md)  |  `Greedy`,`Array`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |    |
+|  0860  |  [Lemonade Change](../Leetcode/solution/0800-0899/0860.%20Lemonade%20Change/README.md)  |  `Greedy`,`Array`  |  Easy  |    |
 |  0881  |  [Boats to Save People](../Leetcode/solution/0800-0899/0881.%20Boats%20to%20Save%20People/README.md)  |  `Greedy`,`Array`,`Two Pointers`,`Sorting`  |  Medium  |    |
 |  0885  |  [Spiral Matrix III](../Leetcode/solution/0800-0899/0885.%20Spiral%20Matrix%20III/README.md)  |  `Array`,`Matrix`,`Simulation`  |  Medium  |    |
 |  0912  |  [Sort an Array](../Leetcode/solution/0900-0999/0912.%20Sort%20an%20Array/README.md)  |  `Array`,`Divide and Conquer`,`Bucket Sort`,`Counting Sort`,`Radix Sort`,`Sorting`,`Heap (Priority Queue)`,`Merge Sort`  |  Medium  |    |
