@@ -27,6 +27,7 @@
 |  0127  |  [Word Ladder](../Leetcode/solution/0100-0199/0127-word-ladder/README.md)  |  `Breadth-First Search`,`Hash Table`,`String`  |  Hard  |    |
 |  0129  |  [Sum Root to Leaf Numbers](../Leetcode/solution/0100-0199/0129-sum-root-to-leaf-number/README.md)  |  `Tree`,`Depth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0131  |  [Palindrome Partitioning](../Leetcode/solution/0100-0199/0131.%20Palindrome%20Partitioning/README.md)  |  `String`,`Dynamic Programming`,`Backtracking`  |  Medium  |    |
+|  0145  |  [Binary Tree Postorder Traversal](../Leetcode/solution/0100-0199/0145.%20Binary%20Tree%20Postorder%20Traversal/README.md)  |  `Stack`,`Tree`,`Depth-First Search`,`Binary Tree`  |  Easy  |    |
 |  0165  |  [Compare Version Numbers](../Leetcode/solution/0100-0199/0165.%20Compare%20Version%20Numbers/README.md)  |  `Two Pointers`,`String`  |  Medium  |    |
 |  0189  |  [Rotate Array](../Leetcode/solution/0100-0199/0189-rotate-array/README.md)  |  `Array`,`Math`,`Two Pointers`  |  Medium  |    |
 |  0200  |  [Number of Islands](../Leetcode/solution/0200-0299/200-number-of-islands/)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Array`,`Matrix`  |  Medium  |    |
