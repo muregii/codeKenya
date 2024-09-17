@@ -50,6 +50,7 @@
 |  0506  |  [Relative Ranks](../Leetcode/solution/0500-0599/0506.%20Relative%20Ranks/README.md)  |  `Array`,`Sorting`,`Heap (Priority Queue)`  |  Easy  |    |
 |  0514  |  [Freedom Trail](../Leetcode/solution/0500-0599/0514.%20Freedom%20Trail/README.md)  |  `Depth-First Search`,`Breadth-First Search`,`String`,`Dynamic Programming`  |  Hard  |    |
 |  0523  |  [Continuous Subarray Sum](../Leetcode/solution/0500-0599/0523.%20Continuous%20Subarray%20Sum/README.md)  |  `Array`,`Hash Table`,`Math`,`Prefix Sum`  |  Medium  |    |
+|  0592  |  [Fraction Addition and Subtraction](../Leetcode/solution/0500-0599/0592.%20Fraction%20Addition%20and%20Subtraction/README.md)  |  `Math`,`String`,`Simulation`  |  Medium  |    |
 |  0633  |  [Sum of Square Numbers](../Leetcode/solution/0600-0699/0633.%20Sum%20of%20Square%20Numbers/README.md)  |  `Math`,`Two Pointers`,`Binary Search`  |  Medium  |    |
 |  0623  |  [Add One Row to Tree](../Leetcode/solution/0600-0699/623-add-one-row-to-tree/README.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
 |  0624  |  [Maximum Distance in Arrays](../Leetcode/solution/0600-0699/0624.%20Maximum%20Distance%20in%20Arrays/README.md)  |  `Greedy`,`Array`  |  Medium  |    |
