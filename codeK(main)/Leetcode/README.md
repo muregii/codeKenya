@@ -84,6 +84,7 @@
 |  1110  |  [Delete Nodes And Return Forest](../Leetcode/solution/1100-1199/1110.%20Delete%20Nodes%20And%20Return%20Forest/README.md)  |  `Tree`,`Depth-First Search`,`Array`,`Hash Table`,`Binary Tree`  |  Medium  |   |
 |  1122  |  [Relative Sort Array](../Leetcode/solution/1100-1199/1122.%20Relative%20Sort%20Array/README.Md)  |  `Array`,`Hash Table`,`Counting Sort`,`Sorting`  |  Easy  |    |
 |  1137  |  [N-th Tribonacci Number](../Leetcode/solution/1100-1199/1137-n-th-tribonacci-number/README.md)  |  `Memoization`,`Math`,`Dynamic Programming`  |  Easy  |    |
+|  1140  |  [Stone Game II](../Leetcode/solution/1100-1199/1140.%20Stone%20Game%20II/README.md)  |  `Array`,`Math`,`Dynamic Programming`,`Game Theory`,`Prefix Sum`  |  Medium  |    |
 |  1190  |  [Reverse Substrings Between Each Pair of Parentheses](../Leetcode/solution/1100-1199/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses/README.md)  |  `Stack`,`String`  |  Medium  |    |
 |  1219  |  [Path with Maximum Gold](../Leetcode/solution/1200-1299/1219.%20Path%20with%20Maximum%20Gold/README.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |    |
 |  1248  |  [Count Number of Nice Subarrays](../Leetcode/solution/1200-1299/1248.%20Count%20Number%20of%20Nice%20Subarrays/README.md)  |  `Array`,`Hash Table`,`Math`,`Sliding Window`  |  Medium  |    |
