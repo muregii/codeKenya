@@ -54,6 +54,7 @@
 |  0624  |  [Maximum Distance in Arrays](../Leetcode/solution/0600-0699/0624.%20Maximum%20Distance%20in%20Arrays/README.md)  |  `Greedy`,`Array`  |  Medium  |    |
 |  0648  |  [Replace Words](../Leetcode/solution/0600-0699/0648.%20Replace%20Words/README.md)  |  `Trie`,`Array`,`Hash Table`,`String`  |  Medium  |    |
 |  0650  |  [2 Keys Keyboard](../Leetcode/solution/0600-0699/0650.%202%20Keys%20Keyboard/README.md)  |  `Math`,`Dynamic Programming`  |  Medium  |    |
+|  0664  |  [Strange Printer](../Leetcode/solution/0600-0699/0664.%20Strange%20Printer/README.md)  |  `String`,`Dynamic Programming`  |  Hard  |    |
 |  0703  |  [Kth Largest Element in a Stream](../Leetcode/solution/0700-0799/0703.%20Kth%20Largest%20Element%20in%20a%20Stream/README.md)  |  `Tree`,`Design`,`Binary Search Tree`,`Binary Tree`,`Data Stream`,`Heap (Priority Queue)`  |  Easy  |    |
 |  0719  |  [Find K-th Smallest Pair Distance](../Leetcode/solution/0700-0799/0719.%20Find%20K-th%20Smallest%20Pair%20Distance/README.md)  |  `Array`,`Two Pointers`,`Binary Search`,`Sorting`  |  Hard  |    |
 |  0726  |  [Number of Atoms](../Leetcode/solution/0700-0799/0726.%20Number%20of%20Atoms/README.md)  |  `Stack`,`Hash Table`,`String`,`Sorting`  |  Hard  |    |
