@@ -91,7 +91,7 @@ To use this solution, create an instance of the `Solution` class and call the `p
 
 ```python
 solution = Solution()
-root = Node(1, [Node(3, [Node(5), Node(6)]), Node(2), Node(4)])
+root = Node(1, [Node(3, [Node(5), Node(6)]), Node(3), Node(4)])
 result = solution.postorder(root)
 print(result)  # Output: [5, 6, 3, 2, 4, 1]
 ```
