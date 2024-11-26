@@ -18,7 +18,7 @@ Enough said.
 
 Let's Code!!! 
 
-Jumuika nasi kwa hii safari ya kuelewa sayansi ya kompyuta.
+
 
 HOW TO CONTRIBUTE TO THE PROJECT:  --> WATCH THE VIDEO INSTEAD (WATCH HII VIDA BADALA YA KUSOMA HII STUFF YOTE: https://youtu.be/LuWAw-RBPys?si=mx4a7HRQbdRM0kPH )
 1. Fork the Repository:
