@@ -15,4 +15,3 @@ def reverseLinkedList(self, head: ListNode) -> ListNode:
         current = temp
     return prev
 
-
