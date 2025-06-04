@@ -13,3 +13,4 @@ def balancedParentheses(s: str) -> bool:
     return len(stack) == 0
 
 print(balancedParentheses("bloomberg()"))
+
