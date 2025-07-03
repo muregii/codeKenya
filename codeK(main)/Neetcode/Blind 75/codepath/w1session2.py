@@ -1,15 +1,11 @@
-lst = [1,2,3,4,5,6]
+list = [-1,2]
 
-def above_threshhold(lst, threshold):
+def count_negatives(lst):
+    count = 0
+    for num in lst:
+        if num < 0:
+            count += 1
+    return count
 
-    if not lst:
-        return []
-    head, *tail = lst
 
-    if head > threshold:
-        return [head] + above_threshhold(tail, threshold)
-    else:
-        return above_threshhold(tail, threshold)
-
-print(above_threshhold(lst, 3))
-    
+print(count_negatives(list))
