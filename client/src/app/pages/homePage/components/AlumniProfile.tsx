@@ -104,21 +104,21 @@ const AlumniProfile = () => {
     },
   ];
 
-  const nextSlide = () => {
+  const nextSlide = React.useCallback(() => {
     if (!isAnimating) {
       setIsAnimating(true);
       setDirection("next");
       setCurrentSlide((prev) => (prev + 1) % alumni.length);
     }
-  };
+  }, [isAnimating, alumni.length]);
 
-  const previousSlide = () => {
+  const previousSlide = React.useCallback(() => {
     if (!isAnimating) {
       setIsAnimating(true);
       setDirection("prev");
       setCurrentSlide((prev) => (prev - 1 + alumni.length) % alumni.length);
     }
-  };
+  }, [isAnimating, alumni.length]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -126,7 +126,7 @@ const AlumniProfile = () => {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, [currentSlide]);
+  }, [currentSlide, nextSlide]);
 
   // Reset animation flag after transition
   useEffect(() => {
@@ -148,7 +148,7 @@ const AlumniProfile = () => {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [nextSlide, previousSlide]);
 
   return (
     <div className="w-full min-h-full my-12 w-full md:w-[90%] mx-auto bg-primary-black-color">
