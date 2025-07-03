@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"
+  environment = { NPM_FLAGS = "--legacy-peer-deps" }
