@@ -86,7 +86,7 @@
 
 @utility btn_base {
   /* Base transitions for all buttons */
-  @apply transition-all duration-300 relative overflow-hidden transform hover:scale-[1.02] active:scale-[0.98];
+  @apply transition-all duration-300 relative hover:cursor-pointer overflow-hidden transform hover:scale-[1.02] active:scale-[0.98];
 }
 
 @utility btn_white {
