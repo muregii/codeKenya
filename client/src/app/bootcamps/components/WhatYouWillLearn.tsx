@@ -10,7 +10,7 @@ import Button from "@/app/pages/components/Button";
 
 const WhatYouWillLearn = () => {
   return (
-    <div className="bg-primaryBlackColor text-white py-[2rem]">
+    <div className="bg-primary-black-color text-white py-8">
       <div className="w-[90%] mx-auto space-y-10">
         <h1 className="text-3xl font-bold text-center md:text-left">
           What You Will Learn

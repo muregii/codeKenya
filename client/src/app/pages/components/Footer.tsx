@@ -88,7 +88,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-primaryBlackColor text-white px-8 py-12">
+    <footer className="bg-primary-black-color text-white px-8 py-12">
       {showSubscribedPopup && (
         <SubscriptionModal
           isOpen={showSubscribedPopup}
@@ -103,7 +103,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* Logo */}
           <div className="md:col-span-1">
-            <Link href="/" className="flex-shrink-0">
+            <Link href="/" className="shrink-0">
               <Image
                 src="/images/code-kenya-logo.png"
                 alt="Code Kenya Logo"

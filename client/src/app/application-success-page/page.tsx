@@ -7,7 +7,7 @@ import { CheckCircle } from 'lucide-react';
 
 const SuccessPage = () => {
   return (
-    <div className="h-screen bg-gradient-to-b from-primaryGreenColor/10 to-white flex flex-col justify-between p-6">
+    <div className="h-screen bg-linear-to-b from-primary-green-color/10 to-white flex flex-col justify-between p-6">
       {/* Header */}
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ const SuccessPage = () => {
         transition={{ duration: 0.6 }}
         className="text-center max-w-2xl mx-auto mt-12"
       >
-        <CheckCircle className="w-16 h-16 text-primaryGreenColor mx-auto mb-4" />
+        <CheckCircle className="w-16 h-16 text-primary-green-color mx-auto mb-4" />
         <h1 className="text-3xl font-bold text-gray-900 mb-3">
           Application Submitted Successfully!
         </h1>
@@ -33,7 +33,7 @@ const SuccessPage = () => {
       >
         {/* <Link 
           href="/dashboard" 
-          className="px-6 py-3 text-base font-medium rounded-md text-white bg-primaryGreenColor hover:bg-green-700 transition-colors"
+          className="px-6 py-3 text-base font-medium rounded-md text-white bg-primary-green-color hover:bg-green-700 transition-colors"
         >
           Go to Dashboard
         </Link> */}

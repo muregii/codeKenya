@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <div>
       <nav className="bg-black text-white  relative w-full z-20 top-0 start-0 border-b border-gray-200">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-(--breakpoint-xl) flex flex-wrap items-center justify-between mx-auto p-4">
           <a className="flex items-center space-x-3 rtl:space-x-reverse">
             <Image
               src="/images/nobg-logo.svg"
@@ -27,14 +27,14 @@ function NavBar() {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               type="button"
-              className="text-white border border-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center hover:border-blue-500 hover:bg-white hover:text-black mx-4"
+              className="text-white border border-white focus:ring-4 focus:outline-hidden focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center hover:border-blue-500 hover:bg-white hover:text-black mx-4"
             >
               Sign In
             </button>
 
             <button
               type="button"
-              className="text-green-500 border border-green-500 bg-white hover:bg-transparent focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mx-4"
+              className="text-green-500 border border-green-500 bg-white hover:bg-transparent focus:ring-4 focus:outline-hidden focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mx-4"
             >
               Apply now
             </button>
@@ -42,7 +42,7 @@ function NavBar() {
             {/* Hamburger icon to toggle mobile menu */}
             <button
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-hidden focus:ring-2 focus:ring-gray-200"
               onClick={toggleMobileMenu}
             >
               <span className="sr-only">Open main menu</span>
@@ -75,7 +75,7 @@ function NavBar() {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                  className="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0"
                   aria-current="page"
                 >
                   Home
@@ -84,7 +84,7 @@ function NavBar() {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white"
+                  className="block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white"
                 >
                   About
                 </a>
@@ -92,7 +92,7 @@ function NavBar() {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white"
+                  className="block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white"
                 >
                   Services
                 </a>
@@ -100,7 +100,7 @@ function NavBar() {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white"
+                  className="block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:text-white"
                 >
                   Contact
                 </a>

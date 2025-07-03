@@ -4,7 +4,7 @@ import Image from "next/image";
 const Empowering = () => {
   return (
     <div className="w-[90%] mx-auto py-8 md:py-16">
-      <h1 className="text-primaryGreenColor text-2xl text-center md:text-left font-bold">
+      <h1 className="text-primary-green-color text-2xl text-center md:text-left font-bold">
         Empowering potential
       </h1>
 
@@ -16,11 +16,11 @@ const Empowering = () => {
         do.
       </p>
 
-      <div className="h-[3px] my-8 md:mt-8 bg-primaryGreenColor w-[3rem]"></div>
+      <div className="h-[3px] my-8 md:mt-8 bg-primary-green-color w-12"></div>
 
       <div className="flex flex-col md:flex-row gap-12 md:gap-16">
         <div className="space-y-4 md:space-y-6 md:pr-16 md:border-r-2">
-          <h2 className="text-primaryGreenColor text-lg font-bold">
+          <h2 className="text-primary-green-color text-lg font-bold">
             We enable people with:
           </h2>
           <div className="space-y-3">

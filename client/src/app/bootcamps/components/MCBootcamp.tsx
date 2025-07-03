@@ -24,7 +24,7 @@ const MCBootcamp = () => {
       </div>
 
       {/* Right Section */}
-      <div className="bg-primaryBlackColor text-white flex flex-col gap-8 px-[5%] py-[5%] w-full md:w-[50%]">
+      <div className="bg-primary-black-color text-white flex flex-col gap-8 px-[5%] py-[5%] w-full md:w-[50%]">
         {/* Card 1 */}
         <div className="space-y-4 flex flex-col items-center md:flex-row md:items-center md:justify-between text-center md:text-left">
           <div className="flex-1">

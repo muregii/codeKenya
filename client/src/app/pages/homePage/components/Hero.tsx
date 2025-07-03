@@ -21,7 +21,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-primaryBlackColor h-full md:h-screen text-white">
+    <div className="bg-primary-black-color h-full md:h-screen text-white">
       <Navbar />
       <div className="flex flex-col justify-between md:flex-row w-[90%] mx-auto py-10 pb-32 md:py-20">
         {/* LEFT-TEXT */}
@@ -29,7 +29,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="space-y-8 w-full md:w-[40%] mb-[3rem] md:mb-0 text-center md:text-left"
+          className="space-y-8 w-full md:w-[40%] mb-12 md:mb-0 text-center md:text-left"
         >
           <motion.div
             initial={{ opacity: 0, y: -20 }}

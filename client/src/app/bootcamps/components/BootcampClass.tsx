@@ -4,10 +4,10 @@ import Button from "@/app/pages/components/Button";
 
 const BootcampClass = () => {
   return (
-    <div className="w-[90%] mx-auto flex flex-col md:flex-row gap-10 py-[3rem]">
+    <div className="w-[90%] mx-auto flex flex-col md:flex-row gap-10 py-12">
       {/* Text Section */}
       <div className="w-full md:w-[50%] order-1 md:order-2">
-        <h1 className="text-3xl font-bold text-center md:text-left text-primaryGreenColor py-[2rem]">
+        <h1 className="text-3xl font-bold text-center md:text-left text-primary-green-color py-8">
           Bootcamp skills class
         </h1>
         <p className="mb-6 text-center md:text-left">

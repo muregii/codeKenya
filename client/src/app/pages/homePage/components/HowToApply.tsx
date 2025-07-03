@@ -8,12 +8,12 @@ import Button from "../../components/Button";
 const HowToApply = () => {
   return (
     <div className="w-[90%] mx-auto">
-      <h1 className="text-4xl font-semibold text-center md:text-left text-primaryGreenColor">
+      <h1 className="text-4xl font-semibold text-center md:text-left text-primary-green-color">
         How to apply to Code Kenya
       </h1>
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-start gap-4 md:max-w-[60%]">
-          <div className="bg-primaryGreenColor w-[8px] h-[10rem]"></div>
+          <div className="bg-primary-green-color w-[8px] h-40"></div>
           <div className="space-y-8">
             <p className="text-base">
               To apply, start by signing up on our website and filling out a
@@ -36,8 +36,8 @@ const HowToApply = () => {
           width={500}
         />
       </div>
-      <div className="flex flex-col md:flex-row justify-between gap-3 pt-[3rem]">
-        <div className="p-[2rem] flex-1 bg-primaryBlackColor text-white space-y-3">
+      <div className="flex flex-col md:flex-row justify-between gap-3 pt-12">
+        <div className="p-8 flex-1 bg-primary-black-color text-white space-y-3">
           <h2 className="font-bold text-2xl">Sign-up to start application</h2>
           <p className="text-sm">
             Click the &quot;apply now&quot; button on our website to start the
@@ -46,14 +46,14 @@ const HowToApply = () => {
           </p>
         </div>
 
-        <div className="p-[2rem] flex-1 bg-white text-primaryGreenColor space-y-3">
+        <div className="p-8 flex-1 bg-white text-primary-green-color space-y-3">
           <h2 className="font-bold text-2xl">Complete your application</h2>
           <p className="text-sm">
             Fully complete your application and ensure it submits.
           </p>
         </div>
 
-        <div className="p-[2rem] flex-1 bg-primaryRedColor text-white space-y-3">
+        <div className="p-8 flex-1 bg-primary-red-color text-white space-y-3">
           <h2 className="font-bold text-2xl">Interview invitation</h2>
           <p className="text-sm">
             Based on your application and evaluation, you&apos;ll receive an
@@ -62,7 +62,7 @@ const HowToApply = () => {
           </p>
         </div>
 
-        <div className="p-[2rem] flex-1 bg-primaryGreenColor text-white space-y-3">
+        <div className="p-8 flex-1 bg-primary-green-color text-white space-y-3">
           <h2 className="font-bold text-2xl">Admissions outcome</h2>
           <p className="text-sm">
             Once your interview is complete, you will receive your admissions

@@ -9,14 +9,14 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   const careerOptions = [
-    { title: "Management Consulting", color: "bg-primaryRedColor" },
+    { title: "Management Consulting", color: "bg-primary-red-color" },
     { title: "Software Development", color: "bg-[#b3b4bdff]" },
     { title: "Investment Banking", color: "bg-[#b3b4bdff]" },
     { title: "Data Science", color: "bg-[#b3b4bdff]" },
   ];
 
   return (
-    <div className="bg-primaryBlackColor h-full md:h-screen text-white">
+    <div className="bg-primary-black-color h-full md:h-screen text-white">
       <Navbar />
       <div className="w-[90%] mx-auto py-10 pb-32 md:py-20">
         <div className="flex flex-col justify-between md:flex-row">
@@ -25,7 +25,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="space-y-10 w-full md:w-[50%] mb-[3rem] md:mb-0 text-center md:text-left"
+            className="space-y-10 w-full md:w-[50%] mb-12 md:mb-0 text-center md:text-left"
           >
             <motion.h1
               initial={{ opacity: 0, y: 20 }}

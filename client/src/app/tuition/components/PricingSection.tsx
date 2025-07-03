@@ -29,10 +29,10 @@ const plans: PricingPlan[] = [
     price: 8,
     cycle: "",
     iconBgColor: "bg-[#e0e0e0ff]",
-    textColor: "text-primaryBlackColor",
+    textColor: "text-primary-black-color",
     description:
       "Enjoy full access to the course with a flexible learning schedule designed for your convenience.",
-    buttonColor: "bg-primaryBlackColor",
+    buttonColor: "bg-primary-black-color",
     buttonShadow: "shadow-[0_2px_10px_rgba(0,0,0,0.3)]",
     expandIcon: true,
     paymentLink:
@@ -51,10 +51,10 @@ const plans: PricingPlan[] = [
     price: 500,
     cycle: "",
     iconBgColor: "bg-[#f7e1e1ff]",
-    textColor: "text-primaryRedColor",
+    textColor: "text-primary-red-color",
     description:
       "Make a one-time payment and unlock the full benefits of your program.",
-    buttonColor: "bg-primaryRedColor",
+    buttonColor: "bg-primary-red-color",
     expandIcon: true,
     paymentLink:
       "https://payment.intasend.com/pay/c40406fd-3b36-447d-a566-806cfb9aef60/",
@@ -74,11 +74,11 @@ const plans: PricingPlan[] = [
     checkIconColor: "#006600ff",
     price: 7000,
     iconBgColor: "bg-[#e1ede1ff]",
-    textColor: "text-primaryGreenColor",
+    textColor: "text-primary-green-color",
     cycle: "",
     description:
       "Start learning now and pay over time, with flexible repayment terms.",
-    buttonColor: "bg-primaryGreenColor",
+    buttonColor: "bg-primary-green-color",
     expandIcon: true,
     paymentLink:
       "https://payment.intasend.com/pay/c40406fd-3b36-447d-a566-806cfb9aef60/",

@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="bg-about-sect-hero-bg-img h-screen bg-cover bg-no-repeat bg-center">
       <Navbar />
       <div className="w-[90%] mx-auto flex items-start h-full">
-        <div className="w-full md:w-[30%] bg-gradient-to-b from-primaryBlackColor to-transparent text-white rounded-lg mt-[4rem] space-y-6 p-7 shadow-lg">
+        <div className="w-full md:w-[30%] bg-linear-to-b from-primary-black-color to-transparent text-white rounded-lg mt-16 space-y-6 p-7 shadow-lg">
           <p>✦ About us</p>
           <h1 className="text-5xl font-bold">Who we are</h1>
           <p>

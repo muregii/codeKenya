@@ -23,7 +23,7 @@ const JobCard = ({
   };
 
   return (
-    <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+    <div className="bg-white rounded-lg p-4 shadow-xs hover:shadow-md transition-shadow border border-gray-100">
       <div className="flex items-start justify-between">
         <div className="flex gap-3">
           <div className="w-10 h-10 bg-gray-50 rounded-lg flex items-center justify-center">
@@ -141,14 +141,14 @@ const AvailableInternships = () => {
     },
   ];
   return (
-    <div className="w-[90%] mx-auto py-[3rem]">
+    <div className="w-[90%] mx-auto py-12">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl">Available Internships </h1>
-        <button className="flex items-center gap-3  bg-white border border-primaryGreenColor border-[2px] hover:bg-primaryGreenColor hover:text-white px-4 py-2 text-primaryGreenColor">
+        <button className="flex items-center gap-3  bg-white border border-primary-green-color border-2 hover:bg-primary-green-color hover:text-white px-4 py-2 text-primary-green-color">
           View All <FaArrowRight />
         </button>
       </div>
-      <div className="grid grid-cols-1 my-[2rem] md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 my-8 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {jobs.map((job, index) => (
           <JobCard key={index} {...job} />
         ))}

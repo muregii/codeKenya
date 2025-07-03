@@ -7,9 +7,9 @@ const Overview = () => {
   return (
     <div
       id="overview"
-      className="flex flex-col md:flex-row justify-between text-black w-[90%] mx-auto py-[4rem]"
+      className="flex flex-col md:flex-row justify-between text-black w-[90%] mx-auto py-16"
     >
-      <div className="space-y-8 w-full md:w-[40%] mb-[3rem] md:mb-0 text-center md:text-left">
+      <div className="space-y-8 w-full md:w-[40%] mb-12 md:mb-0 text-center md:text-left">
         <h1 className="text-4xl font-black">Overview of the 2025 Program</h1>
         <div className="space-y-4">
           <p className="text-sm">
@@ -30,7 +30,7 @@ const Overview = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between gap-4 items-center">
-        <div className="py-[4rem] px-[2rem] space-y-4 bg-overview-bg-img1  md:rounded-b-full text-white bg-center bg-no-repeat flex flex-col items-center justify-center">
+        <div className="py-16 px-8 space-y-4 bg-overview-bg-img1  md:rounded-b-full text-white bg-center bg-no-repeat flex flex-col items-center justify-center">
           <h2 className="font-bold text-xl">Nairobi Kenya</h2>
           <p className="text-sm">Applications are now open</p>
           <p className="text-xs">Starts from</p>
@@ -39,7 +39,7 @@ const Overview = () => {
             <Button type="button" title="Learn more" variant="btn_green_rect" />
           </Link>
         </div>
-        <div className="py-[4rem] px-[2rem] space-y-4 bg-overview-bg-img2  md:rounded-b-full text-white bg-center bg-no-repeat flex flex-col items-center justify-center">
+        <div className="py-16 px-8 space-y-4 bg-overview-bg-img2  md:rounded-b-full text-white bg-center bg-no-repeat flex flex-col items-center justify-center">
           <h2 className="font-bold text-xl">Online Program</h2>
           <p className="text-sm">Applications are now open</p>
           <p className="text-xs">Starts from</p>

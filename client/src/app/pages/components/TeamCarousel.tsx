@@ -52,7 +52,7 @@ const TeamCarousel = () => {
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
           {teamMembers.map((member, index) => (
-            <div key={index} className="w-full flex-shrink-0 p-4">
+            <div key={index} className="w-full shrink-0 p-4">
               <div className="bg-white rounded-lg shadow-lg p-6">
                 <div className="aspect-square w-48 mx-auto mb-4 bg-gray-200 rounded-lg">
                   <Image
@@ -96,7 +96,7 @@ const TeamCarousel = () => {
               onClick={() => goToSlide(index)}
               className={`w-2 h-2 rounded-full transition-all ${
                 currentSlide === index
-                  ? "bg-primaryRedColor w-4"
+                  ? "bg-primary-red-color w-4"
                   : "bg-gray-400"
               }`}
             />

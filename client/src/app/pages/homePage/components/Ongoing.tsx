@@ -5,7 +5,7 @@ import Image from "next/image";
 const Ongoing = () => {
   return (
     <div className="bg-[#b3b4bdff]">
-      <div className="w-[90%] mx-auto py-[4rem]">
+      <div className="w-[90%] mx-auto py-16">
         <div className="flex flex-col md:flex-row justify-between">
           <Image
             src="/images/ongoing-bootcamps-img.JPG"
@@ -15,10 +15,10 @@ const Ongoing = () => {
             width={400}
           />
           <div className="space-y-4">
-            <div className="h-[3px] mt-[2rem] md:mt-0 bg-primaryGreenColor w-[3rem] justify-left"></div>
+            <div className="h-[3px] mt-8 md:mt-0 bg-primary-green-color w-12 justify-left"></div>
             <div className="space-y-6 md:space-y-12">
               <div className="">
-                <h2 className="text-primaryGreenColor text-2xl font-bold">
+                <h2 className="text-primary-green-color text-2xl font-bold">
                   Software Engineering (AI)
                 </h2>
                 <p className="text-base">
@@ -27,7 +27,7 @@ const Ongoing = () => {
                 </p>
               </div>
               <div className="">
-                <h2 className="text-primaryGreenColor text-2xl font-bold">
+                <h2 className="text-primary-green-color text-2xl font-bold">
                   Entrepreneurship
                 </h2>
                 <p className="text-base">
@@ -38,24 +38,24 @@ const Ongoing = () => {
             </div>
           </div>
         </div>
-        <h1 className="text-4xl font-bold text-center md:text-left text-primaryGreenColor py-[3rem]">
+        <h1 className="text-4xl font-bold text-center md:text-left text-primary-green-color py-12">
           Ongoing Bootcamps & internships
         </h1>
-        <div className="flex flex-col md:flex-row gap-[3rem]  justify-between">
-          <div className="bg-SE-bootcamp-img h-[12rem]  md:flex-1 bg-center bg-cover rounded-lg  bg-no-repeat flex items-end">
+        <div className="flex flex-col md:flex-row gap-12  justify-between">
+          <div className="bg-SE-bootcamp-img h-48  md:flex-1 bg-center bg-cover rounded-lg  bg-no-repeat flex items-end">
             <p className="w-full text-center bg-white mx-auto rounded-b-lg p-2 font-bold  text-xl">
               Software Engineering
             </p>
           </div>
 
-          <div className="bg-entrepreneurship-bootcamp-img h-[12rem]  md:flex-1 bg-center bg-cover rounded-lg  bg-no-repeat flex items-end">
-            <p className="w-full text-center bg-primaryRedColor text-white mx-auto rounded-b-lg p-2 font-bold  text-xl">
+          <div className="bg-entrepreneurship-bootcamp-img h-48  md:flex-1 bg-center bg-cover rounded-lg  bg-no-repeat flex items-end">
+            <p className="w-full text-center bg-primary-red-color text-white mx-auto rounded-b-lg p-2 font-bold  text-xl">
               Entrepreneurship
             </p>
           </div>
 
-          <div className="bg-AI-bootcamp-img h-[12rem]  md:flex-1 bg-center bg-cover rounded-lg  bg-no-repeat flex items-end">
-            <p className="w-full text-center bg-primaryGreenColor text-white mx-auto rounded-b-lg p-2 font-bold  text-xl">
+          <div className="bg-AI-bootcamp-img h-48  md:flex-1 bg-center bg-cover rounded-lg  bg-no-repeat flex items-end">
+            <p className="w-full text-center bg-primary-green-color text-white mx-auto rounded-b-lg p-2 font-bold  text-xl">
               Artificial Intelligence
             </p>
           </div>

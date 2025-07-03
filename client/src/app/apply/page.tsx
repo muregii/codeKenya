@@ -150,21 +150,21 @@ const ApplicationForm: React.FC = () => {
       <div className="w-full max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Carousel Section */}
-          <div className="relative bg-primaryRedColor rounded-2xl p-8 flex flex-col">
+          <div className="relative bg-primary-red-color rounded-2xl p-8 flex flex-col">
             <h2 className="text-white text-xl md:text-2xl text-center mb-8">
               Start your application at Code Kenya to unlock exclusive features
               and start your career journey
             </h2>
 
             <div className="relative flex-1 flex items-center justify-center">
-              <div className="absolute inset-0 bg-primaryGreenColor rounded-full"></div>
-              <div className="relative w-full max-w-sm aspect-[3/4] overflow-hidden">
+              <div className="absolute inset-0 bg-primary-green-color rounded-full"></div>
+              <div className="relative w-full max-w-sm aspect-3/4 overflow-hidden">
                 <div
                   className="flex transition-transform duration-500 ease-out h-full"
                   style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                 >
                   {[...Array(totalSlides)].map((_, index) => (
-                    <div key={index} className="w-full flex-shrink-0">
+                    <div key={index} className="w-full shrink-0">
                       <Image
                         src="/images/application-carousel-img.png"
                         alt={`Application feature ${index + 1}`}
@@ -218,7 +218,7 @@ const ApplicationForm: React.FC = () => {
                       name="first_name"
                       value={formData.first_name}
                       onChange={handleChange}
-                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                      className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                         errors.first_name
                           ? "border-red-500 focus:ring-red-200"
                           : "border-gray-300 focus:ring-green-200"
@@ -241,7 +241,7 @@ const ApplicationForm: React.FC = () => {
                       name="last_name"
                       value={formData.last_name}
                       onChange={handleChange}
-                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                      className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                         errors.last_name
                           ? "border-red-500 focus:ring-red-200"
                           : "border-gray-300 focus:ring-green-200"
@@ -264,7 +264,7 @@ const ApplicationForm: React.FC = () => {
                       name="email_phone"
                       value={formData.email_phone}
                       onChange={handleChange}
-                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                      className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                         errors.email_phone
                           ? "border-red-500 focus:ring-red-200"
                           : "border-gray-300 focus:ring-green-200"
@@ -287,7 +287,7 @@ const ApplicationForm: React.FC = () => {
                       name="dob"
                       value={formData.dob}
                       onChange={handleChange}
-                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                      className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                         errors.dob
                           ? "border-red-500 focus:ring-red-200"
                           : "border-gray-300 focus:ring-green-200"
@@ -308,7 +308,7 @@ const ApplicationForm: React.FC = () => {
                       name="course_id"
                       value={formData.course_id}
                       onChange={handleChange}
-                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                      className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                         errors.course_id
                           ? "border-red-500 focus:ring-red-200"
                           : "border-gray-300 focus:ring-green-200"
@@ -334,7 +334,7 @@ const ApplicationForm: React.FC = () => {
                       name="university_name"
                       value={formData.university_name}
                       onChange={handleChange}
-                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                      className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                         errors.university_name
                           ? "border-red-500 focus:ring-red-200"
                           : "border-gray-300 focus:ring-green-200"
@@ -359,7 +359,7 @@ const ApplicationForm: React.FC = () => {
                     value={formData.essay}
                     onChange={handleChange}
                     rows={4}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 resize-none ${
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 resize-none ${
                       errors.essay
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
@@ -381,7 +381,7 @@ const ApplicationForm: React.FC = () => {
                 className={`w-full py-2 px-4 rounded-md text-white mt-6 ${
                   isSubmitting
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-primaryGreenColor hover:bg-green-700 transition-colors"
+                    : "bg-primary-green-color hover:bg-green-700 transition-colors"
                 }`}
               >
                 {isSubmitting ? "Submitting..." : "Submit Application"}
