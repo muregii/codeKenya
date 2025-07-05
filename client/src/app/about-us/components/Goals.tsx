@@ -17,7 +17,7 @@ const Goals = () => {
       <div className="w-[90%] mx-auto">
         <div className="flex flex-col md:flex-row  gap-8 md:gap-80 justify-between">
           <div className="w-full md:w-[30%] space-y-6">
-            <h2 className="text-4xl leading-2">The Code Kenya Journey</h2>
+            <h2 className="text-4xl leading-8">The Code Kenya Journey</h2>
             <p>
               Code Kenya is a Kenyan bootcamp that would bridge the gap between
               academia and industry. It&apos;s aims to grow into a global

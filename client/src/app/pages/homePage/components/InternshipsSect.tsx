@@ -58,9 +58,6 @@ const InternshipsSect = () => {
             </span>
             <button className="px-3 py-1 bg-primary-green-color hover:bg-green-700 transition-colors rounded-full text-white text-sm flex items-center gap-2">
               Connect
-              {/* <span className="block w-4 h-4 rounded-full bg-white/20 flex items-center justify-center">
-                ▶
-              </span> */}
             </button>
           </div>
         </div>

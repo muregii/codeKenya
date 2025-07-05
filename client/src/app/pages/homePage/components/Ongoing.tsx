@@ -8,7 +8,7 @@ const Ongoing = () => {
       <div className="w-[90%] mx-auto py-16">
         <div className="flex flex-col md:flex-row justify-between">
           <Image
-            src="/images/ongoing-bootcamps-img.JPG"
+            src="/images/ongoing-bootcamps-img.jpg"
             alt="Virtual Reality testing"
             className="rounded"
             height={400}

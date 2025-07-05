@@ -1,9 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
+import useDebounce from "@/hooks/useDebounce";
 
 const ApplicationForm: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -18,9 +19,70 @@ const ApplicationForm: React.FC = () => {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  // Email verification state
+  const [emailVerificationStatus, setEmailVerificationStatus] = useState({
+    loading: false,
+    valid: null as boolean | null,
+    message: "",
+  });
+
+  // Refs
+  const lastVerifiedEmail = useRef<string>("");
+  const emailCache = useRef<Record<string, boolean>>({});
+
   const totalSlides = 3;
 
   const router = useRouter();
+
+  // Initialize debounced verify function
+  const debouncedVerify = useDebounce(async (...args: unknown[]) => {
+    const email = args[0] as string;
+    if (emailCache.current[email] !== undefined) {
+      setEmailVerificationStatus({
+        loading: false,
+        valid: emailCache.current[email],
+        message: emailCache.current[email]
+          ? "Email is valid"
+          : "Email is invalid",
+      });
+      return;
+    }
+
+    setEmailVerificationStatus((prev) => ({
+      ...prev,
+      loading: true,
+      message: "Verifying...",
+    }));
+
+    try {
+      const response = await fetch("/api/verify-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await response.json();
+      const isValid = data.success === "true" && data.result === "valid";
+
+      emailCache.current[email] = isValid;
+      lastVerifiedEmail.current = email;
+
+      setEmailVerificationStatus({
+        loading: false,
+        valid: isValid,
+        message: isValid
+          ? "Email is valid"
+          : `Invalid email. Please enter a valid work or personal email address`,
+      });
+    } catch (error) {
+      console.error("Email verification error:", error);
+      setEmailVerificationStatus({
+        loading: false,
+        valid: false,
+        message: "Verification service unavailable",
+      });
+    }
+  }, 500);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -30,8 +92,23 @@ const ApplicationForm: React.FC = () => {
     return () => clearInterval(timer);
   }, []);
 
+  // Handle email blur event to trigger verification when one leaves the input
+  const handleEmailBlur = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const email = formData.email_phone.trim();
+
+    if (
+      email &&
+      emailRegex.test(email) &&
+      email !== lastVerifiedEmail.current
+    ) {
+      debouncedVerify(email);
+    }
+  };
+
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     // First Name validation
     if (!formData.first_name.trim()) {
@@ -48,11 +125,18 @@ const ApplicationForm: React.FC = () => {
     }
 
     // Email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!formData.email_phone.trim()) {
       newErrors.email_phone = "Email is required";
     } else if (!emailRegex.test(formData.email_phone)) {
       newErrors.email_phone = "Please enter a valid email";
+    } else if (emailVerificationStatus.valid === false) {
+      newErrors.email_phone = emailVerificationStatus.message;
+    } else if (
+      emailVerificationStatus.valid === null &&
+      formData.email_phone === lastVerifiedEmail.current
+    ) {
+      // Only show validation message if we haven't verified yet
+      newErrors.email_phone = "Please wait for email verification";
     }
 
     // Date of Birth validation
@@ -255,7 +339,7 @@ const ApplicationForm: React.FC = () => {
                     )}
                   </div>
 
-                  <div className="flex flex-col">
+                  {/* <div className="flex flex-col">
                     <label className="mb-1 text-sm font-medium text-gray-700">
                       Email or Phone
                     </label>
@@ -276,6 +360,43 @@ const ApplicationForm: React.FC = () => {
                         {errors.email_phone}
                       </span>
                     )}
+                  </div> */}
+
+                  <div className="flex flex-col">
+                    <label className="mb-1 text-sm font-medium text-gray-700">
+                      Email or Phone
+                    </label>
+                    <input
+                      type="email"
+                      name="email_phone"
+                      value={formData.email_phone}
+                      onChange={handleChange}
+                      onBlur={handleEmailBlur}
+                      className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                        errors.email_phone
+                          ? "border-red-500 focus:ring-red-200"
+                          : emailVerificationStatus.valid === true
+                          ? "border-green-500 focus:ring-green-200"
+                          : "border-gray-300 focus:ring-green-200"
+                      }`}
+                      placeholder="Enter your email or phone"
+                    />
+                    {errors.email_phone && (
+                      <span className="text-red-500 text-xs mt-1">
+                        {errors.email_phone}
+                      </span>
+                    )}
+                    {emailVerificationStatus.loading && (
+                      <span className="text-blue-500 text-xs mt-1">
+                        {emailVerificationStatus.message}
+                      </span>
+                    )}
+                    {emailVerificationStatus.valid === true &&
+                      !errors.email_phone && (
+                        <span className="text-green-500 text-xs mt-1">
+                          {emailVerificationStatus.message}
+                        </span>
+                      )}
                   </div>
 
                   <div className="flex flex-col">

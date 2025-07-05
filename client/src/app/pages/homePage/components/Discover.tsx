@@ -14,7 +14,7 @@ const Discover = () => {
             <p className="text-primary-green-color text-base">
               ✦ Travel . Discover
             </p>
-            <h2 className="text-3xl font-semibold leading-1">
+            <h2 className="text-3xl font-semibold leading-8">
               Find your perfect place to experience the city{" "}
             </h2>
             <p className="text-lg">
