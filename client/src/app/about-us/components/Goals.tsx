@@ -134,8 +134,8 @@ const Goals = () => {
         </div>
         <div className="flex flex-col md:flex-row py-8 items-center justify-between">
           <Image
-            src="/images/our-purpose-img.JPG"
-            alt="Group testing virtual reality"
+            src="/images/our_purpose_img.webp"
+            alt="Bootcamp students at KICC in Nairobi"
             width={500}
             height={500}
             className="rounded-md"

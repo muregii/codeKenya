@@ -45,7 +45,7 @@ const BootcampClass = () => {
           alt="Ongoing Bootcamp Class"
           height={500}
           width={500}
-          className="object-contain"
+          className="object-contain rounded-lg shadow-lg"
         />
       </div>
     </div>

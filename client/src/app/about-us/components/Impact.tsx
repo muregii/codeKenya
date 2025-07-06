@@ -9,7 +9,7 @@ const Impact = () => {
         Our Impact
       </h1>
       <Image
-        src="/images/ongoing-bootcamps-img.JPG"
+        src="/images/our_impact_img.webp"
         alt="Learners in a bootcamp session"
         className="my-12 mx-auto rounded-lg border border-black border-4"
         height={800}

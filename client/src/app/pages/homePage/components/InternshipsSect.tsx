@@ -70,8 +70,8 @@ const InternshipsSect = () => {
       <div className="flex flex-col md:flex-row justify-between w-[90%] mx-auto">
         <div className="w-full md:max-w-[30%] space-y-6">
           <Image
-            src="/images/internship-project-img.JPG"
-            alt="Internship video"
+            src="/images/internship_project_img.webp"
+            alt="Booytcamp students working on an internship project"
             className="rounded-lg"
             height={400}
             width={400}
@@ -85,7 +85,7 @@ const InternshipsSect = () => {
             </p>
           </div>
           <div className="flex justify-center md:justify-start">
-            <Link href='/internships'>
+            <Link href="/internships">
               <button className="flex items-center gap-3 rounded-md bg-primary-green-color hover:bg-green-600 px-8 py-3 text-white">
                 Learn more about internships <FaArrowRight />
               </button>

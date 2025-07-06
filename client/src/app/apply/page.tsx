@@ -72,7 +72,7 @@ const ApplicationForm: React.FC = () => {
         valid: isValid,
         message: isValid
           ? "Email is valid"
-          : `Invalid email. Please enter a valid work or personal email address`,
+          : `Invalid email. Please enter a valid work,school or personal email address`,
       });
     } catch (error) {
       console.error("Email verification error:", error);

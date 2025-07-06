@@ -17,7 +17,7 @@ const TeamCarousel = () => {
     {
       name: "Kendi Miriti",
       role: "Director",
-      image: "/images/success-story-kendi.JPG",
+      image: "/images/testimonial_kendi.webp",
     },
     {
       name: "Valary Anguzuzu",

@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --color-background: var(--background);
@@ -7,73 +7,21 @@
   --color-primary-green-color: #006600ff;
   --color-primary-red-color: #ba0000ff;
 
-  --background-image-how-CK-works-bg-img: url('/images/CK-works-bg.png');
-  --background-image-about-sect-hero-bg-img: url('/images/about-sect-hero-bg.JPG');
-  --background-image-overview-bg-img1: url('/images/overview1-bg.svg');
-  --background-image-overview-bg-img2: url('/images/overview2-bg.svg');
-  --background-image-SE-bootcamp-img: url('/images/SE-img.jpg');
-  --background-image-entrepreneurship-bootcamp-img: url('/images/Entrepreneurship-img.jpg');
-  --background-image-AI-bootcamp-img: url('/images/AI-img.jpg');
-  --background-image-our-goals-bg1: url('/images/our-goals-img1.png');
-  --background-image-our-goals-bg2: url('/images/our-goals-img2.png');
-  --background-image-our-goals-bg3: url('/images/our-goals-img3.png');
-  --background-image-our-goals-bg4: url('/images/our-goals-img4.png');
-  --background-image-internship-footer-bg1: url('/images/internship-footer-bg1.png');
-  --background-image-internship-footer-bg2: url('/images/internship-footer-bg2.png');
+  --background-image-how-CK-works-bg-img: url("/images/CK-works-bg.png");
+  --background-image-about-sect-hero-bg-img: url("/images/about_sect_hero_bg_edited.webp");
+  --background-image-overview-bg-img1: url("/images/overview1-bg.svg");
+  --background-image-overview-bg-img2: url("/images/overview2-bg.svg");
+  --background-image-SE-bootcamp-img: url("/images/SE-img.jpg");
+  --background-image-entrepreneurship-bootcamp-img: url("/images/Entrepreneurship-img.jpg");
+  --background-image-AI-bootcamp-img: url("/images/AI-img.jpg");
+  --background-image-our-goals-bg1: url("/images/our-goals-img1.png");
+  --background-image-our-goals-bg2: url("/images/our-goals-img2.png");
+  --background-image-our-goals-bg3: url("/images/our-goals-img3.png");
+  --background-image-our-goals-bg4: url("/images/our-goals-img4.png");
+  --background-image-internship-footer-bg1: url("/images/internship-footer-bg1.png");
+  --background-image-internship-footer-bg2: url("/images/internship-footer-bg2.png");
 }
 
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary-black-color: #000000ff;
-  --color-primary-green-color: #006600ff;
-  --color-primary-red-color: #ba0000ff;
-
-  --background-image-how-CK-works-bg-img: url('/images/CK-works-bg.png');
-  --background-image-about-sect-hero-bg-img: url('/images/about-sect-hero-bg.JPG');
-  --background-image-overview-bg-img1: url('/images/overview1-bg.svg');
-  --background-image-overview-bg-img2: url('/images/overview2-bg.svg');
-  --background-image-SE-bootcamp-img: url('/images/SE-img.jpg');
-  --background-image-entrepreneurship-bootcamp-img: url('/images/Entrepreneurship-img.jpg');
-  --background-image-AI-bootcamp-img: url('/images/AI-img.jpg');
-  --background-image-our-goals-bg1: url('/images/our-goals-img1.png');
-  --background-image-our-goals-bg2: url('/images/our-goals-img2.png');
-  --background-image-our-goals-bg3: url('/images/our-goals-img3.png');
-  --background-image-our-goals-bg4: url('/images/our-goals-img4.png');
-  --background-image-internship-footer-bg1: url('/images/internship-footer-bg1.png');
-  --background-image-internship-footer-bg2: url('/images/internship-footer-bg2.png');
-}
-
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary-black-color: #000000ff;
-  --color-primary-green-color: #006600ff;
-  --color-primary-red-color: #ba0000ff;
-
-  --background-image-how-CK-works-bg-img: url('/images/CK-works-bg.png');
-  --background-image-about-sect-hero-bg-img: url('/images/about-sect-hero-bg.JPG');
-  --background-image-overview-bg-img1: url('/images/overview1-bg.svg');
-  --background-image-overview-bg-img2: url('/images/overview2-bg.svg');
-  --background-image-SE-bootcamp-img: url('/images/SE-img.jpg');
-  --background-image-entrepreneurship-bootcamp-img: url('/images/Entrepreneurship-img.jpg');
-  --background-image-AI-bootcamp-img: url('/images/AI-img.jpg');
-  --background-image-our-goals-bg1: url('/images/our-goals-img1.png');
-  --background-image-our-goals-bg2: url('/images/our-goals-img2.png');
-  --background-image-our-goals-bg3: url('/images/our-goals-img3.png');
-  --background-image-our-goals-bg4: url('/images/our-goals-img4.png');
-  --background-image-internship-footer-bg1: url('/images/internship-footer-bg1.png');
-  --background-image-internship-footer-bg2: url('/images/internship-footer-bg2.png');
-}
-
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
   ::after,
@@ -160,40 +108,4 @@
 
 @utility flexCenter {
   @apply flex items-center justify-center;
-}
-
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
-}
-
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
 }
