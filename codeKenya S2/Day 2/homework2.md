@@ -7,13 +7,13 @@
 
 ### 1. ✅ Set Up GitHub
 - If you haven't yet: **create or log into your GitHub account**.
-- Fork and clone the [CodeKenya Repository](https://github.com/CodeKenya).
+- Fork and clone the [CodeKenya Repository](https://github.com/muregii/codeKenya).
 - Don’t forget to ⭐ **star the repo**!
 
 ---
 
 ### 2. ✅ Create a New Branch
-- Name the branch after **your full name** (e.g., `john-doe`).
+- If you haven't yet, name the branch after **your full name** (e.g., `john-doe`).
 
 ---
 
