@@ -76,6 +76,7 @@ Include in the **PR description**:
 - ❓ Any parts where you got stuck during your interaction with Git & GitHub or solving the code  
 
 ---
+# Remember to git pull first to update your branch with the current new structure. There are new changes added from homework 1 submissions
 
 Happy Coding! 🚀  
 If you get stuck, don't be afraid to ask for help in the CodeKenya Discord.
