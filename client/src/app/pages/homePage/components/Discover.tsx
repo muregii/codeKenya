@@ -7,14 +7,14 @@ import Button from "../../components/Button";
 
 const Discover = () => {
   return (
-    <div className="flex w-[90%] mx-auto py-[4rem]">
+    <div className="flex w-[90%] mx-auto py-16">
       <div>
         <div className="flex flex-col md:flex-row">
-          <div className="space-y-4 md:w-[20%] w-full mb-[3rem] md:mb-0 ">
-            <p className="text-primaryGreenColor text-base">
+          <div className="space-y-4 md:w-[20%] w-full mb-12 md:mb-0 ">
+            <p className="text-primary-green-color text-base">
               ✦ Travel . Discover
             </p>
-            <h2 className="text-3xl font-semibold leading-1">
+            <h2 className="text-3xl font-semibold leading-8">
               Find your perfect place to experience the city{" "}
             </h2>
             <p className="text-lg">
@@ -37,7 +37,7 @@ const Discover = () => {
         {/* <Image
           src="/images/discover-cards.png"
           alt="Information cards"
-          className="py-[3rem] pl-[3rem] md:block hidden"
+          className="py-12 pl-12 md:block hidden"
           height={700}
           width={700}
         /> */}

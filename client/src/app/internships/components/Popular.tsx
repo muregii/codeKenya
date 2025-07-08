@@ -4,16 +4,16 @@ import { FaArrowRight, FaPenNib } from "react-icons/fa6";
 
 const Popular = () => {
   return (
-    <div className="w-[90%] mx-auto py-[3rem]">
+    <div className="w-[90%] mx-auto py-12">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl">Popular category </h1>
-        <button className="flex items-center gap-3  bg-white border border-primaryGreenColor border-[2px] hover:bg-primaryGreenColor hover:text-white px-4 py-2 text-primaryGreenColor">
+        <button className="flex items-center gap-3  bg-white border border-primary-green-color border-2 hover:bg-primary-green-color hover:text-white px-4 py-2 text-primary-green-color">
           View All <FaArrowRight />
         </button>
       </div>
-      <div className="grid my-[3rem] grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid my-12 grid-cols-1 md:grid-cols-4 gap-4">
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -23,7 +23,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -33,7 +33,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -43,7 +43,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -53,7 +53,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -63,7 +63,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -73,7 +73,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">
@@ -83,7 +83,7 @@ const Popular = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className="rounded-md bg-[#dae8daff] p-4 text-primaryGreenColor">
+          <div className="rounded-md bg-[#dae8daff] p-4 text-primary-green-color">
             <FaPenNib />
           </div>
           <div className="flex flex-col">

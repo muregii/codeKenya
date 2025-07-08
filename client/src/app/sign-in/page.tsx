@@ -30,25 +30,25 @@ const ApplicationForm: React.FC = () => {
     const newErrors: Record<string, string> = {};
 
     // First Name validation
-    if (!formData.firstName.trim()) {
-      newErrors.firstName = "First name is required";
-    } else if (formData.firstName.length < 2) {
-      newErrors.firstName = "First name must be at least 2 characters";
+    if (!formData.first_name.trim()) {
+      newErrors.first_name = "First name is required";
+    } else if (formData.first_name.length < 2) {
+      newErrors.first_name = "First name must be at least 2 characters";
     }
 
     // Last Name validation
-    if (!formData.lastName.trim()) {
-      newErrors.lastName = "Last name is required";
-    } else if (formData.lastName.length < 2) {
-      newErrors.lastName = "Last name must be at least 2 characters";
+    if (!formData.last_name.trim()) {
+      newErrors.last_name = "Last name is required";
+    } else if (formData.last_name.length < 2) {
+      newErrors.last_name = "Last name must be at least 2 characters";
     }
 
     // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!formData.email.trim()) {
-      newErrors.email = "Email is required";
-    } else if (!emailRegex.test(formData.email)) {
-      newErrors.email = "Please enter a valid email";
+    if (!formData.email_phone.trim()) {
+      newErrors.email_phone = "Email is required";
+    } else if (!emailRegex.test(formData.email_phone)) {
+      newErrors.email_phone = "Please enter a valid email";
     }
 
     // Date of Birth validation
@@ -63,14 +63,14 @@ const ApplicationForm: React.FC = () => {
       }
     }
 
-    // Course validation
-    if (!formData.course) {
-      newErrors.course = "Please select a course";
+    // course_id validation
+    if (!formData.course_id) {
+      newErrors.course_id = "Please select a course";
     }
 
     // University validation
-    if (!formData.university.trim()) {
-      newErrors.university = "University is required";
+    if (!formData.university_name.trim()) {
+      newErrors.university_name = "University is required";
     }
 
     return newErrors;
@@ -117,20 +117,20 @@ const ApplicationForm: React.FC = () => {
       <div className="w-full max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
           {/* Carousel Section */}
-          <div className="relative bg-primaryRedColor rounded-2xl p-8 flex flex-col">
+          <div className="relative bg-primary-red-color rounded-2xl p-8 flex flex-col">
             <h2 className="text-white text-xl md:text-2xl text-center mb-8">
               Welcome Back! Please log in to access your account.
             </h2>
 
             <div className="relative flex-1 flex items-center justify-center">
-              <div className="absolute inset-0 bg-primaryGreenColor rounded-full"></div>
-              <div className="relative w-full max-w-sm aspect-[3/4] overflow-hidden">
+              <div className="absolute inset-0 bg-primary-green-color rounded-full"></div>
+              <div className="relative w-full max-w-sm aspect-3/4 overflow-hidden">
                 <div
                   className="flex transition-transform duration-500 ease-out h-full"
                   style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                 >
                   {[...Array(totalSlides)].map((_, index) => (
-                    <div key={index} className="w-full flex-shrink-0">
+                    <div key={index} className="w-full shrink-0">
                       <Image
                         src="/images/application-carousel-img.png"
                         alt={`Application feature ${index + 1}`}
@@ -182,19 +182,19 @@ const ApplicationForm: React.FC = () => {
                   </label>
                   <input
                     type="text"
-                    name="firstName"
-                    value={formData.firstName}
+                    name="first_name"
+                    value={formData.first_name}
                     onChange={handleChange}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
-                      errors.firstName
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
+                      errors.first_name
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
                     }`}
                     placeholder="Enter your first name"
                   />
-                  {errors.firstName && (
+                  {errors.first_name && (
                     <span className="text-red-500 text-xs mt-1">
-                      {errors.firstName}
+                      {errors.first_name}
                     </span>
                   )}
                 </div>
@@ -206,19 +206,19 @@ const ApplicationForm: React.FC = () => {
                   </label>
                   <input
                     type="text"
-                    name="lastName"
-                    value={formData.lastName}
+                    name="last_name"
+                    value={formData.last_name}
                     onChange={handleChange}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
-                      errors.lastName
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
+                      errors.last_name
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
                     }`}
                     placeholder="Enter your last name"
                   />
-                  {errors.lastName && (
+                  {errors.last_name && (
                     <span className="text-red-500 text-xs mt-1">
-                      {errors.lastName}
+                      {errors.last_name}
                     </span>
                   )}
                 </div>
@@ -230,19 +230,19 @@ const ApplicationForm: React.FC = () => {
                   </label>
                   <input
                     type="email"
-                    name="email"
-                    value={formData.email}
+                    name="email_phone"
+                    value={formData.email_phone}
                     onChange={handleChange}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
-                      errors.email
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
+                      errors.email_phone
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
                     }`}
                     placeholder="Enter your email"
                   />
-                  {errors.email && (
+                  {errors.email_phone && (
                     <span className="text-red-500 text-xs mt-1">
-                      {errors.email}
+                      {errors.email_phone}
                     </span>
                   )}
                 </div>
@@ -257,7 +257,7 @@ const ApplicationForm: React.FC = () => {
                     name="dob"
                     value={formData.dob}
                     onChange={handleChange}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
                       errors.dob
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
@@ -276,11 +276,11 @@ const ApplicationForm: React.FC = () => {
                     What course are you most interested in?
                   </label>
                   <select
-                    name="course"
-                    value={formData.course}
+                    name="course_id"
+                    value={formData.course_id}
                     onChange={handleChange}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
-                      errors.course
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
+                      errors.course_id
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
                     }`}
@@ -291,9 +291,9 @@ const ApplicationForm: React.FC = () => {
                     <option value="management">Management Consulting</option>
                     <option value="investment">Investment Banking</option>
                   </select>
-                  {errors.course && (
+                  {errors.course_id && (
                     <span className="text-red-500 text-xs mt-1">
-                      {errors.course}
+                      {errors.course_id}
                     </span>
                   )}
                 </div>
@@ -305,19 +305,19 @@ const ApplicationForm: React.FC = () => {
                   </label>
                   <input
                     type="text"
-                    name="university"
-                    value={formData.university}
+                    name="university_name"
+                    value={formData.university_name}
                     onChange={handleChange}
-                    className={`px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
-                      errors.university
+                    className={`px-3 py-2 border rounded-md focus:outline-hidden focus:ring-2 ${
+                      errors.university_name
                         ? "border-red-500 focus:ring-red-200"
                         : "border-gray-300 focus:ring-green-200"
                     }`}
                     placeholder="Enter your university"
                   />
-                  {errors.university && (
+                  {errors.university_name && (
                     <span className="text-red-500 text-xs mt-1">
-                      {errors.university}
+                      {errors.university_name}
                     </span>
                   )}
                 </div>
@@ -329,7 +329,7 @@ const ApplicationForm: React.FC = () => {
                 className={`w-full py-2 px-4 rounded-md text-white mt-6 ${
                   isSubmitting
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-primaryGreenColor hover:bg-green-700 transition-colors"
+                    : "bg-primary-green-color hover:bg-green-700 transition-colors"
                 }`}
               >
                 {isSubmitting ? "Logging you in..." : "Login"}

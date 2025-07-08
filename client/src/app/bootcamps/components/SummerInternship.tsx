@@ -5,9 +5,9 @@ import Button from "@/app/pages/components/Button";
 
 const SummerInternship = () => {
   return (
-    <div className="w-[90%] mx-auto py-[4rem] flex flex-col lg:flex-row gap-12 lg:gap-16 justify-between items-center">
+    <div className="w-[90%] mx-auto py-16 flex flex-col lg:flex-row gap-12 lg:gap-16 justify-between items-center">
       {/* Left Image */}
-      <div className="flex-shrink-0">
+      <div className="shrink-0">
         <Image
           src="/images/your-internship-headline.png"
           alt="Your summer internship"

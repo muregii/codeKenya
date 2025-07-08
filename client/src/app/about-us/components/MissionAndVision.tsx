@@ -16,7 +16,7 @@ const MissionAndVision = () => {
 
       <div className="w-full md:w-[40%] space-y-8">
         <div className="space-y-4">
-          <h1 className="text-primaryGreenColor text-center md:text-left text-xl font-bold">
+          <h1 className="text-primary-green-color text-center md:text-left text-xl font-bold">
             Our Mission
           </h1>
           <p className="text-sm">
@@ -28,7 +28,7 @@ const MissionAndVision = () => {
         </div>
 
         <div className="space-y-4">
-          <h1 className="text-primaryGreenColor text-center md:text-left text-xl font-bold">
+          <h1 className="text-primary-green-color text-center md:text-left text-xl font-bold">
             Our Vision
           </h1>
           <p className="text-sm">

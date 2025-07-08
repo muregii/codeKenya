@@ -34,14 +34,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky top-0 z-50  bg-primaryBlackColor text-white transition-all duration-300 ${
+      className={`sticky top-0 z-50  bg-primary-black-color text-white transition-all duration-300 ${
         isScrolled ? "shadow-lg" : ""
       }`}
     >
       <div className="w-[90%] mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
+          <Link href="/" className="shrink-0">
             <Image
               src="/images/code-kenya-logo.png"
               alt="Code Kenya Logo"
@@ -73,7 +73,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/apply"
-              className="px-4 py-2 rounded-full bg-white text-primaryGreenColor hover:bg-gray-200 transition-colors duration-200 ease-in-out"
+              className="px-4 py-2 rounded-full bg-white text-primary-green-color hover:bg-gray-200 transition-colors duration-200 ease-in-out"
             >
               Apply Now
             </Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/apply"
-              className="block w-full text-center px-4 py-2 rounded-full bg-white text-primaryGreenColor hover:bg-gray-200 transition-colors duration-200 ease-in-out"
+              className="block w-full text-center px-4 py-2 rounded-full bg-white text-primary-green-color hover:bg-gray-200 transition-colors duration-200 ease-in-out"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Apply Now

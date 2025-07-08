@@ -16,7 +16,7 @@ const CompanyCard = ({
   isFeatured,
 }: CompanyCardProps) => {
   return (
-    <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all border border-gray-100">
+    <div className="bg-white rounded-lg p-4 shadow-xs hover:shadow-md transition-all border border-gray-100">
       <div className="flex items-start gap-3">
         {/* Company Logo */}
         <div className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center">
@@ -100,7 +100,7 @@ const TopCompanies = () => {
   return (
     <div className="w-[90%] mx-auto">
       <h1 className="text-2xl">Top Companies</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-[2rem]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
         {companies.map((company, index) => (
           <CompanyCard key={index} {...company} />
         ))}

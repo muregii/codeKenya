@@ -104,21 +104,21 @@ const AlumniProfile = () => {
     },
   ];
 
-  const nextSlide = () => {
+  const nextSlide = React.useCallback(() => {
     if (!isAnimating) {
       setIsAnimating(true);
       setDirection("next");
       setCurrentSlide((prev) => (prev + 1) % alumni.length);
     }
-  };
+  }, [isAnimating, alumni.length]);
 
-  const previousSlide = () => {
+  const previousSlide = React.useCallback(() => {
     if (!isAnimating) {
       setIsAnimating(true);
       setDirection("prev");
       setCurrentSlide((prev) => (prev - 1 + alumni.length) % alumni.length);
     }
-  };
+  }, [isAnimating, alumni.length]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -126,7 +126,7 @@ const AlumniProfile = () => {
     }, 5000);
 
     return () => clearInterval(timer);
-  }, [currentSlide]);
+  }, [currentSlide, nextSlide]);
 
   // Reset animation flag after transition
   useEffect(() => {
@@ -148,14 +148,14 @@ const AlumniProfile = () => {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [nextSlide, previousSlide]);
 
   return (
-    <div className="w-full min-h-full my-[3rem] w-full md:w-[90%] mx-auto bg-primaryBlackColor">
+    <div className="w-full min-h-full my-12 w-full md:w-[90%] mx-auto bg-primary-black-color">
       <div className="max-w-6xl mx-auto p-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Side - Carousel */}
-          <div className="relative bg-primaryBlackColor/50 rounded-lg p-8 overflow-hidden">
+          <div className="relative bg-primary-black-color/50 rounded-lg p-8 overflow-hidden">
             {/* Pattern Overlay */}
             <div className="absolute top-0 left-0 w-32 h-32 opacity-50">
               <div className="grid grid-cols-8 gap-1">
@@ -191,7 +191,7 @@ const AlumniProfile = () => {
                 &quot;{alumni[currentSlide].testimonial}&quot;
               </p>
 
-              <button className="bg-primaryGreenColor text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
+              <button className="bg-primary-green-color text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors">
                 Connect with Alumni
               </button>
 
@@ -200,7 +200,7 @@ const AlumniProfile = () => {
                 <button
                   onClick={previousSlide}
                   disabled={isAnimating}
-                  className="bg-primaryRedColor text-white px-4 py-1 rounded hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                  className="bg-primary-red-color text-white px-4 py-1 rounded-sm hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
                 >
                   <svg
                     className="w-4 h-4"
@@ -220,7 +220,7 @@ const AlumniProfile = () => {
                 <button
                   onClick={nextSlide}
                   disabled={isAnimating}
-                  className="bg-primaryRedColor text-white px-4 py-1 rounded hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                  className="bg-primary-red-color text-white px-4 py-1 rounded-sm hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
                 >
                   Next
                   <svg
@@ -253,7 +253,7 @@ const AlumniProfile = () => {
                     }}
                     className={`w-2 h-2 rounded-full transition-all ${
                       currentSlide === index
-                        ? "bg-primaryRedColor w-4"
+                        ? "bg-primary-red-color w-4"
                         : "bg-gray-400"
                     }`}
                     aria-label={`Go to slide ${index + 1}`}
@@ -264,7 +264,7 @@ const AlumniProfile = () => {
           </div>
 
           {/* Right Side - Career Progress */}
-          <div className="bg-gradient-to-b from-primaryRedColor to-primaryGreenColor rounded-lg p-8">
+          <div className="bg-linear-to-b from-primary-red-color to-primary-green-color rounded-lg p-8">
             <h2 className="text-white text-3xl font-bold mb-8">
               From campus to career
             </h2>

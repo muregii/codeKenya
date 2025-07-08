@@ -13,11 +13,11 @@ import {
 
 const Goals = () => {
   return (
-    <div className="bg-[#b3b4bdff] py-[4rem]">
+    <div className="bg-[#b3b4bdff] py-16">
       <div className="w-[90%] mx-auto">
-        <div className="flex flex-col md:flex-row  gap-[2rem] md:gap-[20rem] justify-between">
+        <div className="flex flex-col md:flex-row  gap-8 md:gap-80 justify-between">
           <div className="w-full md:w-[30%] space-y-6">
-            <h2 className="text-4xl leading-2">The Code Kenya Journey</h2>
+            <h2 className="text-4xl leading-8">The Code Kenya Journey</h2>
             <p>
               Code Kenya is a Kenyan bootcamp that would bridge the gap between
               academia and industry. It&apos;s aims to grow into a global
@@ -25,9 +25,9 @@ const Goals = () => {
               exploring the world.{" "}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-center gap-4">
-              <div className="bg-primaryBlackColor text-white rounded-md p-[1rem]">
+              <div className="bg-primary-black-color text-white rounded-md p-4">
                 <FaHeart />
               </div>
               <div className="space-y-2">
@@ -40,7 +40,7 @@ const Goals = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-primaryBlackColor text-white rounded-md p-[1rem]">
+              <div className="bg-primary-black-color text-white rounded-md p-4">
                 <FaNewspaper />
               </div>
               <div className="space-y-2">
@@ -53,7 +53,7 @@ const Goals = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-primaryRedColor text-white rounded-md p-[1rem]">
+              <div className="bg-primary-red-color text-white rounded-md p-4">
                 <FaStar />
               </div>
               <div className="space-y-2">
@@ -66,7 +66,7 @@ const Goals = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-primaryRedColor text-white rounded-md p-[1rem]">
+              <div className="bg-primary-red-color text-white rounded-md p-4">
                 <FaGlobe />
               </div>
               <div className="space-y-2">
@@ -79,7 +79,7 @@ const Goals = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-primaryGreenColor text-white rounded-md p-[1rem]">
+              <div className="bg-primary-green-color text-white rounded-md p-4">
                 <FaClock />
               </div>
               <div className="space-y-2">
@@ -91,7 +91,7 @@ const Goals = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-primaryGreenColor text-white rounded-md p-[1rem]">
+              <div className="bg-primary-green-color text-white rounded-md p-4">
                 <FaBookmark />
               </div>
               <div className="space-y-2">
@@ -104,45 +104,45 @@ const Goals = () => {
             </div>
           </div>
         </div>
-        <div className="my-[5rem]">
+        <div className="my-20">
           <h1 className="text-2xl text-center md:text-left">Our goals</h1>
-          <div className="my-[2rem] flex flex-col md:flex-row items-stretch w-full">
-            <div className="bg-our-goals-bg1 h-[12rem] md:h-auto md:flex-1 md:rounded-l-lg text-white bg-center   bg-no-repeat flex items-end">
+          <div className="my-8 flex flex-col md:flex-row items-stretch w-full">
+            <div className="bg-our-goals-bg1 h-48 md:h-auto md:flex-1 md:rounded-l-lg text-white bg-center   bg-no-repeat flex items-end">
               <p className="w-full text-center mx-auto mb-4 text-3xl">
                 Travel far
               </p>
             </div>
 
-            <div className="bg-our-goals-bg2 h-[12rem]  md:flex-1 text-black bg-center  bg-no-repeat flex items-end">
+            <div className="bg-our-goals-bg2 h-48  md:flex-1 text-black bg-center  bg-no-repeat flex items-end">
               <p className="w-full text-center mx-auto mb-4 text-3xl">
                 Learn deeply
               </p>
             </div>
 
-            <div className="bg-our-goals-bg3 h-[12rem]  md:flex-1 text-white bg-center  bg-no-repeat flex items-end">
+            <div className="bg-our-goals-bg3 h-48  md:flex-1 text-white bg-center  bg-no-repeat flex items-end">
               <p className="w-full text-center mx-auto mb-4 text-3xl">
                 Connect widely
               </p>
             </div>
 
-            <div className="bg-our-goals-bg4 h-[12rem]  md:flex-1  md:rounded-r-lg text-white bg-center  bg-no-repeat flex items-end">
+            <div className="bg-our-goals-bg4 h-48  md:flex-1  md:rounded-r-lg text-white bg-center  bg-no-repeat flex items-end">
               <p className="w-full text-center mx-auto mb-4 text-3xl">
                 Impact widely
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row py-[2rem] items-center justify-between">
+        <div className="flex flex-col md:flex-row py-8 items-center justify-between">
           <Image
-            src="/images/our-purpose-img.JPG"
-            alt="Group testing virtual reality"
+            src="/images/our_purpose_img.webp"
+            alt="Bootcamp students at KICC in Nairobi"
             width={500}
             height={500}
             className="rounded-md"
             loading="lazy"
             quality={80}
           />
-          <div className="space-y-5 w-full my-[2rem] md:w-[50%]">
+          <div className="space-y-5 w-full my-8 md:w-[50%]">
             <h2 className="text-3xl text-center md:text-left">Our purpose</h2>
             <div className="space-y-4">
               <p className="text-lg">

@@ -41,7 +41,7 @@ const InsightsBlogSection = () => {
             {/* Mobile Sidebar Content */}
             <div className="space-y-6">
               <div>
-                <h3 className="text-sm font-medium mb-3 text-primaryGreenColor">
+                <h3 className="text-sm font-medium mb-3 text-primary-green-color">
                   Blog Topics
                 </h3>
                 <div className="space-y-2">
@@ -56,7 +56,7 @@ const InsightsBlogSection = () => {
                 </div>
               </div>
               <div>
-                <h3 className="text-sm font-medium mb-3 text-primaryGreenColor">
+                <h3 className="text-sm font-medium mb-3 text-primary-green-color">
                   Guide and Tools
                 </h3>
                 <div className="space-y-2">
@@ -85,7 +85,7 @@ const InsightsBlogSection = () => {
               >
                 <Menu className="h-6 w-6" />
               </button>
-              <h1 className="text-3xl font-bold text-center md:text-left text-primaryGreenColor">
+              <h1 className="text-3xl font-bold text-center md:text-left text-primary-green-color">
                 Insights from our team
               </h1>
             </div>
@@ -93,7 +93,7 @@ const InsightsBlogSection = () => {
               <input
                 type="text"
                 placeholder="Search..."
-                className="w-full sm:w-64 pl-8 pr-4 py-1 rounded-full border border-gray-300 focus:outline-none focus:border-green-500 text-sm"
+                className="w-full sm:w-64 pl-8 pr-4 py-1 rounded-full border border-gray-300 focus:outline-hidden focus:border-green-500 text-sm"
               />
               <Search className="absolute left-2.5 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
             </div>
@@ -163,7 +163,7 @@ const InsightsBlogSection = () => {
               {/* Blog Posts */}
               <div className="space-y-6">
                 {/* Post 1 */}
-                <article className="bg-white rounded-lg overflow-hidden shadow-sm">
+                <article className="bg-white rounded-lg overflow-hidden shadow-xs">
                   <div className="p-4 sm:p-6">
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                       <div className="flex-1">
@@ -195,7 +195,7 @@ const InsightsBlogSection = () => {
                 </article>
 
                 {/* Post 2 */}
-                <article className="bg-white rounded-lg overflow-hidden shadow-sm">
+                <article className="bg-white rounded-lg overflow-hidden shadow-xs">
                   <div className="p-4 sm:p-6">
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                       <div className="flex-1">
@@ -235,7 +235,7 @@ const InsightsBlogSection = () => {
                   <input
                     type="email"
                     placeholder="Type your email..."
-                    className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                    className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-hidden focus:border-green-500"
                   />
                   {/* <button className="px-6 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors">
                     Subscribe

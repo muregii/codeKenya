@@ -5,13 +5,13 @@ import Image from "next/image";
 const Impact = () => {
   return (
     <div className="w-[90%] mx-auto">
-      <h1 className="text-primaryGreenColor text-2xl text-center mb-[1rem] font-bold">
+      <h1 className="text-primary-green-color text-2xl text-center mb-4 font-bold">
         Our Impact
       </h1>
       <Image
-        src="/images/ongoing-bootcamps-img.JPG"
+        src="/images/our_impact_img.webp"
         alt="Learners in a bootcamp session"
-        className="my-[3rem] mx-auto rounded-lg border border-black border-[4px]"
+        className="my-12 mx-auto rounded-lg border border-black border-4"
         height={800}
         width={800}
       />

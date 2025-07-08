@@ -11,16 +11,16 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const features = [
     {
-      icon: <FaStar className="text-2xl text-primaryRedColor" />,
+      icon: <FaStar className="text-2xl text-primary-red-color" />,
       title: "Your preferences",
       description:
         "When you begin your bootcamp, your instructors will introduce you to the available companies and project briefs.",
       className:
-        "bg-primaryBlackColor text-white border border-gray-800 hover:border-gray-700",
+        "bg-primary-black-color text-white border border-gray-800 hover:border-gray-700",
       textColor: "text-gray-300",
     },
     {
-      icon: <FaStar className="text-2xl text-primaryRedColor" />,
+      icon: <FaStar className="text-2xl text-primary-red-color" />,
       title: "Company matching",
       description:
         "Instructors will match you based on preferences, engagement, performance, collaboration skills, and client industry needs.",
@@ -32,19 +32,19 @@ const Hero = () => {
       title: "Continuous support",
       description:
         "Teaching Assistants available to support you 24/7 on your internship program. To ensure success in your career.",
-      className: "bg-primaryRedColor text-white hover:bg-red-600",
+      className: "bg-primary-red-color text-white hover:bg-red-600",
     },
     {
       icon: <FaStar className="text-2xl text-white" />,
       title: "Job placement",
       description:
         "Our commitment extends beyond internships – we help you land a job that matches your skills. We support you to the end.",
-      className: "bg-primaryGreenColor text-white hover:bg-green-600",
+      className: "bg-primary-green-color text-white hover:bg-green-600",
     },
   ];
 
   return (
-    <div className="min-h-screen bg-primaryBlackColor text-white relative overflow-hidden">
+    <div className="min-h-screen bg-primary-black-color text-white relative overflow-hidden">
       <Navbar />
 
       {/* Background Circle */}
@@ -82,7 +82,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="space-y-8 max-w-xl mb-[3rem] md:mb-0 text-center md:text-left"
+            className="space-y-8 max-w-xl mb-12 md:mb-0 text-center md:text-left"
           >
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
