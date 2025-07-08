@@ -17,7 +17,7 @@ class PaymentCreate(BaseModel):
     payment_method: str = Field("MPESA", example="MPESA")
     redirect_url: Optional[str] = Field(None, example="https://codekenya.org/")
     customer: Optional[CustomerDetails] = None
-    metadata: Optional[Dict[str, Any]] = Field(None, example={"order_id": "12345"})
+    payment_metadata: Optional[Dict[str, Any]] = Field(None, example={"order_id": "12345"})
 
     @field_validator('payment_method')
     def validate_payment_method(cls, v):

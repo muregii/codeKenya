@@ -16,6 +16,6 @@ class Payment(Base):
     status = Column(String, nullable=True)
     customer_email = Column(String, nullable=True)
     customer_phone = Column(String, nullable=True)
-    metadata = Column(JSON, nullable=True)
+    payment_metadata = Column(JSON, nullable=True)
     created_at = Column(DateTime, default=datetime.now)
     updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)

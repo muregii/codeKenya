@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes import app as application_router
 from app.db.database import Base, check_database_health, engine
-from app.models.users import Applicant, Course, Subscriber, University, User
 
 app = FastAPI()
 
