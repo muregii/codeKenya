@@ -2,7 +2,7 @@
 # 🎉 Thank You All for Attending the 3rd Recruiting Prep Session
 
 ## 📚 Your Homework for This Week  
-**🗓 Deadline: Tuesday, July 9th at 11:59 PM EAT**
+**🗓 Deadline: Tuesday, July 10th at 11:59 PM EAT**
 
 ---
 
