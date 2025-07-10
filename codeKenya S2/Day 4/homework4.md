@@ -2,7 +2,7 @@
 # 🎉 Thank You All for Attending the 3rd Recruiting Prep Session
 
 ## 📚 Your Homework for This Week  
-**🗓 Deadline: Tuesday, July 10th at 11:59 PM EAT**
+**🗓 Deadline: Thursday, July 10th at 11:59 PM EAT**
 
 ---
 
@@ -39,7 +39,7 @@
 
 ```bash
 git add .
-git commit -m "Solved Best Time to Buy and Sell Stock"
+git commit -m "Solved Valid Palindrome"
 ```
 
 ---
@@ -52,7 +52,7 @@ git push origin your-branch-name
 
 Then, go to GitHub and open a **Pull Request**.
 
-#### 💬 PR Description Should Include:
+#### 💬 PR Description MUST Include:
 - 🔍 A short summary of your approach  
 - 🧠 One new thing you learned  
 - ❓ Any challenge you faced during Git/GitHub or solving the question
