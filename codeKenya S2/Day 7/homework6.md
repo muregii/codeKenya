@@ -10,3 +10,5 @@ Then, go to GitHub and open a **Pull Request**.
 - 🧠 One new thing you learned  
 - ❓ Any challenge you faced during Git/GitHub or solving the question
 
+# Homework 2: Read on big O analysis from this book: copy and search the following line.
+Resources/Books/CRACKING the · CODING INTERVIEW ( PDFDrive ).pdf.zip 
