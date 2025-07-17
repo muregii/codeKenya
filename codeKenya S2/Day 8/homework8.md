@@ -18,4 +18,3 @@ Then, go to GitHub and open a **Pull Request**.
 - By the end of this assignment, You will be 16/75 into the blind 75 challenge.
 Let's goooo🚀🚀
 - If you haven't done 16 questions and pushed to github by Sunday 11:59pm, July 20th, you will not be allowed to progress to week 4. Doing this will benefit us both by saving time.
-- It will also be tougher for you to continue with more data structures if you haven't done the basics
