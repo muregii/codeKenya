@@ -1,4 +1,5 @@
 from collections import defaultdict
+from typing import List
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         #1. Time O(N.KlogK) 2. Space O(NK)
