@@ -1,18 +1,15 @@
-def twoSum(self, nums, target):
-    """
-    :type nums: List[int]
-    :type target: int
-    :rtype: List[int]
-    """
-    # initialize empty list which will store the indexes
-    mylist = []
+    def containsDuplicate(self, nums):
+        # A dictionary to store the occurence of the numbers
+        mydict = {}
 
-    # loop through the elements in the array
-    for i in range(len(nums)):
-        # for each element in the array, compare its sum with other elements with the target 
-        for x in range(len(nums)):
-            if nums[i] + nums[x] == target and i != x:
-                #append the indexes  if their sum eqauls target
-                mylist.append(i)
-                mylist.append(x)
-                return mylist
+        # Count occurrences of each number in nums
+        for num in nums:
+
+            # Get current count of num, default is 0, then add 1
+            mydict[num] = mydict.get(num, 0) + 1
+
+        # Check if any number appears more than once
+        for _, value in mydict.items():
+            if value > 1:
+                return True
+        return False
