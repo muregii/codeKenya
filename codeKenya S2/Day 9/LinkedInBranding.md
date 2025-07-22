@@ -1,0 +1,2 @@
+- Class on Linkedin branding was held: 
+- https://drive.google.com/file/d/1VGX17JhkR7RQD4mqlru0BYbPO0XPDwBc/view?usp=sharing
