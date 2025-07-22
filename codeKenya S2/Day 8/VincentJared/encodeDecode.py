@@ -30,5 +30,7 @@ print(Codec().decode("5#Hello5#World"))
 print(Codec().encode(["", ""]))
 print(Codec().decode("0#0#"))
 print(Codec().encode(["a", "b", "c"]))
-print(Codec().decode("1#a1#b1#c"))    
+print(Codec().decode("1#a1#b1#c")) 
+
+   
         

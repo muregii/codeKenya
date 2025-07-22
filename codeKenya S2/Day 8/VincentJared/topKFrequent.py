@@ -22,7 +22,9 @@ class Solution:
         return ans
 # Example usage
 print(Solution().topKFrequent([1, 1, 1, 2, 2, 3], 2))
-
-    # O(n) space
-    # O(n log K) time complexity
-        
+# Time complexity: O(n) for building the frequency dictionary
+# O(n log K) for building the heap
+# Space complexity: O(n) for the frequency dictionary and heap
+# O(k) for the result list
+# Overall time complexity: O(n + n log K) = O(n log K)
+# Overall space complexity: O(n + k) = O(n) if k is small compared to n
