@@ -9,5 +9,5 @@ class CodeKenya:
 
 raydon = CodeKenya("Raydon", "Instructor", 18)
 
-print(raydon)
+print(raydon.age)
     
