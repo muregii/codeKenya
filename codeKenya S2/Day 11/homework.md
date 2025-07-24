@@ -3,7 +3,7 @@
 # Problem 2
 - https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 # Problem 3 
-- https://leetcode.com/problems/reorder-list/description/
+- https://leetcode.com/problems/reverse-linked-list/description/
 
 
 # Remember to push to github and PR

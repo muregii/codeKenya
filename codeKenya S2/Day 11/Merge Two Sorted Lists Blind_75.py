@@ -93,7 +93,7 @@ l2 = LinkedList([0, 3, 5])
 print(l1.mergeTwoLists(l2))
 
 
-#Solution to the question at the top.
+#Solution to the question at the top. In place
 from typing import Optional
 
 class ListNode:

@@ -37,5 +37,15 @@ def is_power_of_two(n):
 print(is_power_of_two(1))
 """
 
+def print_hello_world(n):
+    if n <= 0:
+        print("the end")
+        return
+
+    print("hello world")
+    return print_hello_world(n-1)
+
+print_hello_world(2)
+
 
 
