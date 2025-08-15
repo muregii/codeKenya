@@ -1,0 +1,6 @@
+- `11` Longest Substring withouth repeating characters.
+- `12` Valid Parentheses
+- `13` Reorder List
+- `14` Remove Nth Node from End of list
+- `15` Merge K sorted lists
+- `16`. Longest Repeating Character Replacement 

@@ -1,0 +1,10 @@
+- `1`. Contains Duplicate
+- `2`. Valid Anagram
+- `3`. Valid Palindrome
+- `4`. Two Sum
+- `5`. Group Anagrams
+- `6`. Top K frequent elements
+- `7`. Encode and Decode Strings
+- `8`. 3Sum
+- `9`. Container with Most Water
+- `10`. Best Time to Buy and Sell stock.

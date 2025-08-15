@@ -1,0 +1,4 @@
+- top-k-elements-in-list (USing a heap data structure) (Heaps and Priority Queues)
+- `34`. Word Search II (Tries and Graphs)
+- `35`. Number of Islands. (Graphs)
+- `36`. House Robber (Dynamic Programming)

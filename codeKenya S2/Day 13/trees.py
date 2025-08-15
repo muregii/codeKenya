@@ -5,13 +5,20 @@ class TreeNode:
         self.right = right
 
 def left_most(root):
-        if not root or not root.left:
-          return None
-        
+        if not root:
+                return None
+        if not root.left:
+              return root
+
         return left_most(root.left)
         #while root.left:
         #        root = root.left
         #  return root.val
-root1 = TreeNode(1, TreeNode(2, TreeNode(4), TreeNode(3)), TreeNode(5))
+root1 = TreeNode(1,
+                TreeNode(2,
+                        TreeNode(4),
+                        TreeNode(3)),
+                TreeNode(5))
 leftmost = left_most(root1)
+
 print(leftmost.val)

@@ -1,0 +1,4 @@
+- `30` Valid Binary Search Tree
+- `31` kth-smallest-element-in-a-bst/description
+- `32` Lowest-common-ancestor-of-a-binary-search-tree
+- `33.` word search. [(https://leetcode.com/problems/word-search/)]
