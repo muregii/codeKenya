@@ -45,10 +45,14 @@ def print_list(head):
         head = head.next
     print(vals)
 
-# usage
-head = build_list([1,2,3,4])
+#Test cases
+head = build_list([2,4,6,8])
 reorder_list(head)
-print_list(head)  # Output: [1, 4, 2, 3]
+print_list(head)
+
+head = build_list([2,4,6,8,10])
+reorder_list(head)
+print_list(head)
 
 # Time Complexity: O(n)
 # Space Complexity: O(1)

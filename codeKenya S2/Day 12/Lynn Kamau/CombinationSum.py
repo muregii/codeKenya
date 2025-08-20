@@ -19,8 +19,10 @@ def combination_sum(candidates, target):
     backtrack(0, 0, [])
     return res
 
-# Example Usage
-print(combination_sum([2,3,6,7], 7))  # Output: [[2,2,3],[7]]
+# Test cases
+print(combination_sum([2,5,6,9], 9))
+print(combination_sum([3,4,5], 16))
+print(combination_sum([3], 5))
 
 # Time Complexity: O(2^t) where t = target
 # Space Complexity: O(t)

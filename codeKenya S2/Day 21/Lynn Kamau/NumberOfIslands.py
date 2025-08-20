@@ -28,12 +28,12 @@ def num_islands(grid):
 
 # usage
 grid = [
-  ["1","1","1","1","0"],
-  ["1","1","0","1","0"],
-  ["1","1","0","0","0"],
-  ["0","0","0","0","0"]
+    ["0","1","1","1","0"],
+    ["0","1","0","1","0"],
+    ["1","1","0","0","0"],
+    ["0","0","0","0","0"]
 ]
-print(num_islands(grid))  # Output: 1
+print(num_islands(grid)) 
 
 # Time Complexity: O(m * n)
 # Space Complexity: O(m * n)

@@ -15,10 +15,14 @@ class TreeNode:
         self.left = left
         self.right = right
 
-# usage
+# Test Case
 p = TreeNode(1, TreeNode(2), TreeNode(3))
 q = TreeNode(1, TreeNode(2), TreeNode(3))
-print(is_same_tree(p, q))  # Output: True
+print(is_same_tree(p, q))
+
+p = TreeNode(4, TreeNode(7))
+q = TreeNode(4, TreeNode(), TreeNode(7))
+print(is_same_tree(p, q))
 
 # Time Complexity: O(n)
 # Space Complexity: O(h) where h = height of tree

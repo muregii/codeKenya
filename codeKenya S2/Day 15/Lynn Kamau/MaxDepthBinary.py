@@ -15,7 +15,7 @@ class TreeNode:
 
 # usage
 root = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
-print(max_depth(root))  # Output: 3
+print(max_depth(root))  
 
 # Time Complexity: O(n)
 # Space Complexity: O(h) where h = height of tree

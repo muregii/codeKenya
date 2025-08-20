@@ -20,7 +20,7 @@ class TreeNode:
 
 # usage
 root = TreeNode(2, TreeNode(1), TreeNode(3))
-print(is_valid_bst(root))  # Output: True
+print(is_valid_bst(root))
 
 # Time Complexity: O(n)
 # Space Complexity: O(h) where h = height of tree

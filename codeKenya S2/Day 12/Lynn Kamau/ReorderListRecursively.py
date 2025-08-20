@@ -5,6 +5,7 @@
 #The algorithm involves finding the middle of the list, reversing the second half, and then merging the two halves.
 
 # Recursive approach to reorder a linked list
+# Recursive approach to reorder a linked list
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -31,24 +32,26 @@ class Solution:
             temp = self.left.next
             self.left.next = right
             right.next = temp
-
             self.left = temp
 
         dfs(head)
 
-def print_list(head):
+def linked_list_to_list(head):
+    result = []
     while head:
-        print(head.val, end=" -> ")
+        result.append(head.val)
         head = head.next
-    print("None")
+    return result
 
-
-# Example usage
-head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
+#Test case
+head = ListNode(2, ListNode(4, ListNode(6, ListNode(8))))
 solution = Solution()
 solution.reorderList(head)
-print_list(head)  #1 -> 5 -> 2 -> 4 -> 3 -> None
+print([linked_list_to_list(head)])  
 
+head = ListNode(2, ListNode(4, ListNode(6, ListNode(8, ListNode(10)))))
+solution.reorderList(head)
+print([linked_list_to_list(head)])
 
 #Time Complexity: O(n) where n is the number of nodes in the linked list
-#Space Complexity: O(n)
+#Space Complexity: O(1) since we are not using any extra space for another list

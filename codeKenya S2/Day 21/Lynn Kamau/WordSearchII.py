@@ -1,3 +1,7 @@
+# Word Search II LeetCode Challenge
+# Given a 2-D grid of characters board and a list of strings words, return all words that are present in the grid.
+# For a word to be present it must be possible to form the word with a path in the board with horizontally or vertically neighboring cells. 
+# The same cell may not be used more than once in a word.
 class TrieNode:
     def __init__(self):
         self.children = {}
@@ -36,15 +40,15 @@ def find_words(board, words):
 
     return list(res)
 
-# usage
+# TestCase
 board = [
-  ["o","a","a","n"],
-  ["e","t","a","e"],
-  ["i","h","k","r"],
-  ["i","f","l","v"]
+  ["a","b","c","d"],
+  ["s","a","a","t"],
+  ["a","c","k","e"],
+  ["a","c","d","n"]
 ]
-words = ["oath","pea","eat","rain"]
-print(find_words(board, words))  # Output: ['eat', 'oath']
+words = ["bat","cat","back","backend","stack"]
+print(find_words(board, words))
 
 # Time Complexity: O(m * n * 4^L) where L = max word length
 # Space Complexity: O(k * L) where k = number of words

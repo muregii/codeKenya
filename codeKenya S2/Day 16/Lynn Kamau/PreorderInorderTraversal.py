@@ -41,11 +41,18 @@ def print_tree(root):
 
     print(result)
 
-# usage
-pre = [3,9,20,15,7]
-ino = [9,3,15,20,7]
+#Test Case
+pre = [1,2,3,4]
+ino = [2,1,3,4]
 tree = build_tree(pre, ino)
-print_tree(tree)  # ✅ Output: [3, 9, 20, None, None, 15, 7]
+print_tree(tree)
+
+pre = [1]
+ino = [1]
+tree = build_tree(pre, ino)
+print_tree(tree)
+
+
 
 # Time Complexity: O(n^2)
 # Space Complexity: O(n)

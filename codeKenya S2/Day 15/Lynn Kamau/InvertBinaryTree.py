@@ -34,9 +34,9 @@ def print_tree(root):
     print(result)
 
 # usage
-root = TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)), TreeNode(7, TreeNode(6), TreeNode(9)))
+root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(5, TreeNode(6), TreeNode(7)))
 inverted = invert_tree(root)
-print_tree(inverted)  # Output: [4, 7, 2, 9, 6, 3, 1]
+print_tree(inverted)
 
 # Time Complexity: O(n)
 # Space Complexity: O(h) where h = height of tree

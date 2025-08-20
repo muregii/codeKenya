@@ -4,6 +4,9 @@
 #The list should be made by splicing together the nodes of the first two lists.
 
 #Solving the problem Recursively
+# Merge Two Sorted Lists Leetcode Challenge
+# Recursive Solution
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -32,19 +35,32 @@ def build_linked_list(values):
         current = current.next
     return head
 
-def print_linked_list(head):
-    current = head
-    while current:
-        print(current.val, end=" → ")
-        current = current.next
-    print("None")
+def linked_list_to_list(head):
+    result = []
+    while head:
+        result.append(head.val)
+        head = head.next
+    return result
 
-# Example usage
-list1 = build_linked_list([2, 4, 6, 8])
-list2 = build_linked_list([1, 3, 5, 7, 9])
+# ---- Test cases ----
+results = []
 
+list1 = build_linked_list([1,2,4])
+list2 = build_linked_list([1, 3, 5])
 merged = merge_two_lists(list1, list2)
-print_linked_list(merged)
+results.append(linked_list_to_list(merged))
+
+list1 = build_linked_list([])
+list2 = build_linked_list([1, 2])
+merged = merge_two_lists(list1, list2)
+results.append(linked_list_to_list(merged))
+
+list1 = build_linked_list([])
+list2 = build_linked_list([])
+merged = merge_two_lists(list1, list2)
+results.append(linked_list_to_list(merged))
+
+print(results)
 
 #Time Complexity: O(n + m) where n and m are the lengths of the two linked lists.
-#Space Complexity: O(n + m) for the recursive stack space.
+#Space Complexity: O(n + m) for the recursive stack space, where n and m are the lengths of the two linked lists.

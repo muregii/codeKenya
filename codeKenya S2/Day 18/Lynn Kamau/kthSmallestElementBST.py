@@ -21,9 +21,9 @@ class TreeNode:
         self.left = left
         self.right = right
 
-# usage
+#Test Case
 root = TreeNode(3, TreeNode(1, None, TreeNode(2)), TreeNode(4))
-print(kth_smallest(root, 1))  # Output: 1
+print(kth_smallest(root, 1))  
 
 # Time Complexity: O(h + k)
 # Space Complexity: O(h)

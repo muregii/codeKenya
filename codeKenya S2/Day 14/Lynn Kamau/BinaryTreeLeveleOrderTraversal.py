@@ -1,3 +1,6 @@
+#Binary Tree Level Order Traversal LeetcodeChallenge
+#Given a binary tree root, return the level order traversal of it as a nested list, where each sublist contains the values of nodes at a particular level in the tree, from left to right.
+
 def level_order(root):
     if not root:
         return []
@@ -20,9 +23,12 @@ class TreeNode:
         self.left = left
         self.right = right
 
-# usage
-root = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
-print(level_order(root))  # Output: [[3], [9, 20], [15, 7]]
+#Test Case
+root = TreeNode(1, TreeNode(2, TreeNode(4), TreeNode(5)), TreeNode(3, TreeNode(6), TreeNode(7)))
+print(level_order(root))
+
+root = TreeNode()
+print(level_order(root))
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)

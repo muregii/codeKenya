@@ -35,10 +35,18 @@ def print_list(head):
         head = head.next
     print(vals)
 
-# usage
-head = build_list([1,2,3,4,5])
+#Test cases
+head = build_list([1,2,3,4])
 head = remove_nth_from_end(head, 2)
-print_list(head)  # Output: [1, 2, 3, 5]
+print_list(head)
+
+head = build_list([5])
+head = remove_nth_from_end(head, 1)
+print_list(head)
+
+head = build_list([1,2])
+head = remove_nth_from_end(head, 2)
+print_list(head)
 
 # Time Complexity: O(n)
 # Space Complexity: O(1)

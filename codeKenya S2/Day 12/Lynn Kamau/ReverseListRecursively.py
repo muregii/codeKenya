@@ -1,7 +1,7 @@
 # Reversed Lists Leetcode Challenge
 # Given the head of a singly linked list, reverse the list, and return the reversed list
 
-#Recursive approach to reverse a linked list
+# Recursive approach to reverse a linked list
 def reverseList(head):
     if not head or not head.next:
         return head
@@ -16,15 +16,21 @@ class ListNode:
         self.val = val
         self.next = next  
 
-def print_list(head):
+def linked_list_to_list(head):
+    result = []
     while head:
-        print(head.val, end=" -> ")
+        result.append(head.val)
         head = head.next
-    print("None")
+    return result
 
-head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
+# Test case
+head = ListNode(0, ListNode(1, ListNode(2, ListNode(3))))
 reversed_head = reverseList(head)
-print_list(reversed_head)  # Output: 5 -> 4 -> 3 -> 2 -> 1 -> None
+print(linked_list_to_list(reversed_head)) 
 
-#Time Complexity: O(n) where n is the number of nodes in the linked list
-#Space Complexity: O(n) due to the recursion stack
+head = ListNode()
+reversed_head = reverseList(head)
+print(linked_list_to_list(reversed_head))   
+
+# Time Complexity: O(n)
+# Space Complexity: O(n) (recursion stack)

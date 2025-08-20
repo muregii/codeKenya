@@ -25,7 +25,7 @@ class TreeNode:
 #Example Usage
 root = TreeNode(3, TreeNode(4, TreeNode(1), TreeNode(2)), TreeNode(5))
 sub = TreeNode(4, TreeNode(1), TreeNode(2))
-print(is_subtree(root, sub))  # Output: True
+print(is_subtree(root, sub))  
 
 # Time Complexity: O(m * n)
 # Space Complexity: O(h) where h = height of tree

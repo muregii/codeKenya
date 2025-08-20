@@ -16,7 +16,9 @@ def find_min(nums):
     return nums[left]
 
 # usage
-print(find_min([3,4,5,1,2]))  # Output: 1
+print(find_min([3,4,5,6,1,2]))
+print(find_min([4,5,0,1,2,3]))
+print(find_min([4,5,6,7]))
 
 # Time Complexity: O(log n)
 # Space Complexity: O(1)

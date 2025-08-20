@@ -12,8 +12,7 @@ def reverse_list(head):
             return prev 
         next_node = current.next
         current.next = prev
-        return helper(next_node, current)  # tail recursion
-
+        return helper(next_node, current) 
     return helper(head)
 
 def build_linked_list(values):
@@ -26,24 +25,25 @@ def build_linked_list(values):
         current = current.next
     return head
 
-def print_linked_list(head):
+def linked_list_to_list(head):
     vals = []
     while head:
-        vals.append(str(head.val))
+        vals.append(head.val)
         head = head.next
-    print(" → ".join(vals) + " → None")
+    return vals
 
-# Example usage
-list_data = [1, 2, 3, 4, 5]
+#Test cases to validate the solution
+list_data = [0,1,2,3]
 head = build_linked_list(list_data)
-
-print("Original list:")
-print_linked_list(head)
-
+print("head =", list_data)
 reversed_head = reverse_list(head)
+print(linked_list_to_list(reversed_head))
 
-print("Reversed list:")
-print_linked_list(reversed_head)
+list_data = []
+head = build_linked_list(list_data)
+print("\nhead =", list_data)
+reversed_head = reverse_list(head)
+print( linked_list_to_list(reversed_head))
 
-# O(n) time 
-# O(1) space
+# Time Complexity: O(n)
+# Space Complexity: O(1) (excluding the output list)

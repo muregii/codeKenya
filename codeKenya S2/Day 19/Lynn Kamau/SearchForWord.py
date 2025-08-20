@@ -29,11 +29,11 @@ def exist(board, word):
 
 # usage
 board = [
-  ["A","B","C","E"],
-  ["S","F","C","S"],
-  ["A","D","E","E"]
+  ["A","B","C","D"],
+  ["S","A","A","T"],
+  ["A","C","A","E"]
 ]
-print(exist(board, "ABCCED"))  # Output: True
+print(exist(board, "CAT"))
 
 # Time Complexity: O(m * n * 4^L) where L = length of word
 # Space Complexity: O(L)

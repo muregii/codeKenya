@@ -20,7 +20,7 @@ class TreeNode:
 # usage
 root = TreeNode(6, TreeNode(2, TreeNode(0), TreeNode(4)), TreeNode(8, TreeNode(7), TreeNode(9)))
 p, q = root.left, root.right
-print(lowest_common_ancestor(root, p, q).val)  # Output: 6
+print(lowest_common_ancestor(root, p, q).val)
 
 # Time Complexity: O(h) where h = height of tree
 # Space Complexity: O(1)

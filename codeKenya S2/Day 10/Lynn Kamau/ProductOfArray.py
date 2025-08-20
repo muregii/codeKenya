@@ -21,10 +21,14 @@ def product_except_self(nums):
 
 # Example usage
 if __name__ == "__main__":  
-    nums = [1, 2, 3, 4]
+    nums = [1, 2, 4, 6]
     result = product_except_self(nums)
-    print(result)  # [24, 12, 8, 6]
+    print(result) 
 
-# Time: O(n)
-# Space: O(1) 
+    nums = [-1,0,1,2,3]
+    result = product_except_self(nums)
+    print(result)
+
+# Time Complexity: O(n)
+# Space Complexity: O(1) (excluding the output array)
 

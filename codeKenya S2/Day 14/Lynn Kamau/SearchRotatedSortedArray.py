@@ -23,7 +23,8 @@ def search(nums, target):
     return -1
 
 # usage
-print(search([4,5,6,7,0,1,2], 0))  # Output: 4
+print(search([3,4,5,6,1,2], 1))
+print(search([3,5,6,0,1,2], 4))
 
 # Time Complexity: O(log n)
 # Space Complexity: O(1)

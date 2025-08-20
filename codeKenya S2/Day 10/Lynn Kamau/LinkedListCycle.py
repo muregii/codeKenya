@@ -25,22 +25,24 @@ def has_cycle(head):
 
     return True
 
+#Test cases to validate the solution
+def build_list(values, pos):
+    if not values:
+        return None
+    nodes = [ListNode(v) for v in values]
+    for i in range(len(nodes) - 1):
+        nodes[i].next = nodes[i+1]
+    if pos != -1:
+        nodes[-1].next = nodes[pos] 
+    return nodes[0]
 
-# EXAMPLE USAGE
-a = ListNode(3)
-b = ListNode(2)
-c = ListNode(0)
-d = ListNode(-4)
+head1 = build_list([1,2,3,4], 1)
+print("Input: head = [1,2,3,4], index = 1")
+print("Output:", has_cycle(head1)) 
 
-a.next = b
-b.next = c
-c.next = d
-d.next = b   # cycle
-
-print(has_cycle(a))  # ✅ True
-
-d.next = None        # no cycle
-print(has_cycle(a))  # ✅ False
-
-# Time: O(n)
-# Space: O(1) (constant extra memory)
+head2 = build_list([1,2], -1)
+print("Input: head = [1,2], index = -1")
+print("Output:", has_cycle(head2))  
+ 
+#Time Complexity: O(n)
+#Space Complexity: O(1)
