@@ -21,7 +21,7 @@ const CallToAction = () => {
 
 
         <div className="flex justify-center">
-            <Link href="/about-us">
+            <Link href="/network">
               <Button
                 type="button"
                 title="Join the Community"
