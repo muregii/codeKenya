@@ -30,7 +30,7 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const navLinks = ["ABOUT US", "BOOTCAMPS", "INTERNSHIPS", "BLOG", "CONTACT", "TUITION"];
+  const navLinks = ["ABOUT US", "BOOTCAMPS", "INTERNSHIPS", "BLOG", "CONTACT", "TUITION", "HUB"];
 
   return (
     <nav
