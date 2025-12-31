@@ -87,7 +87,7 @@ const AvailableInternships = () => {
     },
     {
       title: "Software Engineering Intern",
-      company: "Uber",
+      company: "Signvrse Kenya",
       location: "Nairobi, Kenya",
       employmentType: "INTERNSHIP",
     },
