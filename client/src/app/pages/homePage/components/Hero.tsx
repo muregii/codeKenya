@@ -52,7 +52,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-5xl font-black"
           >
-            Grow your skills and <br /> advance career
+            Build products people <br /> actually use.
           </motion.h1>
 
           <motion.p
@@ -61,9 +61,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-base"
           >
-            Code Kenya program combines a career-focused bootcamp with an integrated
-            internship, aimed to help you gain experience in the
-            industry
+            Learn by building real products that generate revenue, and intern with real start-ups and companies.
           </motion.p>
 
           <motion.div
